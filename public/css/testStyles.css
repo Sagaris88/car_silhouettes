@@ -1,22 +1,48 @@
-:root {
-  --textcolor: #ffc845;
-}
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
 body {
-  background-color: #333;
-  color: var(--textcolor);
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  justify-content: center;
-  min-height: 100vh;
+  margin: 2em;
+  font-family: 'Raleway', sans-serif;
+}
+.aside {
+    padding: 0.3em 1em;
+    border-radius: 3px;
+    color: #fff;
+    margin-bottom: 2em;
+}
+textarea {
   width: 100%;
-  padding: 2rem;
-  box-sizing: border-box;
 }
-div {
-  color: var(--textcolor);
+.content-head {
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin: 2em 0 1em;
 }
-.wrapper {
-  --textcolor: #66e387;
+.is-center {
+  text-align: center;
+}
+.thankyou_message {
+  padding: 3em 1em;
+  border-radius: 3px;
+  color: #fff;
+  margin-bottom: 2em;
+}
+.button-success {
+  color: white;
+  border-radius: 4px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  background: rgb(28, 184, 65); /* this is a green */
+}
+.button-xlarge {
+  font-size: 125%;
+}
+button {
+  float: right;
+}
+#name, #email {
+  width: 50%;
+}
+.honeypot-field {
+  display: none;
 }
