@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+:root {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    color: #ffffff;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+/* .main-content {
+    flex-grow: 1;
+} */
+
+#mainTitle {
+    font-size: 45px;
+    text-align: center
+}
+
+#newDate {
+    font-size: 30px;
+    text-align: center
+}
+
+h1 {
+    font-size: 30px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 26.4px;
+
+}
+
+.main h2 {
+    font-size: 36px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 22px;
+}
+
+.main h3 {
+    font-size: 24px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 22px;
+}
+
+.main h4 {
+    font-size: 16px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 22px;
+}
+
+.main p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.main a {
+    font-size: 24px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 22px;
+}
+
+/* Grid */
+
+.container {
+    display: grid;
+    grid-template-columns: 10% 15% 5% 1fr 10%;
+    /* grid-template-rows: 10% 1fr 10%; */
+    grid-template-areas: 
+      ". header header header ."
+      ". sidebar . main ."
+      ". footer footer footer .";
+  }
+  
+.item-header {
+    grid-area: header;
+}
+
+.item-footer {
+    grid-area: footer;
+}
+
+.item-main {
+    grid-area: main;
+}
+
+.item-sidebar {
+    grid-area: sidebar;
+}
+
+
+/* Global Hyperlinks */
+
+a {
+    color: #1abc9c;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #F6A623;
+}
+
+
+/* Image */
+
+img {
+    width: 100%;
+    -webkit-filter: null;
+    filter: null;
+}
+
+
+/* Dark Mode Button */
+
+#darkModebtn {
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 20px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: rgb(255, 255, 255); /* Set a background color */
+    color: rgb(0, 0, 0); /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
+  
+  #darkModebtn:hover {
+    background-color: #F6A623; /* Add a dark-grey background on hover */
+  }
+
+  
+/* Top Scroll Button */
+
+#topScrollbtn {
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 150px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: rgb(255, 255, 255); /* Set a background color */
+    color: rgb(0, 0, 0); /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
+  
+  #topScrollbtn:hover {
+    background-color: #F6A623; /* Add a dark-grey background on hover */
+  }

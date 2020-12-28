@@ -1,0 +1,68 @@
+/* Sidebar */
+
+
+.sidebar h1{
+    font-size: 24px;
+    font-style: italic;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 26.4px;
+    color: rgb(255, 255, 255);
+}
+
+.submenu a {
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.droplist {
+    list-style-type: none;
+    padding-left: 20%;
+    line-height: 18pt;
+}
+
+.droplist a {
+    font-size: 14px;
+    font-weight: normal;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.sidebar {
+    background-color: rgb(0, 0, 0);
+    padding: 10;
+    font-family: 'Raleway', sans-serif;
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 20pt;
+}
+
+.menu {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 20pt;
+}
+
+
+ul {list-style: none;
+    color: #ffffff;
+    text-indent: 0%;
+}
+
+li {display: block;
+    color: #ffffff;}
+
+
+.droplist, .hide {display: none;}
+
+.submenu:focus-within>.hide{display: inline;}
+.submenu:focus-within>.show{display: none;}
+.submenu:focus-within>.droplist{display: block;}
+		
+.hide:focus~.droplist{display: none;}
+.hide:focus+.show{display: inline;}
+.hide:focus{display: none !important;}
+		
+.hide, .show{text-decoration: none;}

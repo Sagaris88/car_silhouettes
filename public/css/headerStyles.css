@@ -1,0 +1,37 @@
+/* Header*/
+
+.item-header {
+    background-color: rgb(0, 0, 0);
+    height: 150px;
+    line-height: 150px;
+}
+
+.item-header a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.item-header a:hover {
+    color: rgb(211, 211, 211);
+}
+
+#header-title {
+    display: block;
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#header-nav {
+    display: block;
+    float: right;
+    margin-top: 0;
+}
+
+#header-nav li {
+    display: inline;
+    padding-left: 20px;
+    font-size: 14px;
+}

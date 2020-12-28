@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <link rel="icon" href="/img/iconMain-10.png">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/headerStyles.css">
+    <link rel="stylesheet" href="/css/footerStyles.css">
+    <link rel="stylesheet" href="/css/sidebarStyles.css">
+</head>
+
+<body>
+
+    <title> Contact </title>
+
+    <div class="container">
+
+    {{>header}}
+    {{>sidebar}}
+
+        <div class="item-main">
+            <div class="main">
+                <h1>About</h1>
+
+                <h2>Send e-mail to someone@example.com:</h2>
+
+                <form action="mailto:henry789lin@gmail.com" method="post" enctype="text/plain">
+                <h1>Name:</h1>
+                <br>
+                <input type="text" name="name">
+                <br>
+                <h1>E-mail:</h1>
+                <br>
+                <input type="text" name="mail">
+                <br>
+                <h1>Comment:</h1>
+                <br>
+                <input type="text" name="comment" size="50">
+                <br>
+                <br>
+                <input type="submit" value="Send">
+                <input type="reset" value="Reset">
+                </form>
+
+                <p>To create a link that opens in the user's email program (to let them send a new email), use mailto: inside the href attribute:</p>
+
+                <p><a href="mailto:henry789lin@gmail.com">Send email</a></p>
+            </div>
+        </div>
+
+        {{>footer}}
+
+    </div>
+
+    {{>script}}
+    
+</body>
+
+</html>

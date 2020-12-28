@@ -1,0 +1,22 @@
+:root {
+  --textcolor: #ffc845;
+}
+body {
+  background-color: #333;
+  color: var(--textcolor);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100%;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+div {
+  color: var(--textcolor);
+}
+.wrapper {
+  --textcolor: #66e387;
+}
