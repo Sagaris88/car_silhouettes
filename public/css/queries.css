@@ -1,0 +1,30 @@
+/* Big tablets to 1280px (width smaller than the 1280px row) */
+@media only screen and (max-width: 1280px) {
+    
+}
+
+
+/* Small tablets to big tablets from 769 to 1024px */
+@media only screen and (max-width: 1024px) {
+    .sidebar { padding-left: 40px }
+}
+
+
+/* Small phones to small tablets from 569 to 768px */
+@media only screen and (max-width: 768px) {
+    html { font-size: 16px; }
+    .sidebar { display: none }
+    .header-nav li { margin-left: 30px; }
+    .footer { margin-bottom: 30px; }
+    .openbtn { display: block; }
+}
+
+
+/* Small phones from 0 to 568px */
+@media only screen and (max-width: 568px) {
+    html { font-size: 14px; }
+    .sidebar { display: none }
+    .header-nav li { margin-left: 20px; }
+    .footer { margin-bottom: 20px; }
+    .openbtn { display: block; }
+}

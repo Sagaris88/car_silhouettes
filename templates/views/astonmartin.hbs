@@ -1,116 +1,146 @@
-<!doctype html>
+<!DOCTYPE html>
+<html lang="en">
 <html>
 
 <head>
+
+    <title> Aston Martin </title>
     
-    <link rel="icon" href="/img/iconMain-10.png">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Car Silhouettes showcases striking and detailed designs of your favourite cars that can be bought on many high-quality products.">
+
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css" integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/grids-responsive-min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="/css/styles.css">
-    <link rel="stylesheet" href="/css/headerStyles.css">
-    <link rel="stylesheet" href="/css/footerStyles.css">
-    <link rel="stylesheet" href="/css/sidebarStyles.css">
+    <link rel="stylesheet" href="/css/queries.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/favicon/site.webmanifest">
+    <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#111111">
 
 </head>
 
 <body>
 
-    <title> Aston Martin </title>
-
-    <div class="container">
-
     {{>header}}
     {{>sidebar}}
+    {{>sidebarMobile}}
 
-        <div class="item-main">
-
-            <div class="main">
-                <h1 id="mainTitle"> Aston Martin </h1>
-                
-                <img id="cc100" class="fullimage" src="img/Aston Martin CC100 Speedster-16.png">
-                <h2>CC100 Speedster</h2>
-                <h4>2013</h4>
-                <h3>Buy here: <a href="https://www.redbubble.com/people/in-transit/works/61298091-aston-martin-cc100-speedster-silhouette?asc=u">Shop</a></h3>
-                
-                <img id="db5" class="fullimage" src="img/Aston Martin DB5-01.png">
-                <h2>DB5</h2>
-                <h4>1963-1965</h4>
-                <h3>Buy here: <a href="https://www.redbubble.com/people/in-transit/works/58207280-aston-martin-db5-silhouette?asc=u">Shop</a></h3>
-                
-                <img id="db7" class="fullimage" src="img/Aston Martin DB7-04.png">
-                <h2>DB7</h2>
-                <h4>1994-2004</h4>
-                <h3>Buy here: <a href="https://www.redbubble.com/people/in-transit/works/58287187-aston-martin-db7-silhouette?asc=u">Shop</a></h3>
-                
-                <img id="db9" class="fullimage" src="img/Aston Martin DB9-05.png">
-                <h2>DB9</h2>
-                <h4>2004-2016</h4>
-                <h3>Buy here: <a href="https://www.redbubble.com/people/in-transit/works/58297923-aston-martin-db9-silhouette?asc=u">Shop</a></h3>
-                
-                <img id="db10" class="fullimage" src="img/Aston Martin DB10-06.png">
-                <h2>DB10</h2>
-                <h4>2014-2015</h4>
-                <h3>Buy here: <a href="https://www.redbubble.com/people/in-transit/works/58301450-aston-martin-db10-silhouette?asc=u">Shop</a></h3>
-                
-                <img id="db11" class="fullimage" src="img/Aston Martin DB11-07.png">
-                <h2>DB11</h2>
-                <h4>2016-present</h4>
-                <h3>Buy here: <a href="https://www.redbubble.com/people/in-transit/works/58335996-aston-martin-db11-silhouette?asc=u">Shop</a></h3>
-                
-                <img id="dbs" class="fullimage" src="img/Aston Martin DBS Superleggera-08.png">
-                <h2>DBS</h2>
-                <h4>1967-1972</h4>
-                <h3>Buy here: <a href="https://www.redbubble.com/people/in-transit/works/58211083-aston-martin-dbs-silhouette?asc=u">Shop</a></h3>
-                
-                <img id="dbssuperleggera" class="fullimage" src="img/Aston Martin DBS-02.png">
-                <h2>DBS Superleggera</h2>
-                <h4>2018-present</h4>
-                <h3>Buy here: <a href="https://www.redbubble.com/people/in-transit/works/58371397-aston-martin-dbs-superleggera-silhouette?asc=u">Shop</a></h3>
-                
-                <img id="lagondatarif" class="fullimage" src="img/Aston Martin Lagonda Tarif-15.png">
-                <h2>Lagonda Tarif</h2>
-                <h4>2015-2016</h4>
-                <h3>Buy here: <a href="https://www.redbubble.com/people/in-transit/works/61277677-aston-martin-lagonda-tarif-silhouette?asc=u">Shop</a></h3>
-                
-                <img id="v8vantage" class="fullimage" src="img/Aston Martin V8 Vantage-03.png">
-                <h2>V8 Vantage</h2>
-                <h4>1977-1989</h4>
-                <h3>Buy here: <a href="https://www.redbubble.com/people/in-transit/works/58238303-aston-martin-v8-vantage-silhouette?asc=u">Shop</a></h3>
-                
-                <img id="v12speedster" class="fullimage" src="img/Aston Martin V12 Speedster-10.png">
-                <h2>V12 Speedster</h2>
-                <h4>2020-present</h4>
-                <h3>Buy here: <a href="https://www.redbubble.com/people/in-transit/works/61159167-aston-martin-v12-speedster-silhouette?asc=u">Shop</a></h3>
-                
-                <img id="valhalla" class="fullimage" src="img/Aston Martin Valhalla-11.png">
-                <h2>Valhalla</h2>
-                <h4>2021-future</h4>
-                <h3>Buy here: <a href="https://www.redbubble.com/people/in-transit/works/61161070-aston-martin-valhalla-silhouette?asc=u">Shop</a></h3>
-                
-                <img id="valkyrie" class="fullimage" src="img/Aston Martin Valkyrie-13.png">
-                <h2>Valkyrie</h2>
-                <h4>2021-future</h4>
-                <h3>Buy here: <a href="https://www.redbubble.com/people/in-transit/works/61231397-aston-martin-valkyrie-silhouette?asc=u">Shop</a></h3>
-                
-                <img id="vantage2018" class="fullimage" src="img/Aston Martin Vantage 2018-12.png">
-                <h2>Vantage (2018)</h2>
-                <h4>2018-present</h4>
-                <h3>Buy here: <a href="https://www.redbubble.com/people/in-transit/works/61200556-aston-martin-vantage-2018-silhouette?asc=u">Shop</a></h3>
-                
-                <img id="victor" class="fullimage" src="img/Aston Martin Victor-09.png">
-                <h2>Victor</h2>
-                <h4>2020</h4>
-                <h3>Buy here: <a href="https://www.redbubble.com/people/in-transit/works/61148884-aston-martin-victor-silhouette?asc=u">Shop</a></h3>
-                
-                <img id="vulcan" class="fullimage" src="img/Aston Martin Vulcan-14.png">
-                <h2>Vulcan</h2>
-                <h4>2015-2016</h4>
-                <h3>Buy here: <a href="https://www.redbubble.com/people/in-transit/works/61239457-aston-martin-vulcan-silhouette?asc=u">Shop</a></h3>
-            </div>
+    <div class="main-content pure-u-1 pure-u-md-3-4">
+        <a href="#" class="openbtn mobile-nav-icon js--nav-icon" onclick="openNav()"><ion-icon name="menu-outline"></ion-icon></a>
+        <div class="title">
+            <h1> Aston Martin </h1>
         </div>
-
-        {{>footer}}
-
+        <div class="car-post">
+            <img id="cc100" class="fullimage" src="https://storage.googleapis.com/car-silhouette-1/Aston%20Martin/Aston%20Martin%20CC100%20Speedster-16.png" alt="Aston Martin CC100 Speedster">
+            <h2>CC100 Speedster</h2>
+            <h4>2013</h4>
+            <h3>Buy here: <a href="https://www.redbubble.com/people/in-transit/works/61298091-aston-martin-cc100-speedster-silhouette?asc=u">Shop</a></h3>
+        </div>
+        <div class="car-post">
+            <img id="db5" class="fullimage" src="https://storage.googleapis.com/car-silhouette-1/Aston%20Martin/Aston%20Martin%20DB5-01.png" alt="Aston Martin DB5">
+            <h2>DB5</h2>
+            <h4>1963-1965</h4>
+            <h3>Buy here: <a href="https://www.redbubble.com/people/in-transit/works/58207280-aston-martin-db5-silhouette?asc=u">Shop</a></h3>
+        </div>
+        <div class="car-post">
+            <img id="db7" class="fullimage" src="https://storage.googleapis.com/car-silhouette-1/Aston%20Martin/Aston%20Martin%20DB7-04.png" alt="Aston Martin DB7">
+            <h2>DB7</h2>
+            <h4>1994-2004</h4>
+            <h3>Buy here: <a href="https://www.redbubble.com/people/in-transit/works/58287187-aston-martin-db7-silhouette?asc=u">Shop</a></h3>
+        </div>
+        <div class="car-post">
+            <img id="db9" class="fullimage" src="https://storage.googleapis.com/car-silhouette-1/Aston%20Martin/Aston%20Martin%20DB9-05.png" alt="Aston Martin DB9">
+            <h2>DB9</h2>
+            <h4>2004-2016</h4>
+            <h3>Buy here: <a href="https://www.redbubble.com/people/in-transit/works/58297923-aston-martin-db9-silhouette?asc=u">Shop</a></h3>
+        </div>
+        <div class="car-post">
+            <img id="db10" class="fullimage" src="https://storage.googleapis.com/car-silhouette-1/Aston%20Martin/Aston%20Martin%20CC100%20Speedster-16.png" alt="Aston Martin DB10">
+            <h2>DB9</h2>
+            <h4>2004-2016</h4>
+            <h3>Buy here: <a href="https://www.redbubble.com/people/in-transit/works/58301450-aston-martin-db10-silhouette?asc=u">Shop</a></h3>
+        </div>
+        <div class="car-post">
+            <img id="db11" class="fullimage" src="https://storage.googleapis.com/car-silhouette-1/Aston%20Martin/Aston%20Martin%20DB11-07.png" alt="Aston Martin DB11">
+            <h2>DB11</h2>
+            <h4>2016-present</h4>
+            <h3>Buy here: <a href="https://www.redbubble.com/people/in-transit/works/58335996-aston-martin-db11-silhouette?asc=u">Shop</a></h3>
+        </div>
+        <div class="car-post">
+            <img id="dbs" class="fullimage" src="https://storage.googleapis.com/car-silhouette-1/Aston%20Martin/Aston%20Martin%20DBS%20Superleggera-08.png" alt="Aston Martin DBS Superleggera">
+            <h2>DBS</h2>
+            <h4>1967-1972</h4>
+            <h3>Buy here: <a href="https://www.redbubble.com/people/in-transit/works/58211083-aston-martin-dbs-silhouette?asc=u">Shop</a></h3>
+        </div>
+        <div class="car-post">
+            <img id="dbssuperleggera" class="fullimage" src="https://storage.googleapis.com/car-silhouette-1/Aston%20Martin/Aston%20Martin%20DBS-02.png" alt="Aston Martin DBS">
+            <h2>DBS Superleggera</h2>
+            <h4>2018-present</h4>
+            <h3>Buy here: <a href="https://www.redbubble.com/people/in-transit/works/58371397-aston-martin-dbs-superleggera-silhouette?asc=u">Shop</a></h3>
+        </div>
+        <div class="car-post">
+            <img id="lagondatarif" class="fullimage" src="https://storage.googleapis.com/car-silhouette-1/Aston%20Martin/Aston%20Martin%20Lagonda%20Tarif-15.png" alt="Aston Martin Lagonda Tarif">
+            <h2>Lagonda Tarif</h2>
+            <h4>2015-2016</h4>
+            <h3>Buy here: <a href="https://www.redbubble.com/people/in-transit/works/61277677-aston-martin-lagonda-tarif-silhouette?asc=u">Shop</a></h3>
+        </div>
+        <div class="car-post">
+            <img id="v8vantage" class="fullimage" src="https://storage.googleapis.com/car-silhouette-1/Aston%20Martin/Aston%20Martin%20V8%20Vantage-03.png" alt="Aston Martin V8 Vantage">
+            <h2>V8 Vantage</h2>
+            <h4>1977-1989</h4>
+            <h3>Buy here: <a href="https://www.redbubble.com/people/in-transit/works/58238303-aston-martin-v8-vantage-silhouette?asc=u">Shop</a></h3>
+        </div>
+        <div class="car-post">
+            <img id="v12speedster" class="fullimage" src="https://storage.googleapis.com/car-silhouette-1/Aston%20Martin/Aston%20Martin%20V12%20Speedster-10.png" alt="Aston Martin V12 Speedster">
+            <h2>V12 Speedster</h2>
+            <h4>2020-present</h4>
+            <h3>Buy here: <a href="https://www.redbubble.com/people/in-transit/works/61159167-aston-martin-v12-speedster-silhouette?asc=u">Shop</a></h3>
+        </div>
+        <div class="car-post">
+            <img id="valhalla" class="fullimage" src="https://storage.googleapis.com/car-silhouette-1/Aston%20Martin/Aston%20Martin%20Valhalla-11.png" alt="Aston Martin Valhalla">
+            <h2>Valhalla</h2>
+            <h4>2021-future</h4>
+            <h3>Buy here: <a href="https://www.redbubble.com/people/in-transit/works/61161070-aston-martin-valhalla-silhouette?asc=u">Shop</a></h3>
+        </div>
+        <div class="car-post">
+            <img id="valkyrie" class="fullimage" src="https://storage.googleapis.com/car-silhouette-1/Aston%20Martin/Aston%20Martin%20Valkyrie-13.png" alt="Aston Martin Valkyrie">
+            <h2>Valkyrie</h2>
+            <h4>2021-future</h4>
+            <h3>Buy here: <a href="https://www.redbubble.com/people/in-transit/works/61231397-aston-martin-valkyrie-silhouette?asc=u">Shop</a></h3>
+        </div>
+        <div class="car-post">
+            <img id="vantage2018" class="fullimage" src="https://storage.googleapis.com/car-silhouette-1/Aston%20Martin/Aston%20Martin%20Vantage%202018-12.png" alt="Aston Martin Vantage 2018">
+            <h2>Vantage (2018)</h2>
+            <h4>2018-present</h4>
+            <h3>Buy here: <a href="https://www.redbubble.com/people/in-transit/works/61200556-aston-martin-vantage-2018-silhouette?asc=u">Shop</a></h3>
+        </div>
+        <div class="car-post">
+            <img id="victor" class="fullimage" src="https://storage.googleapis.com/car-silhouette-1/Aston%20Martin/Aston%20Martin%20Victor-09.png" alt="Aston Martin Victor">
+            <h2>Victor</h2>
+            <h4>2020</h4>
+            <h3>Buy here: <a href="https://www.redbubble.com/people/in-transit/works/61148884-aston-martin-victor-silhouette?asc=u">Shop</a></h3>
+        </div>
+        <div class="car-post">
+            <img id="vulcan" class="fullimage" src="https://storage.googleapis.com/car-silhouette-1/Aston%20Martin/Aston%20Martin%20Vulcan-14.png" alt="Aston Martin Vulcan">
+            <h2>Vulcan</h2>
+            <h4>2015-2016</h4>
+            <h3>Buy here: <a href="https://www.redbubble.com/people/in-transit/works/61239457-aston-martin-vulcan-silhouette?asc=u">Shop</a></h3>
+        </div>
     </div>
 
+    {{>footer}}
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
     {{>script}}
 
 </body>
