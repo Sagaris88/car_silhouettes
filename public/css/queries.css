@@ -17,6 +17,7 @@
     .header-nav li { margin-left: 30px; }
     .footer { margin-bottom: 30px; }
     .openbtn { display: block; }
+    .pure-form { margin-left: 40px; }
 }
 
 
@@ -27,4 +28,5 @@
     .header-nav li { margin-left: 20px; }
     .footer { margin-bottom: 20px; }
     .openbtn { display: block; }
+    .pure-form { margin-left: 40px; }
 }

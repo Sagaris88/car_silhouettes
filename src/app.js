@@ -58,6 +58,12 @@ app.get('/acura', (req, res) => {
     })
 })
 
+app.get('/amc', (req, res) => {
+    res.render('amc', {
+        title: 'American Motors Company'
+    })
+})
+
 app.get('/astonmartin', (req, res) => {
     res.render('astonmartin', {
         title: 'Aston Martin'
@@ -70,9 +76,21 @@ app.get('/audi', (req, res) => {
     })
 })
 
+app.get('/autozam', (req, res) => {
+    res.render('autozam', {
+        title: 'Autozam'
+    })
+})
+
 app.get('/bizzarrinni', (req, res) => {
     res.render('bizzarrinni', {
         title: 'Bizzarrinni'
+    })
+})
+
+app.get('/bmw', (req, res) => {
+    res.render('bmw', {
+        title: 'bmw'
     })
 })
 
@@ -94,15 +112,183 @@ app.get('/chevrolet', (req, res) => {
     })
 })
 
+app.get('/chrysler', (req, res) => {
+    res.render('chrysler', {
+        title: 'Chrysler'
+    })
+})
+
+app.get('/detomaso', (req, res) => {
+    res.render('detomaso', {
+        title: 'De Tomaso'
+    })
+})
+
+app.get('/delorean', (req, res) => {
+    res.render('delorean', {
+        title: 'DeLorean'
+    })
+})
+
+app.get('/dodge', (req, res) => {
+    res.render('dodge', {
+        title: 'Dodge'
+    })
+})
+
+app.get('/ferrari', (req, res) => {
+    res.render('ferrari', {
+        title: 'Ferrari'
+    })
+})
+
+app.get('/ford', (req, res) => {
+    res.render('ford', {
+        title: 'Ford'
+    })
+})
+
+app.get('/holden', (req, res) => {
+    res.render('holden', {
+        title: 'Holden'
+    })
+})
+
+app.get('/hyundai', (req, res) => {
+    res.render('hyundai', {
+        title: 'Hyundai'
+    })
+})
+
+app.get('/jaguar', (req, res) => {
+    res.render('jaguar', {
+        title: 'Jaguar'
+    })
+})
+
 app.get('/jensen', (req, res) => {
     res.render('jensen', {
         title: 'Jensen'
     })
 })
 
+app.get('/ktm', (req, res) => {
+    res.render('ktm', {
+        title: 'KTM'
+    })
+})
+
+app.get('/kia', (req, res) => {
+    res.render('kia', {
+        title: 'Kia'
+    })
+})
+
+app.get('/lada', (req, res) => {
+    res.render('lada', {
+        title: 'Lada'
+    })
+})
+
+app.get('/lamborghini', (req, res) => {
+    res.render('lamborghini', {
+        title: 'Lamborghini'
+    })
+})
+
+app.get('/lancia', (req, res) => {
+    res.render('lancia', {
+        title: 'Lancia'
+    })
+})
+
+app.get('/lexus', (req, res) => {
+    res.render('lexus', {
+        title: 'Lexus'
+    })
+})
+
+app.get('/mclaren', (req, res) => {
+    res.render('mclaren', {
+        title: 'McLaren'
+    })
+})
+
+app.get('/mercedes-benz', (req, res) => {
+    res.render('mercedesbenz', {
+        title: 'Mercedes-Benz'
+    })
+})
+
+app.get('/nissan', (req, res) => {
+    res.render('nissan', {
+        title: 'Nissan'
+    })
+})
+
+app.get('/pininfarina', (req, res) => {
+    res.render('pininfarina', {
+        title: 'Pininfarina'
+    })
+})
+
+app.get('/plymouth', (req, res) => {
+    res.render('plymouth', {
+        title: 'Plymouth'
+    })
+})
+
+app.get('/porsche', (req, res) => {
+    res.render('porsche', {
+        title: 'Porsche'
+    })
+})
+
+app.get('/saab', (req, res) => {
+    res.render('saab', {
+        title: 'Saab'
+    })
+})
+
+app.get('/saleen', (req, res) => {
+    res.render('saleen', {
+        title: 'Saleen'
+    })
+})
+
+app.get('/saturn', (req, res) => {
+    res.render('saturn', {
+        title: 'Saturn'
+    })
+})
+
+app.get('/smart', (req, res) => {
+    res.render('smart', {
+        title: 'smart'
+    })
+})
+
+app.get('/subaru', (req, res) => {
+    res.render('subaru', {
+        title: 'Subaru'
+    })
+})
+
 app.get('/tesla', (req, res) => {
     res.render('tesla', {
         title: 'Tesla'
+    })
+})
+
+app.get('/toyota', (req, res) => {
+    res.render('toyota', {
+        title: 'Toyota'
+    })
+})
+
+app.get('/trabant', (req, res) => {
+    res.render('trabant', {
+        title: 'Trabant'
     })
 })
 
