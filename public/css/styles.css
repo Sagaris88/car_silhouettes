@@ -4,9 +4,9 @@
 /* --------------------------------------------- */
 
 * {
-    margin: 0;
-    padding: 0;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
+    /* outline: 1px solid red; */
 }
 
 html {
@@ -16,6 +16,11 @@ html {
     font-weight: 300;
     font-size: 20px;
     text-rendering: optimizeLegibility;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x:hidden;
 }
 
 
@@ -47,7 +52,6 @@ h4 {
 h1 {
     margin-top: 0;
     margin-bottom: 20px;
-    color: #fff;
     font-size: 200%;
     word-spacing: 4px;
     letter-spacing: 1px;
@@ -92,6 +96,7 @@ h4 {
     text-transform: uppercase;
     letter-spacing: 0.1em;
     display: block;
+    -webkit-transition: color 0.2s;
     transition: color 0.2s;
 }
 
@@ -121,6 +126,7 @@ h4 {
     letter-spacing: 0.1em;
     font-size: 70%;
     border-bottom: 2px solid transparent;
+    -webkit-transition: border-bottom 0.2s;
     transition: border-bottom 0.2s;
 }
 
@@ -147,53 +153,59 @@ h4 {
     color: rgb(255, 255, 255);
 }
 
-.submenu a {
-    font-size: 90%;
-    font-weight: bold;
-    color: rgb(255, 255, 255);
+.menu a {
     text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    padding-left: 0;
+    line-height: 20pt;
+    display: block;
+}
+
+.dropdown-btn {
+    padding: 6px 8px 6px 0px;
+    text-decoration: none;
+    font-size: 100%;
+    font-weight: 500;
+    color: #ffffff;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
 }
 
 .droplist {
+    display: none;
+    background-color: none;
     list-style-type: none;
     padding-left: 20px;
     line-height: 18pt;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
 }
 
 .droplist a {
-    font-size: 70%;
+    font-size: 80%;
     font-weight: normal;
     color: rgb(255, 255, 255);
     text-decoration: none;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
 }
 
-.menu {
-    list-style-type: none;
-    padding-left: 0;
-    line-height: 20pt;
+.menu a:hover, .dropdown-btn:hover {
+    color: #ccc;
 }
 
-
-ul {list-style: none;
-    color: #ffffff;
-    text-indent: 0%;
-}
-
-li {display: block;
-    color: #ffffff;}
-
-
-.droplist, .hide {display: none;}
-
-.submenu:focus-within>.hide{display: inline;}
-.submenu:focus-within>.show{display: none;}
-.submenu:focus-within>.droplist{display: block;}
-		
-.hide:focus~.droplist{display: none;}
-.hide:focus+.show{display: inline;}
-.hide:focus{display: none !important;}
-		
-.hide, .show{text-decoration: none;}
+.fa-caret-down {
+    float: right;
+    padding-right: 8px;
+} 
 
 /* --------------------------------------------- */
 /* SIDEBAR MOBILE*/
@@ -208,40 +220,15 @@ li {display: block;
     left: 0;
     background-color: #111;
     overflow-x: hidden;
+    -webkit-transition: 0.5s;
     transition: 0.5s;
     padding-top: 60px;
-}
-
-.submenuMobile a {
-    font-size: 150%;
-    font-weight: bold;
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    transition: 0.3s;
-    padding: 8px 8px 8px 32px;
-}
-
-.droplistMobile {
-    list-style-type: none;
-    padding-left: 20px;
-    line-height: 18pt;
-}
-
-.droplistMobile a {
-    font-size: 100%;
-    font-weight: normal;
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-}
-  
-.sidebarMobile a:hover {
-    color: #f1f1f1;
 }
   
 .openbtn {
     position: fixed;
     top: 120px;
-    right: 20px;
+    right: 0;
     z-index: 99;
     display: none;
     cursor: pointer;
@@ -256,18 +243,6 @@ li {display: block;
     color: rgb(255, 255, 255);
 }
 
-.droplistMobile, .hide {display: none;}
-
-.submenuMobile:focus-within>.hide{display: inline;}
-.submenuMobile:focus-within>.show{display: none;}
-.submenuMobile:focus-within>.droplistMobile{display: block;}
-		
-.hide:focus~.droplistMobile{display: none;}
-.hide:focus+.show{display: inline;}
-.hide:focus{display: none !important;}
-		
-.hide, .show{text-decoration: none;}
-
 /* --------------------------------------------- */
 /* MAIN CONTENT */
 /* --------------------------------------------- */
@@ -280,6 +255,7 @@ li {display: block;
 
 .main-content h1 {
     text-align: center;
+    font-weight: 400;
 }
 
 .main-content .title {
@@ -296,8 +272,6 @@ li {display: block;
 
 .car-post img {
     width: 100%;
-    -webkit-filter: null;
-    filter: null;
 }
 
 .car-post a:link,
@@ -316,7 +290,7 @@ li {display: block;
 /* --------------------------------------------- */
 
 .footer {
-    margin: 40px 80px 40px 0;
+    margin: 40px 0px 40px 0;
 }
 
 .footer-box {

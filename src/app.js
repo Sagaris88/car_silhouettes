@@ -82,9 +82,9 @@ app.get('/autozam', (req, res) => {
     })
 })
 
-app.get('/bizzarrinni', (req, res) => {
-    res.render('bizzarrinni', {
-        title: 'Bizzarrinni'
+app.get('/bizzarrini', (req, res) => {
+    res.render('bizzarrini', {
+        title: 'Bizzarrini'
     })
 })
 

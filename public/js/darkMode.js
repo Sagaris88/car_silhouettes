@@ -12,7 +12,7 @@ document.querySelector("#darkModebtn").addEventListener("click", event => {
   const imagewebkitVar = document.documentElement.style.getPropertyValue("-webkit-filter");
   document.documentElement.style.setProperty(
     "-webkit-filter",
-    imagewebkitVar === "invert(1)" ? null : "invert(1)"
+    imagewebkitVar === "invert(100%)" ? null : "invert(100%)"
   );
 
   //On click, invert images and text
