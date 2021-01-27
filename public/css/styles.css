@@ -328,6 +328,8 @@ h4 {
     border: none;
 }
 
+.pure-form { margin-left: 40px; }
+
 .aside {
     padding: 0.3em 1em;
     margin-bottom: 2em;

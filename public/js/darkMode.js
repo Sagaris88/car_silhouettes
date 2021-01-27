@@ -1,24 +1,50 @@
 
-document.querySelector("#darkModebtn").addEventListener("click", event => {
+/* Dark Mode */
+$('#darkModebtn').click(function() {
 
-  //On click, change background from black to white
-  const backgroundVar = document.documentElement.style.getPropertyValue("background-color");
-  document.documentElement.style.setProperty(
-    "background-color",
-    backgroundVar === "white" ? null : "white"
-  );
-
-  //On click, invert images and text
-  const imagewebkitVar = document.documentElement.style.getPropertyValue("-webkit-filter");
-  document.documentElement.style.setProperty(
-    "-webkit-filter",
-    imagewebkitVar === "invert(100%)" ? null : "invert(100%)"
-  );
-
-  //On click, invert images and text
-  const buttonVar = document.documentElement.style.getPropertyValue("position");
-  document.documentElement.style.setProperty(
-    "position",
-    buttonVar === "absolute" ? null : "absolute"
-  );
+  var color= $('html').css('background-color')
+  if (color == 'rgb(0, 0, 0)') {
+      $('html').css('background-color', 'white')
+      $('html').css('color', 'black')
+      $('.title-box a').css('color', 'black')
+      $('.header-nav li a').css('color', 'black')
+      $('.sidebar h1').css('color', 'black')
+      $('.menu a').css('color', 'black')
+      $('.dropdown-btn').css('color', 'black')
+      $('.droplist a').css('color', 'black')
+      $('.menu a:hover').css('color', '#3a3a3a')
+      $('.sidebarMobile').css('background-color', '#eeeeee')
+      $('.openbtn').css('background-color', '#eeeeee')
+      $('.openbtn ion-icon').css('color', 'black')
+      $('.thankyou_message').css('color', 'black')
+      $('.sendButton').css('background-color', 'black')
+      $('.sendButton').css('color', 'white')
+      $('#darkModebtn').css('background-color', 'black')
+      $('#darkModebtn').css('color', 'white')
+      $('#topScrollbtn').css('background-color', 'black')
+      $('#topScrollbtn').css('color', 'white')
+      $('.car-post img').css('filter', 'invert(100%)')
+  } else {
+      $('html').css('background-color', 'black')
+      $('html').css('color', 'white')
+      $('.title-box a').css('color', 'white')
+      $('.header-nav li a').css('color', 'white')
+      $('.sidebar h1').css('color', 'white')
+      $('.menu a').css('color', 'white')
+      $('.dropdown-btn').css('color', 'white')
+      $('.droplist a').css('color', 'white')
+      $('.menu a:hover').css('color', '#ccc')
+      $('.sidebarMobile').css('background-color', '#111')
+      $('.openbtn').css('background-color', '#111')
+      $('.openbtn ion-icon').css('color', 'white')
+      $('.thankyou_message').css('color', 'white')
+      $('.sendButton').css('background-color', 'white')
+      $('.sendButton').css('color', 'black')
+      $('#darkModebtn').css('background-color', 'white')
+      $('#darkModebtn').css('color', 'black')
+      $('#topScrollbtn').css('background-color', 'white')
+      $('#topScrollbtn').css('color', 'black')
+      $('.car-post img').css('filter', 'invert(0%)')
+  }
+  
 });
