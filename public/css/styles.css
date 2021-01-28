@@ -244,6 +244,26 @@ h4 {
 }
 
 /* --------------------------------------------- */
+/* RANDOMIZE */
+/* --------------------------------------------- */
+
+.random-btn {
+    margin: 0% 44%;
+    border: none;
+    outline: none;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 90%;
+}
+
+.random-btn:hover {
+    background-color: #F6A623;
+}
+
+/* --------------------------------------------- */
 /* MAIN CONTENT */
 /* --------------------------------------------- */
 
@@ -324,7 +344,7 @@ h4 {
 /* --------------------------------------------- */
 
 .pure-group {
-    background: rgb(0, 0, 0);
+    background: none;
     border: none;
 }
 
