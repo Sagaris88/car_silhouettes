@@ -410,28 +410,28 @@ var images = [
       link: "https://www.redbubble.com/people/in-transit/works/65218452-chrysler-pt-cruiser-convertible-silhouette?asc=u" 
     },
     {
-      url: "https://storage.googleapis.com/car-silhouette-1/DeLorean/DeLorean%20DMC-12-01-min.png",
-      name: "DeLorean DMC-12",
-      year: "1981-1982",
-      link: "https://www.redbubble.com/people/in-transit/works/62212897-delorean-dmc-12-silhouette?asc=u" 
-    },
-    {
-      url: "https://storage.googleapis.com/car-silhouette-1/De%20Tomaso/De%20Tomaso%20Mangusta-01-min.png",
+      url: "https://storage.googleapis.com/car-silhouette-1/De%20Tomaso/De%20Tomaso%20Mangusta-01.png",
       name: "De Tomaso Mangusta",
       year: "1967-1971",
       link: "https://www.redbubble.com/people/in-transit/works/62228531-de-tomaso-mangusta-silhouette?asc=u" 
     },
     {
-      url: "https://storage.googleapis.com/car-silhouette-1/De%20Tomaso/De%20Tomaso%20Pantera-02-min.png",
+      url: "https://storage.googleapis.com/car-silhouette-1/De%20Tomaso/De%20Tomaso%20Pantera-02.png",
       name: "De Tomaso Pantera",
       year: "1971-1992",
       link: "https://www.redbubble.com/people/in-transit/works/62272531-de-tomaso-pantera-silhouette?asc=u" 
     },
     {
-      url: "https://storage.googleapis.com/car-silhouette-1/De%20Tomaso/De%20Tomaso%20Pantera%20GT5-S-03-min.png",
+      url: "https://storage.googleapis.com/car-silhouette-1/De%20Tomaso/De%20Tomaso%20Pantera%20GT5-S-03.png",
       name: "De Tomaso Pantera GT5-S",
       year: "1985-1989",
       link: "https://www.redbubble.com/people/in-transit/works/62286277-de-tomaso-pantera-gt5-s-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/DeLorean/DeLorean%20DMC-12-01.png",
+      name: "DeLorean DMC-12",
+      year: "1981-1982",
+      link: "https://www.redbubble.com/people/in-transit/works/62212897-delorean-dmc-12-silhouette?asc=u" 
     },
     {
       url: "https://storage.googleapis.com/car-silhouette-1/Dodge/Dodge%20Challenger%20RT-02-min.png",

@@ -38,12 +38,14 @@
     }
     .openbtn { display: block; }
     .footer { margin-bottom: 30px; }
+    .footer-box { padding: 0 0 0 40px; }
+    #topScrollbtn { right: 140px; }
 }
 
 
 /* Small phones from 0 to 568px */
 @media only screen and (max-width: 568px) {
-    html { font-size: 14px; }
+    html { font-size: 12px; }
     .title-box {
         width: 100%;
         padding-left: 0;
@@ -68,4 +70,6 @@
     }
     .openbtn { display: block; }
     .footer { margin-bottom: 20px; }
+    .footer-box { padding: 0 0 0 40px; }
+    #topScrollbtn { right: 135px; }
 }
