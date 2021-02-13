@@ -1322,6 +1322,18 @@ var images = [
       link: "https://www.redbubble.com/people/in-transit/works/59267388-nissan-z-proto-silhouette?asc=u" 
     },
     {
+      url: "https://storage.googleapis.com/car-silhouette-1/Oldsmobile/Oldsmobile%20442%20W-30-01.png",
+      name: "Oldsmobile 442 W-30",
+      year: "1968-1972",
+      link: "https://www.redbubble.com/people/in-transit/works/70156579-oldsmobile-442-w-30-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Oldsmobile/Oldsmobile%20Toronado%201966-02.png",
+      name: "Oldsmobile Toronado",
+      year: "1966-1970",
+      link: "https://www.redbubble.com/people/in-transit/works/70156756-oldsmobile-toronado-silhouette?asc=u" 
+    },
+    {
       url: "https://storage.googleapis.com/car-silhouette-1/Pininfarina/Pininfarina%20Battista-01.png",
       name: "Pininfarina Battista",
       year: "2020-present",
@@ -1356,6 +1368,90 @@ var images = [
       name: "Plymouth Road Runner",
       year: "1970",
       link: "https://www.redbubble.com/people/in-transit/works/65581981-plymouth-road-runner-1970-silhouette?asc=" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Pontiac/Pontiac%20Aztek-01.png",
+      name: "Pontiac Aztek",
+      year: "2000-2005",
+      link: "https://www.redbubble.com/people/in-transit/works/69654527-pontiac-aztek-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Pontiac/Pontiac%20Fiero-02.png",
+      name: "Pontiac Fiero",
+      year: "1984-1988",
+      link: "https://www.redbubble.com/people/in-transit/works/69666506-pontiac-fiero-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Pontiac/Pontiac%20Firebird%20Trans%20Am%201969-03.png",
+      name: "Pontiac Firebird Trans-Am",
+      year: "1967-1969",
+      link: "https://www.redbubble.com/people/in-transit/works/69695339-pontiac-firebird-trans-am-1969-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Pontiac/Pontiac%20Firebird%20Trans%20Am%201971-04.png",
+      name: "Pontiac Firebird Trans-Am",
+      year: "1970-1973",
+      link: "https://www.redbubble.com/people/in-transit/works/69715764-pontiac-firebird-trans-am-1971-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Pontiac/Pontiac%20Firebird%20Trans%20Am%201979-05.png",
+      name: "Pontiac Firebird Trans-Am",
+      year: "1979-1981",
+      link: "https://www.redbubble.com/people/in-transit/works/69743056-pontiac-firebird-trans-am-1979-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Pontiac/Pontiac%20Firebird%20Trans%20Am%20Turbo%201989-06.png",
+      name: "Pontiac Firebird Trans-Am Turbo",
+      year: "1982-1992",
+      link: "https://www.redbubble.com/people/in-transit/works/69781061-pontiac-firebird-trans-am-turbo-1989-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Pontiac/Pontiac%20Firebird%20Trans%20Am%20WS6%20Ram%20Air%20Collector%20Edition%20Convertible%202002-07.png",
+      name: "Pontiac Firebird Trans-Am WS6 Ram Air Collector Edition Convertible",
+      year: "2002",
+      link: "https://www.redbubble.com/people/in-transit/works/69816346-pontiac-firebird-trans-am-ws6-convertible-2002-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Pontiac/Pontiac%20G6%20GXP%20Coupe-08.png",
+      name: "Pontiac G6 GXP Coupe",
+      year: "2007-2009",
+      link: "https://www.redbubble.com/people/in-transit/works/69861102-pontiac-g6-gxp-coupe-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Pontiac/Pontiac%20G8-09.png",
+      name: "Pontiac G8",
+      year: "2007-2009",
+      link: "https://www.redbubble.com/people/in-transit/works/69879890-pontiac-g8-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Pontiac/Pontiac%20GTO%201967-10.png",
+      name: "Pontiac GTO",
+      year: "1965-1967",
+      link: "https://www.redbubble.com/people/in-transit/works/70155827-pontiac-gto-1967-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Pontiac/Pontiac%20GTO%20The%20Judge%201969-11.png",
+      name: "Pontiac GTO \"The Judge\"",
+      year: "1969",
+      link: "https://www.redbubble.com/people/in-transit/works/70155915-pontiac-gto-the-judge-1969-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Pontiac/Pontiac%20Solstice-13.png",
+      name: "Pontiac Solstice",
+      year: "2002-2009",
+      link: "https://www.redbubble.com/people/in-transit/works/70156185-pontiac-solstice-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Pontiac/Pontiac%20Solstice%20GXP%20Coupe-12.png",
+      name: "Pontiac Solstice GXP Coupe",
+      year: "2009-2010",
+      link: "https://www.redbubble.com/people/in-transit/works/70156310-pontiac-solstice-gxp-coupe-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Pontiac/Pontiac%20Vibe%20GT-14.png",
+      name: "Pontiac Vibe GT",
+      year: "2009-2010",
+      link: "https://www.redbubble.com/people/in-transit/works/70156427-pontiac-vibe-gt-silhouette?asc=u" 
     },
     {
       url: "https://storage.googleapis.com/car-silhouette-1/Plymouth/Plymouth%20Superbird-07.png",
@@ -1459,12 +1555,12 @@ var images = [
       year: "2003-2005",
       link: "https://www.redbubble.com/people/in-transit/works/65376472-smart-roadster-silhouette?asc=u" 
     },
-    {
-      url: "https://storage.googleapis.com/car-silhouette-1/Subaru/Subaru%20Alcyone%20SVX-07.png",
-      name: "Subaru Alcyone SVX",
-      year: "1991-1996",
-      link: "https://www.redbubble.com/people/in-transit/works/60801083-subaru-alcyone-svx-silhouette?asc=u" 
-    },
+    // {
+    //   url: "https://storage.googleapis.com/car-silhouette-1/Subaru/Subaru%20Alcyone%20SVX-07.png",
+    //   name: "Subaru Alcyone SVX",
+    //   year: "1991-1996",
+    //   link: "https://www.redbubble.com/people/in-transit/works/60801083-subaru-alcyone-svx-silhouette?asc=u" 
+    // },
     {
       url: "https://storage.googleapis.com/car-silhouette-1/Subaru/Subaru%20BRZ-06.png",
       name: "Subaru BRZ",

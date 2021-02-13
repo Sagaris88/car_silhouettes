@@ -14,7 +14,7 @@ html {
     color: rgb(255, 255, 255);
     font-family: 'Raleway', 'Arial', sans-serif;
     font-weight: 300;
-    font-size: 20px;
+    font-size: 62.5%;
     text-rendering: optimizeLegibility;
     margin: 0;
     padding: 0;
@@ -30,12 +30,12 @@ html {
 /* --------------------------------------------- */
 
 .row {
-    max-width: 1140px;
+    max-width: 228rem;
     margin: 0 auto;
 }
 
 .container { 
-    height: 20px;
+    height: 4rem;
     position: relative;
 }
   
@@ -61,45 +61,48 @@ h4 {
 
 h1 {
     margin-top: 0;
-    margin-bottom: 20px;
-    font-size: 200%;
-    word-spacing: 4px;
-    letter-spacing: 1px;
+    margin-bottom: 2rem;
+    font-size: 4rem;
+    word-spacing: .8rem;
+    letter-spacing: .2rem;
     font-weight: 600;
 }
 
 h2 {
-    font-size: 160%;
-    word-spacing: 2px;
-    margin-bottom: 10px;
-    letter-spacing: 1px;
+    font-size: 3.2rem;
+    word-spacing: .4rem;
+    margin-bottom: 2rem;
+    letter-spacing: .2rem;
     font-weight: 500;
 }
 
 h3 {
-    font-size: 110%;
-    margin-bottom: 15px;
+    font-size: 2.2rem;
+    margin-bottom: 3rem;
     font-weight: 400;
 }
 
 h4 {
-    font-size: 90%;
-    margin-bottom: 15px;
+    font-size: 1.8rem;
+    margin-bottom: 3rem;
 }
 
 /* --------------------------------------------- */
 /* HEADER */
 /* --------------------------------------------- */
 
+.header {
+    padding: 4rem 0 6rem 0;
+}
+
 .title-box {
-    margin-top: 40px;
-    padding-left: 40px;
+    padding-left: 10rem;
     float: left;
 }
 
 .title-box a:link,
 .title-box a:visited {
-    font-size: 140%;
+    font-size: 2.8rem;
     font-weight: 600;
     color: #ffffff;
     text-decoration: none;
@@ -118,24 +121,23 @@ h4 {
 .header-nav {
     float: right;
     list-style: none;
-    margin-top: 47px;
-    padding-right: 40px;
+    padding-right: 10rem;
 }
 
 .header-nav li {
     display: inline-block;
-    margin-left: 40px;
+    margin-left: 4rem;
 }
 
 .header-nav li a:link,
 .header-nav li a:visited {
-    padding: 4px 0px;
+    padding: .8rem 0;
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 0.1em;
-    font-size: 70%;
-    border-bottom: 2px solid transparent;
+    font-size: 1.4rem;
+    border-bottom: .4rem solid transparent;
     -webkit-transition: border-bottom 0.2s;
     transition: border-bottom 0.2s;
 }
@@ -143,7 +145,7 @@ h4 {
 .header-nav li a:hover,
 .header-nav li a:active {
     color: #F6A623;
-    border-bottom: 2px solid #e67e22;
+    border-bottom: .2rem solid #e67e22;
 }
 
 /* --------------------------------------------- */
@@ -151,15 +153,15 @@ h4 {
 /* --------------------------------------------- */
 
 .sidebar {
-    margin-top: 80px;
-    padding-left: 100px;
+    padding: 1rem 0 0 10rem;
 }
 
 .sidebar h1{
-    font-size: 140%;
+    margin-bottom: 4.5rem;
+    font-size: 2.8rem;
     font-variant: normal;
     font-weight: 700;
-    line-height: 26.4px;
+    line-height: 5.25rem;
     color: rgb(255, 255, 255);
 }
 
@@ -168,14 +170,14 @@ h4 {
     color: rgb(255, 255, 255);
     font-weight: 500;
     padding-left: 0;
-    line-height: 20pt;
+    
     display: block;
 }
 
 .dropdown-btn {
-    padding: 6px 8px 6px 0px;
+    padding: 0.6rem 0.6rem 0.6rem 0;
     text-decoration: none;
-    font-size: 100%;
+    font-size: 2rem;
     font-weight: 500;
     color: #ffffff;
     display: block;
@@ -193,14 +195,14 @@ h4 {
     display: none;
     background-color: none;
     list-style-type: none;
-    padding-left: 20px;
+    padding-left: 3rem;
     line-height: 18pt;
     -webkit-transition: 0.5s;
     transition: 0.5s;
 }
 
 .droplist a {
-    font-size: 80%;
+    font-size: 1.6rem;
     font-weight: normal;
     color: rgb(255, 255, 255);
     text-decoration: none;
@@ -214,7 +216,7 @@ h4 {
 
 .fa-caret-down {
     float: right;
-    padding-right: 8px;
+    padding-right: 1.6rem;
 } 
 
 /* --------------------------------------------- */
@@ -232,24 +234,24 @@ h4 {
     overflow-x: hidden;
     -webkit-transition: 0.5s;
     transition: 0.5s;
-    padding-top: 60px;
+    padding-top: 12rem;
 }
   
 .openbtn {
     position: fixed;
-    top: 120px;
+    top: 18rem;
     right: 0;
     z-index: 99;
     display: none;
     cursor: pointer;
     background-color: #111;
-    padding: 10px 15px;
+    padding: 2rem 3rem;
     border: none;
-    border-radius: 10px;
+    border-radius: 2rem;
 }
 
 .openbtn ion-icon {
-    font-size: 200%;
+    font-size: 4rem;
     color: rgb(255, 255, 255);
 }
 
@@ -263,9 +265,9 @@ h4 {
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     cursor: pointer;
-    padding: 10px;
-    border-radius: 10px;
-    font-size: 90%;
+    padding: 2rem;
+    border-radius: 2rem;
+    font-size: 1.8rem;
 }
 
 .random-btn:hover {
@@ -277,7 +279,6 @@ h4 {
 /* --------------------------------------------- */
 
 .main-content {
-    margin-top: 60px;
     display: block;
     float: right;
 }
@@ -285,15 +286,11 @@ h4 {
 .main-content h1 {
     text-align: center;
     font-weight: 400;
-    margin-top: 8px;
-}
-
-.main-content h3 {
-    padding: 0 8%;
+    margin-top: 1.6rem;
 }
 
 .main-content .title {
-    margin: 4px 0;
+    margin: .8rem 0;
 }
 
 /* --------------------------------------------- */
@@ -301,7 +298,7 @@ h4 {
 /* --------------------------------------------- */
 
 .car-post {
-    margin: 0px 0;
+    margin: 0 0;
 }
 
 .car-post img {
@@ -324,17 +321,17 @@ h4 {
 /* --------------------------------------------- */
 
 .footer {
-    margin: 40px 0px 40px 0;
+    padding: 6rem 0 4rem 0;
 }
 
 .footer-box {
-    padding: 0 40px 0 40px;
+    padding: 0 8rem 0 10rem;
     display: inline-block;
     vertical-align: top;
 }
 
 .footer-box p {
-    font-size: 50%;
+    font-size: 1rem;
 }
 
 .footer-box h4 {
@@ -343,7 +340,7 @@ h4 {
 
 .footer a:link,
 .footer a:visited {
-    font-size: 150%;
+    font-size: 3rem;
     color: #1abc9c;
     text-decoration: none;
 }
@@ -362,22 +359,26 @@ h4 {
     border: none;
 }
 
-.pure-form { margin-left: 40px; }
-
-.aside {
-    padding: 0.3em 1em;
-    margin-bottom: 2em;
+.pure-group h3 {
+    text-align: left;
+    margin-bottom: 1rem;
 }
 
+::placeholder {
+    font-size: 1.5em;
+}
+
+.pure-form { margin-left: 4rem; }
+
 textarea {
-    height: 150px;
+    height: 20rem;
 }
 
 .thankyou_message {
-    padding: 3em 1em;
-    border-radius: 3px;
+    padding: 6em 2em;
+    border-radius: 0.6rem;
     color: #fff;
-    margin-bottom: 2em;
+    margin-bottom: 0.4rem;
 }
 
 #name, #email {
@@ -395,10 +396,10 @@ textarea {
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     cursor: pointer;
-    padding: 10px;
-    margin-right: 90px;
-    border-radius: 10px;
-    font-size: 90%;
+    padding: 1.8rem;
+    margin-right: 10rem;
+    border-radius: 1.8rem;
+    font-size: 1.8rem;
 }
 
 .sendButton:hover {
@@ -411,17 +412,17 @@ textarea {
 
 #darkModebtn {
     position: fixed; /* Fixed/sticky position */
-    bottom: 20px; /* Place the button at the bottom of the page */
-    right: 20px; /* Place the button 30px from the right */
+    bottom: 4rem; /* Place the button at the bottom of the page */
+    right: 4rem; /* Place the button 30px from the right */
     z-index: 99; /* Make sure it does not overlap */
     border: none; /* Remove borders */
     outline: none; /* Remove outline */
     background-color: rgb(255, 255, 255); /* Set a background color */
     color: rgb(0, 0, 0); /* Text color */
     cursor: pointer; /* Add a mouse pointer on hover */
-    padding: 15px; /* Some padding */
-    border-radius: 10px; /* Rounded corners */
-    font-size: 90%; /* Increase font size */
+    padding: 1.8rem; /* Some padding */
+    border-radius: 1.8rem; /* Rounded corners */
+    font-size: 1.8rem; /* Increase font size */
   }
   
   #darkModebtn:hover {
@@ -434,22 +435,22 @@ textarea {
 /* --------------------------------------------- */
 
 #topScrollbtn ion-icon {
-    font-size: 100%;
+    font-size: 2rem;
 }
 
 #topScrollbtn {
     position: fixed; /* Fixed/sticky position */
-    bottom: 20px; /* Place the button at the bottom of the page */
-    right: 160px; /* Place the button 30px from the right */
+    bottom: 4rem; /* Place the button at the bottom of the page */
+    right: 18rem; /* Place the button 30px from the right */
     z-index: 99; /* Make sure it does not overlap */
     border: none; /* Remove borders */
     outline: none; /* Remove outline */
     background-color: rgb(255, 255, 255); /* Set a background color */
     color: rgb(0, 0, 0); /* Text color */
     cursor: pointer; /* Add a mouse pointer on hover */
-    padding: 15px; /* Some padding */
-    border-radius: 10px; /* Rounded corners */
-    font-size: 90%; /* Increase font size */
+    padding: 1.7rem; /* Some padding */
+    border-radius: 1.8rem; /* Rounded corners */
+    font-size: 1.8rem; /* Increase font size */
   }
   
   #topScrollbtn:hover {

@@ -40,6 +40,12 @@ app.get('/about', (req, res) => {
     })
 })
 
+app.get('/bestsellers', (req, res) => {
+    res.render('bestsellers', {
+        title: 'Bestsellers',
+    })
+})
+
 app.get('/contact', (req, res) => {
     res.render('contact', {
         title: 'Contact',
@@ -226,6 +232,12 @@ app.get('/nissan', (req, res) => {
     })
 })
 
+app.get('/oldsmobile', (req, res) => {
+    res.render('oldsmobile', {
+        title: 'oldsmobile'
+    })
+})
+
 app.get('/pininfarina', (req, res) => {
     res.render('pininfarina', {
         title: 'Pininfarina'
@@ -235,6 +247,12 @@ app.get('/pininfarina', (req, res) => {
 app.get('/plymouth', (req, res) => {
     res.render('plymouth', {
         title: 'Plymouth'
+    })
+})
+
+app.get('/pontiac', (req, res) => {
+    res.render('pontiac', {
+        title: 'Pontiac'
     })
 })
 

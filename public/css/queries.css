@@ -1,75 +1,83 @@
 /* Big tablets to 1280px (width smaller than the 1280px row) */
 @media only screen and (max-width: 1280px) {
-    
+
+}
+
+@media only screen and (max-width: 1140px) {
+    html { font-size: 62.5%; }
+    .title-box { padding: 0 4rem; }
+    .header-nav { padding-right: 4rem; }
+    .sidebar { padding-left: 4rem }
+    .footer-box { padding: 0 4rem; }
 }
 
 
 /* Small tablets to big tablets from 769 to 1024px */
 @media only screen and (max-width: 1024px) {
-    .sidebar { padding-left: 40px }
+    html { font-size: 56.25%; }
+    .title-box { padding: 0 3rem; }
+    .header-nav { padding-right: 3rem; }
+    .sidebar { padding-left: 3rem }
+    .footer-box { padding: 0 3rem; }
 }
 
 
 /* Small phones to small tablets from 569 to 768px */
 @media only screen and (max-width: 768px) {
-    html { font-size: 16px; }
+    html { font-size: 50%; }
     .title-box {
         width: 100%;
-        padding-left: 0;
         text-align: center;
     }
     .title-box a:link,
     .title-box a:visited {
-        font-size: 200%;
+        font-size: 4rem;
         font-weight: 500;
     }
     .header-nav { display: none; }
-    .header-nav li { margin-left: 30px; }
     .sidebar { display: none }
-    .sidebarMobile { padding-top: 18px; }
-    .menu { padding-left: 16px; }
+    .sidebarMobile { padding-top: 3rem; }
+    .menu { padding-left: 2rem; }
     .menu a, .dropdown-btn { 
-        font-size: 150%;
-        line-height: 24pt;
+        font-size: 3rem;
+        padding: 1rem 0;
     }
     .droplist a { 
-        font-size: 100%;
-        line-height: 24pt;
+        font-size: 2rem;
+        padding: 0.4rem 0;
     }
     .openbtn { display: block; }
-    .footer { margin-bottom: 30px; }
-    .footer-box { padding: 0 0 0 40px; }
-    #topScrollbtn { right: 140px; }
+    .footer-box { padding: 0 6rem; }
+    #topScrollbtn { right: 20rem; }
 }
 
 
 /* Small phones from 0 to 568px */
 @media only screen and (max-width: 568px) {
-    html { font-size: 12px; }
+    html { font-size: 37.5%; }
     .title-box {
         width: 100%;
-        padding-left: 0;
         text-align: center;
     }
     .title-box a:link,
     .title-box a:visited {
-        font-size: 200%;
+        font-size: 4rem;
         font-weight: 500;
     }
+    .header { margin-top: 2rem; }
     .header-nav { display: none; }
-    .header-nav li { margin-left: 20px; }
     .sidebar { display: none }
     .menu { padding-left: 12px; }
     .menu a, .dropdown-btn { 
-        font-size: 150%;
-        line-height: 24pt;
+        font-size: 3.6rem;
+        padding: 1rem 0;
     }
     .droplist a { 
-        font-size: 100%;
-        line-height: 24pt;
+        font-size: 2.4rem;
+        padding: 0.4rem 0;
     }
     .openbtn { display: block; }
-    .footer { margin-bottom: 20px; }
-    .footer-box { padding: 0 0 0 40px; }
-    #topScrollbtn { right: 135px; }
+    .footer { margin-bottom: 3rem; }
+    .footer-box { padding: 0 0 0 6rem; }
+    #topScrollbtn { right: 20rem; }
 }
