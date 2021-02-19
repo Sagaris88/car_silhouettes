@@ -26,6 +26,30 @@ var images = [
       link: "https://www.redbubble.com/people/in-transit/works/61346926-acura-rsx-type-s-a-spec-silhouette?asc=u" 
     },
     {
+      url: "https://storage.googleapis.com/car-silhouette-1/Alpine/Alpine%20A110%201300%20G-01.png",
+      name: "Alpine A110 1300 G",
+      year: "1961-1977",
+      link: "https://www.redbubble.com/people/in-transit/works/70787288-alpine-a110-1300-g-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Alpine/Alpine%20A110-02.png",
+      name: "Alpine A110",
+      year: "2017-present",
+      link: "https://www.redbubble.com/people/in-transit/works/70793690-alpine-a110-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Alpine/Alpine%20A310-03.png",
+      name: "Alpine A310",
+      year: "1971-1985",
+      link: "https://www.redbubble.com/people/in-transit/works/70830567-alpine-a310-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Alpine/Alpine%20GTA-04.png",
+      name: "Alpine GTA",
+      year: "1984-1991",
+      link: "https://www.redbubble.com/people/in-transit/works/70838503-alpine-gta-silhouette?asc=u" 
+    },
+    {
       url: "https://storage.googleapis.com/car-silhouette-1/AMC/AMC%20AMX-01.png",
       name: "AMC AMX",
       year: "1968-1970",
@@ -247,18 +271,18 @@ var images = [
       year: "1984-1986",
       link: "https://www.redbubble.com/people/in-transit/works/67633631-audi-sport-quattro-silhouette?asc=u" 
     },
-    {
-      url: "https://storage.googleapis.com/car-silhouette-1/Audi/Audi%20R8%202007-04.png",
-      name: "Audi R8",
-      year: "2006-2015",
-      link: "https://www.redbubble.com/people/in-transit/works/67672315-audi-r8-2007-silhouette?asc=u" 
-    },
-    {
-      url: "https://storage.googleapis.com/car-silhouette-1/Audi/Audi%20R8%202015-05.png",
-      name: "Audi R8",
-      year: "2015-present",
-      link: "https://www.redbubble.com/people/in-transit/works/67724769-audi-r8-2015-silhouette?asc=u" 
-    },
+    // {
+    //   url: "https://storage.googleapis.com/car-silhouette-1/Audi/Audi%20R8%202007-04.png",
+    //   name: "Audi R8",
+    //   year: "2006-2015",
+    //   link: "https://www.redbubble.com/people/in-transit/works/67672315-audi-r8-2007-silhouette?asc=u" 
+    // },
+    // {
+    //   url: "https://storage.googleapis.com/car-silhouette-1/Audi/Audi%20R8%202015-05.png",
+    //   name: "Audi R8",
+    //   year: "2015-present",
+    //   link: "https://www.redbubble.com/people/in-transit/works/67724769-audi-r8-2015-silhouette?asc=u" 
+    // },
     {
       url: "https://storage.googleapis.com/car-silhouette-1/Audi/Audi%20TT%201998-06.png",
       name: "Audi TT (Type 8N)",
@@ -284,17 +308,23 @@ var images = [
       link: "https://www.redbubble.com/people/in-transit/works/67774651-autozam-az-1-silhouette?asc=u" 
     },
     {
+      url: "https://storage.googleapis.com/car-silhouette-1/BAC/BAC%20Mono-01.png",
+      name: "BAC Mono",
+      year: "2011-present",
+      link: "https://www.redbubble.com/people/in-transit/works/71127905-bac-mono-silhouette?asc=u" 
+    },
+    {
       url: "https://storage.googleapis.com/car-silhouette-1/Bizzarrini/Bizzarrini%205300%20GT%20Strada-01.png",
       name: "Bizzarrini 5300 GT Strada",
       year: "1964-1968",
       link: "https://www.redbubble.com/people/in-transit/works/62796894-bizzarrini-5300-gt-strada-silhouette?asc=u" 
     },
-    {
-      url: "https://storage.googleapis.com/car-silhouette-1/BMW/BMW%20M1-01.png",
-      name: "BMW M1",
-      year: "1978-1981",
-      link: "https://www.redbubble.com/people/in-transit/works/65402406-m1-silhouette?asc=u" 
-    },
+    // {
+    //   url: "https://storage.googleapis.com/car-silhouette-1/BMW/BMW%20M1-01.png",
+    //   name: "BMW M1",
+    //   year: "1978-1981",
+    //   link: "https://www.redbubble.com/people/in-transit/works/65402406-m1-silhouette?asc=u" 
+    // },
     {
       url: "https://storage.googleapis.com/car-silhouette-1/Bricklin/Bricklin%20SV-1-01.png",
       name: "Bricklin SV-1",
@@ -408,6 +438,72 @@ var images = [
       name: "Chrysler PT Cruiser Convertible",
       year: "2005-2008",
       link: "https://www.redbubble.com/people/in-transit/works/65218452-chrysler-pt-cruiser-convertible-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Citroen/Citroen%202CV-01.png",
+      name: "Citroën 2CV",
+      year: "1948-1990",
+      link: "https://www.redbubble.com/people/in-transit/works/70472027-citroen-2cv-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Citroen/Citroen%20BX%204TC-03.png",
+      name: "Citroën BX 4TC",
+      year: "1985-1986",
+      link: "https://www.redbubble.com/people/in-transit/works/70520478-citroen-bx-4tc-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Citroen/Citroen%20BX%20GTi%2016v-02.png",
+      name: "Citroën BX GTi 16v",
+      year: "1987-1989",
+      link: "https://www.redbubble.com/people/in-transit/works/70479711-citroen-bx-gti-16v-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Citroen/Citroen%20C6-04.png",
+      name: "Citroën C6",
+      year: "2005-2012",
+      link: "https://www.redbubble.com/people/in-transit/works/70521580-citroen-c6-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Citroen/Citroen%20CX-05.png",
+      name: "Citroën CX",
+      year: "1974-1991",
+      link: "https://www.redbubble.com/people/in-transit/works/70538036-citroen-cx-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Citroen/Citroen%20DS%2023%20Pallas-06.png",
+      name: "Citroën DS 23 Pallas",
+      year: "1955-1975",
+      link: "https://www.redbubble.com/people/in-transit/works/70562050-citroen-ds-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Citroen/Citroen%20Dyane-07.png",
+      name: "Citroën Dyane",
+      year: "1967-1983",
+      link: "https://www.redbubble.com/people/in-transit/works/70600848-citroen-dyane-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Citroen/Citroen%20E-Mehari-08.png",
+      name: "Citroën E-Méhari",
+      year: "2016-2019",
+      link: "https://www.redbubble.com/people/in-transit/works/70614906-citroen-e-m-hari-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Citroen/Citroen%20SM-10.png",
+      name: "Citroën SM",
+      year: "1970-1975",
+      link: "https://www.redbubble.com/people/in-transit/works/70624921-citroen-sm-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Citroen/Citroen%20XM-11.png",
+      name: "Citroën XM",
+      year: "1989-2000",
+      link: "https://www.redbubble.com/people/in-transit/works/70625169-citroen-xm-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Citroen/Citroen%20GT-12.png",
+      name: "GT by Citroën",
+      year: "2008",
+      link: "https://www.redbubble.com/people/in-transit/works/70625486-gt-by-citro-n-silhouette?asc=u" 
     },
     {
       url: "https://storage.googleapis.com/car-silhouette-1/De%20Tomaso/De%20Tomaso%20Mangusta-01.png",
@@ -901,24 +997,24 @@ var images = [
       year: "1955-1957",
       link: "https://www.redbubble.com/people/in-transit/works/59671876-d-type-silhouette?asc=u" 
     },
-    // {
-    //   url: "https://storage.googleapis.com/car-silhouette-1/Jaguar/Jaguar%20E-Type-02.png",
-    //   name: "Jaguar E-Type",
-    //   year: "1961-196",
-    //   link: "Unavailable" 
-    // },
-    // {
-    //   url: "https://storage.googleapis.com/car-silhouette-1/Jaguar/Jaguar%20F-Type-06.png",
-    //   name: "Jaguar F-Type",
-    //   year: "2013-2018",
-    //   link: "Unavailable" 
-    // },
-    // {
-    //   url: "https://storage.googleapis.com/car-silhouette-1/Jaguar/Jaguar%20F-Type%20Project%207-13.png",
-    //   name: "Jaguar F-Type SV Project 7",
-    //   year: "2013",
-    //   link: "Unavailable" 
-    // },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Jaguar/Jaguar%20E-Type-02.png",
+      name: "Jaguar E-Type",
+      year: "1961-196",
+      link: "https://www.teepublic.com/t-shirt/19031880-jaguar-e-type-silhouette?store_id=691587" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Jaguar/Jaguar%20F-Type-06.png",
+      name: "Jaguar F-Type",
+      year: "2013-2018",
+      link: "https://www.teepublic.com/t-shirt/19032057-jaguar-f-type-silhouette?store_id=691587" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Jaguar/Jaguar%20F-Type%20Project%207-13.png",
+      name: "Jaguar F-Type SV Project 7",
+      year: "2013",
+      link: "https://www.teepublic.com/t-shirt/19032093-jaguar-f-type-project-7-silhouette?store_id=691587" 
+    },
     {
       url: "https://storage.googleapis.com/car-silhouette-1/Jaguar/Jaguar%20XE%20Project%208-14.png",
       name: "Jaguar XE Project 8",
@@ -935,7 +1031,7 @@ var images = [
       url: "https://storage.googleapis.com/car-silhouette-1/Jaguar/Jaguar%20XJ13-11.png",
       name: "Jaguar XJ13",
       year: "1966",
-      link: "https://www.redbubble.com/people/in-transit/works/59989734-xj13-silhouette?asc=u" 
+      link: "https://www.teepublic.com/t-shirt/19032159-jaguar-xj13-silhouette?store_id=691587" 
     },
     {
       url: "https://storage.googleapis.com/car-silhouette-1/Jaguar/Jaguar%20XJ220-07.png",
@@ -949,12 +1045,12 @@ var images = [
       year: "1948-1954",
       link: "https://www.redbubble.com/people/in-transit/works/59361358-xk120-silhouette?asc=u" 
     },
-    // {
-    //   url: "https://storage.googleapis.com/car-silhouette-1/Jaguar/Jaguar%20XKR%20(X100)-04.png",
-    //   name: "Jaguar XKR (X100)",
-    //   year: "1998-2006",
-    //   link: "Unavailable" 
-    // },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Jaguar/Jaguar%20XKR%20(X100)-04.png",
+      name: "Jaguar XKR (X100)",
+      year: "1998-2006",
+      link: "https://www.teepublic.com/t-shirt/19032135-jaguar-xk-x100-silhouette?store_id=691587" 
+    },
     {
       url: "https://storage.googleapis.com/car-silhouette-1/Jaguar/Jaguar%20XKR-S-05.png",
       name: "Jaguar XKR-S (X150)",
@@ -1184,59 +1280,137 @@ var images = [
       link: "https://www.redbubble.com/people/in-transit/works/62466312-lexus-rc-f-silhouette?asc=u" 
     },
     {
-      url: "https://storage.googleapis.com/car-silhouette-1/McLaren/McLaren%20570S-04.png",
-      name: "McLaren 570S",
+      url: "https://storage.googleapis.com/car-silhouette-1/Mazda/Mazda%20Cosmo%20L10B-11.png",
+      name: "Mazda Cosmo (L10B)",
+      year: "1967-1972",
+      link: "https://www.redbubble.com/people/in-transit/works/71049466-mazda-cosmo-l10b-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Mazda/Mazda%20Eunos%20Cosmo-12.png",
+      name: "Eunos Cosmo",
+      year: "1990-1996",
+      link: "https://www.redbubble.com/people/in-transit/works/71098422-eunos-cosmo-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Mazda/Mazda%20Luce%20Rotary%20Coupe-10.png",
+      name: "Mazda Luce Rotary Coupe",
+      year: "1969-1972",
+      link: "https://www.redbubble.com/people/in-transit/works/71042150-mazda-luce-rotary-coupe-r130-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Mazda/Mazda%20MX-5%20Miata%20NA-05.png",
+      name: "Mazda MX-5 Miata (NA)",
+      year: "1989-1997",
+      link: "https://www.redbubble.com/people/in-transit/works/70997222-mazda-mx-5-miata-na-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Mazda/Mazda%20MX-5%20Miata%20NB-06.png",
+      name: "Mazda MX-5 Miata (NB)",
+      year: "1998-2005",
+      link: "https://www.redbubble.com/people/in-transit/works/70998566-mazda-mx-5-miata-nb-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Mazda/Mazda%20MX-5%20Miata%20NC-07.png",
+      name: "Mazda MX-5 Miata (NC)",
+      year: "2005-2015",
+      link: "https://www.redbubble.com/people/in-transit/works/71009553-mazda-mx-5-miata-nc-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Mazda/Mazda%20MX-5%20Miata%20ND-08.png",
+      name: "Mazda MX-5 Miata (ND)",
       year: "2015-present",
-      link: "https://www.redbubble.com/people/in-transit/works/63083489-mclaren-570s-silhouette?asc=u" 
+      link: "https://www.redbubble.com/people/in-transit/works/71034113-mazda-mx-5-miata-nd-silhouette?asc=u" 
     },
     {
-      url: "https://storage.googleapis.com/car-silhouette-1/McLaren/McLaren%20720S-05.png",
-      name: "McLaren 720S",
-      year: "2017-present",
-      link: "https://www.redbubble.com/people/in-transit/works/63128626-mclaren-720s-silhouette?asc=u" 
+      url: "https://storage.googleapis.com/car-silhouette-1/Mazda/Mazda%20MX-5%20Miata%20RF%20ND-09.png",
+      name: "Mazda MX-5 Miata RF (ND)",
+      year: "2016-present",
+      link: "https://www.redbubble.com/people/in-transit/works/71034294-mazda-mx-5-miata-rf-nd-silhouette?asc=u" 
     },
     {
-      url: "https://storage.googleapis.com/car-silhouette-1/McLaren/McLaren%20Elva-09.png",
-      name: "McLaren Elva",
-      year: "2020-present",
-      link: "https://www.redbubble.com/people/in-transit/works/63395499-mclaren-elva-silhouette?asc=u" 
+      url: "https://storage.googleapis.com/car-silhouette-1/Mazda/Mazda%20R360%20Coupe-04.png",
+      name: "Mazda R360",
+      year: "1960-1966",
+      link: "https://www.redbubble.com/people/in-transit/works/70956348-mazda-r360-silhouette?asc=u" 
     },
     {
-      url: "https://storage.googleapis.com/car-silhouette-1/McLaren/McLaren%20F1-01.png",
-      name: "McLaren F1",
-      year: "1992-1998",
-      link: "https://www.redbubble.com/people/in-transit/works/62991142-mclaren-f1-silhouette?asc=u" 
+      url: "https://storage.googleapis.com/car-silhouette-1/Mazda/Mazda%20RX-7%20SA-01.png",
+      name: "Mazda RX-7 (SA)",
+      year: "1978-1985",
+      link: "https://www.redbubble.com/people/in-transit/works/70922606-mazda-rx-7-sa-silhouette?asc=u" 
     },
     {
-      url: "https://storage.googleapis.com/car-silhouette-1/McLaren/McLaren%20GT-08.png",
-      name: "McLaren GT",
-      year: "2019-present",
-      link: "https://www.redbubble.com/people/in-transit/works/63174783-mclaren-gt-silhouette?asc=u" 
+      url: "https://storage.googleapis.com/car-silhouette-1/Mazda/Mazda%20RX-7%20FC-02.png",
+      name: "Mazda RX-7 (FC)",
+      year: "1985-1992",
+      link: "https://www.redbubble.com/people/in-transit/works/70943500-mazda-rx-7-fc-silhouette?asc=u" 
     },
     {
-      url: "https://storage.googleapis.com/car-silhouette-1/McLaren/McLaren%20MP4-12C-02.png",
-      name: "McLaren MP4-12C",
-      year: "2011-2014",
-      link: "https://www.redbubble.com/people/in-transit/works/63040827-mclaren-mp4-12c-silhouette?asc=u" 
+      url: "https://storage.googleapis.com/car-silhouette-1/Mazda/Mazda%20RX-7%20FD-03.png",
+      name: "Mazda RX-7 (FD)",
+      year: "1992-2002",
+      link: "https://www.redbubble.com/people/in-transit/works/70952605-mazda-rx-7-fd-silhouette?asc=u" 
     },
     {
-      url: "https://storage.googleapis.com/car-silhouette-1/McLaren/McLaren%20P1-03.png",
-      name: "McLaren P1",
-      year: "2013-2015",
-      link: "https://www.redbubble.com/people/in-transit/works/63074929-mclaren-p1-silhouette?asc=u" 
+      url: "https://storage.googleapis.com/car-silhouette-1/Mazda/Mazda%20RX-8-13.png",
+      name: "Mazda RX-8",
+      year: "2003-2012",
+      link: "https://www.redbubble.com/people/in-transit/works/71108476-mazda-rx-8-silhouette?asc=u" 
     },
-    {
-      url: "https://storage.googleapis.com/car-silhouette-1/McLaren/McLaren%20Senna-06.png",
-      name: "McLaren Senna",
-      year: "2018-present",
-      link: "https://www.redbubble.com/people/in-transit/works/63143092-mclaren-senna-silhouette?asc=u" 
-    },
-    {
-      url: "https://storage.googleapis.com/car-silhouette-1/McLaren/McLaren%20Speedtail-07.png",
-      name: "McLaren Speedtail",
-      year: "2020-present",
-      link: "https://www.redbubble.com/people/in-transit/works/63162418-mclaren-speedtail-silhouette?asc=u" 
-    },
+    // {
+    //   url: "https://storage.googleapis.com/car-silhouette-1/McLaren/McLaren%20570S-04.png",
+    //   name: "McLaren 570S",
+    //   year: "2015-present",
+    //   link: "https://www.redbubble.com/people/in-transit/works/63083489-mclaren-570s-silhouette?asc=u" 
+    // },
+    // {
+    //   url: "https://storage.googleapis.com/car-silhouette-1/McLaren/McLaren%20720S-05.png",
+    //   name: "McLaren 720S",
+    //   year: "2017-present",
+    //   link: "https://www.redbubble.com/people/in-transit/works/63128626-mclaren-720s-silhouette?asc=u" 
+    // },
+    // {
+    //   url: "https://storage.googleapis.com/car-silhouette-1/McLaren/McLaren%20Elva-09.png",
+    //   name: "McLaren Elva",
+    //   year: "2020-present",
+    //   link: "https://www.redbubble.com/people/in-transit/works/63395499-mclaren-elva-silhouette?asc=u" 
+    // },
+    // {
+    //   url: "https://storage.googleapis.com/car-silhouette-1/McLaren/McLaren%20F1-01.png",
+    //   name: "McLaren F1",
+    //   year: "1992-1998",
+    //   link: "https://www.redbubble.com/people/in-transit/works/62991142-mclaren-f1-silhouette?asc=u" 
+    // },
+    // {
+    //   url: "https://storage.googleapis.com/car-silhouette-1/McLaren/McLaren%20GT-08.png",
+    //   name: "McLaren GT",
+    //   year: "2019-present",
+    //   link: "https://www.redbubble.com/people/in-transit/works/63174783-mclaren-gt-silhouette?asc=u" 
+    // },
+    // {
+    //   url: "https://storage.googleapis.com/car-silhouette-1/McLaren/McLaren%20MP4-12C-02.png",
+    //   name: "McLaren MP4-12C",
+    //   year: "2011-2014",
+    //   link: "https://www.redbubble.com/people/in-transit/works/63040827-mclaren-mp4-12c-silhouette?asc=u" 
+    // },
+    // {
+    //   url: "https://storage.googleapis.com/car-silhouette-1/McLaren/McLaren%20P1-03.png",
+    //   name: "McLaren P1",
+    //   year: "2013-2015",
+    //   link: "https://www.redbubble.com/people/in-transit/works/63074929-mclaren-p1-silhouette?asc=u" 
+    // },
+    // {
+    //   url: "https://storage.googleapis.com/car-silhouette-1/McLaren/McLaren%20Senna-06.png",
+    //   name: "McLaren Senna",
+    //   year: "2018-present",
+    //   link: "https://www.redbubble.com/people/in-transit/works/63143092-mclaren-senna-silhouette?asc=u" 
+    // },
+    // {
+    //   url: "https://storage.googleapis.com/car-silhouette-1/McLaren/McLaren%20Speedtail-07.png",
+    //   name: "McLaren Speedtail",
+    //   year: "2020-present",
+    //   link: "https://www.redbubble.com/people/in-transit/works/63162418-mclaren-speedtail-silhouette?asc=u" 
+    // },
     {
       url: "https://storage.googleapis.com/car-silhouette-1/Mercedes-Benz/Mercedes-AMG%20GT%20Black%20Series-04.png",
       name: "Mercedes-AMG GT Black Series",
@@ -1262,10 +1436,16 @@ var images = [
       link: "https://www.redbubble.com/people/in-transit/works/62140077-mercedes-benz-sls-amg-black-series-silhouette?asc=u" 
     },
     {
-      url: "https://storage.googleapis.com/car-silhouette-1/Nissan/Nissan%20240Z-10.png",
-      name: "Nissan 240Z",
-      year: "1969-1973",
-      link: "https://www.redbubble.com/people/in-transit/works/59356597-nissan-240z-silhouette?asc=u" 
+      url: "https://storage.googleapis.com/car-silhouette-1/Monteverdi/Monteverdi%20Hai%20450%20SS-02.png",
+      name: "Monteverdi Hai 450 SS",
+      year: "1970",
+      link: "https://www.redbubble.com/people/in-transit/works/71196982-monteverdi-hai-450-ss-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Monteverdi/Monteverdi%20High%20Speed%20375%20L-01.png",
+      name: "Monteverdi High Speed 375 L",
+      year: "1967-1976",
+      link: "https://www.redbubble.com/people/in-transit/works/71138715-monteverdi-high-speed-375-l-silhouette?asc=u" 
     },
     {
       url: "https://storage.googleapis.com/car-silhouette-1/Nissan/Nissan%20300ZX%20Z31-09.png",
@@ -1423,18 +1603,18 @@ var images = [
       year: "2007-2009",
       link: "https://www.redbubble.com/people/in-transit/works/69879890-pontiac-g8-silhouette?asc=u" 
     },
-    {
-      url: "https://storage.googleapis.com/car-silhouette-1/Pontiac/Pontiac%20GTO%201967-10.png",
-      name: "Pontiac GTO",
-      year: "1965-1967",
-      link: "https://www.redbubble.com/people/in-transit/works/70155827-pontiac-gto-1967-silhouette?asc=u" 
-    },
-    {
-      url: "https://storage.googleapis.com/car-silhouette-1/Pontiac/Pontiac%20GTO%20The%20Judge%201969-11.png",
-      name: "Pontiac GTO \"The Judge\"",
-      year: "1969",
-      link: "https://www.redbubble.com/people/in-transit/works/70155915-pontiac-gto-the-judge-1969-silhouette?asc=u" 
-    },
+    // {
+    //   url: "https://storage.googleapis.com/car-silhouette-1/Pontiac/Pontiac%20GTO%201967-10.png",
+    //   name: "Pontiac GTO",
+    //   year: "1965-1967",
+    //   link: "https://www.redbubble.com/people/in-transit/works/70155827-pontiac-gto-1967-silhouette?asc=u" 
+    // },
+    // {
+    //   url: "https://storage.googleapis.com/car-silhouette-1/Pontiac/Pontiac%20GTO%20The%20Judge%201969-11.png",
+    //   name: "Pontiac GTO \"The Judge\"",
+    //   year: "1969",
+    //   link: "https://www.redbubble.com/people/in-transit/works/70155915-pontiac-gto-the-judge-1969-silhouette?asc=u" 
+    // },
     {
       url: "https://storage.googleapis.com/car-silhouette-1/Pontiac/Pontiac%20Solstice-13.png",
       name: "Pontiac Solstice",
@@ -1678,8 +1858,4 @@ function randImg() {
     document.getElementById('random-name').innerHTML = images[x].name;
     document.getElementById('random-year').innerHTML = images[x].year;
     document.getElementById('random-link').href = images[x].link;
-
-    /* Removes the Newly Update Image and Text */
-    // document.getElementById('newDate').innerHTML = "&nbsp;";
-    // document.getElementById('newHead').innerHTML = "&nbsp;";
   }

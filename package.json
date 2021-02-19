@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "node src/app.js --exec babel-node ",
-    "dev": "nodemon src/app.js -e js,hbs,json --exec babel-node "
+    "dev": "nodemon src/app.js -e js,hbs,json --exec babel-node ",
+    "compile:sass": "node-sass public/sass/main.scss public/css/styles.css -w"
   },
   "author": "",
   "license": "ISC",
@@ -17,7 +18,6 @@
     "validator": "^13.5.2"
   },
   "devDependencies": {
-    "@babel/core": "^7.12.10",
-    "@babel/preset-env": "^7.12.11"
+    "node-sass": "^5.0.0"
   }
 }

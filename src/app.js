@@ -64,6 +64,12 @@ app.get('/acura', (req, res) => {
     })
 })
 
+app.get('/alpine', (req, res) => {
+    res.render('alpine', {
+        title: 'Alpine'
+    })
+})
+
 app.get('/amc', (req, res) => {
     res.render('amc', {
         title: 'American Motors Company'
@@ -85,6 +91,12 @@ app.get('/audi', (req, res) => {
 app.get('/autozam', (req, res) => {
     res.render('autozam', {
         title: 'Autozam'
+    })
+})
+
+app.get('/bac', (req, res) => {
+    res.render('bac', {
+        title: 'BAC'
     })
 })
 
@@ -121,6 +133,12 @@ app.get('/chevrolet', (req, res) => {
 app.get('/chrysler', (req, res) => {
     res.render('chrysler', {
         title: 'Chrysler'
+    })
+})
+
+app.get('/citroen', (req, res) => {
+    res.render('citroen', {
+        title: 'Citroen'
     })
 })
 
@@ -214,6 +232,12 @@ app.get('/lexus', (req, res) => {
     })
 })
 
+app.get('/mazda', (req, res) => {
+    res.render('mazda', {
+        title: 'Mazda'
+    })
+})
+
 app.get('/mclaren', (req, res) => {
     res.render('mclaren', {
         title: 'McLaren'
@@ -223,6 +247,12 @@ app.get('/mclaren', (req, res) => {
 app.get('/mercedes-benz', (req, res) => {
     res.render('mercedesbenz', {
         title: 'Mercedes-Benz'
+    })
+})
+
+app.get('/monteverdi', (req, res) => {
+    res.render('monteverdi', {
+        title: 'Monteverdi'
     })
 })
 

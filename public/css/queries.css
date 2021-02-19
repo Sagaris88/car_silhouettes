@@ -5,49 +5,49 @@
 
 @media only screen and (max-width: 1140px) {
     html { font-size: 62.5%; }
-    .title-box { padding: 0 4rem; }
-    .header-nav { padding-right: 4rem; }
+    .header__title { padding: 0 4rem; }
+    .header__nav { padding-right: 4rem; }
     .sidebar { padding-left: 4rem }
-    .footer-box { padding: 0 4rem; }
+    .footer__box { padding: 0 4rem; }
 }
 
 
 /* Small tablets to big tablets from 769 to 1024px */
 @media only screen and (max-width: 1024px) {
     html { font-size: 56.25%; }
-    .title-box { padding: 0 3rem; }
-    .header-nav { padding-right: 3rem; }
+    .header__title { padding: 0 3rem; }
+    .header__nav { padding-right: 3rem; }
     .sidebar { padding-left: 3rem }
-    .footer-box { padding: 0 3rem; }
+    .footer__box { padding: 0 3rem; }
 }
 
 
 /* Small phones to small tablets from 569 to 768px */
 @media only screen and (max-width: 768px) {
     html { font-size: 50%; }
-    .title-box {
+    .header__title {
         width: 100%;
         text-align: center;
     }
-    .title-box a:link,
-    .title-box a:visited {
+    .header__title a:link,
+    .header__title a:visited {
         font-size: 4rem;
         font-weight: 500;
     }
-    .header-nav { display: none; }
+    .header__nav { display: none; }
     .sidebar { display: none }
-    .sidebarMobile { padding-top: 3rem; }
-    .menu { padding-left: 2rem; }
-    .menu a, .dropdown-btn { 
+    .sidebar--mobile { padding-top: 3rem; }
+    .sidebar__menu { padding-left: 2rem; }
+    .sidebar__menu a, .sidebar__droplist-btn { 
         font-size: 3rem;
         padding: 1rem 0;
     }
-    .droplist a { 
+    .sidebar__droplist a { 
         font-size: 2rem;
         padding: 0.4rem 0;
     }
-    .openbtn { display: block; }
-    .footer-box { padding: 0 6rem; }
+    .sidebar--mobile-btn { display: block; }
+    .footer__box { padding: 0 6rem; }
     #topScrollbtn { right: 20rem; }
 }
 
@@ -55,29 +55,29 @@
 /* Small phones from 0 to 568px */
 @media only screen and (max-width: 568px) {
     html { font-size: 37.5%; }
-    .title-box {
+    .header__title {
         width: 100%;
         text-align: center;
     }
-    .title-box a:link,
-    .title-box a:visited {
+    .header__title a:link,
+    .header__title a:visited {
         font-size: 4rem;
         font-weight: 500;
     }
     .header { margin-top: 2rem; }
-    .header-nav { display: none; }
+    .header__nav { display: none; }
     .sidebar { display: none }
-    .menu { padding-left: 12px; }
-    .menu a, .dropdown-btn { 
+    .sidebar__menu { padding-left: 12px; }
+    .sidebar__menu a, .sidebar__droplist-btn { 
         font-size: 3.6rem;
         padding: 1rem 0;
     }
-    .droplist a { 
+    .sidebar__droplist a { 
         font-size: 2.4rem;
         padding: 0.4rem 0;
     }
-    .openbtn { display: block; }
+    .sidebar--mobile-btn { display: block; }
     .footer { margin-bottom: 3rem; }
-    .footer-box { padding: 0 0 0 6rem; }
+    .footer__box { padding: 0 0 0 6rem; }
     #topScrollbtn { right: 20rem; }
 }

@@ -1,0 +1,481 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600&display=swap');
+/* --------------------------------------------- */
+/* BASIC SETUP */
+/* --------------------------------------------- */
+
+$color-black: #000000;
+$color-white: #ffffff;
+$color-orange: #F6A623;
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: $color-black;
+    color: $color-white;
+    font-family: 'Raleway', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 62.5%;
+    text-rendering: optimizeLegibility;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth
+}
+
+
+/* --------------------------------------------- */
+/* REUSABLE COMPONENTS */
+/* --------------------------------------------- */
+
+.row {
+    max-width: 228rem;
+    margin: 0 auto;
+}
+
+.container { 
+    height: 4rem;
+    position: relative;
+}
+  
+.center {
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+/* --------------------------------------------- */
+/* HEADINGS */
+/* --------------------------------------------- */
+
+h1, 
+h2,
+h3,
+h4 {
+    text-align: center;
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 2rem;
+    font-size: 4rem;
+    word-spacing: .8rem;
+    letter-spacing: .2rem;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 3.2rem;
+    word-spacing: .4rem;
+    margin-bottom: 2rem;
+    letter-spacing: .2rem;
+    font-weight: 500;
+}
+
+h3 {
+    font-size: 2.2rem;
+    margin-bottom: 3rem;
+    font-weight: 400;
+}
+
+h4 {
+    font-size: 1.8rem;
+    margin-bottom: 3rem;
+    font-weight: 300;
+}
+
+/* --------------------------------------------- */
+/* HEADER */
+/* --------------------------------------------- */
+
+.header {
+    padding: 4rem 0 6rem 0;
+}
+
+.header__title {
+    padding-left: 10rem;
+    float: left;
+
+    a:link,
+    a:visited {
+        font-size: 2.8rem;
+        font-weight: 600;
+        color: $color-white;
+        text-decoration: none;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        display: block;
+        -webkit-transition: color 0.2s;
+        transition: color 0.2s;
+    }
+
+    a:hover,
+    a:active {
+        color: $color-orange;
+    }
+}
+
+.header__nav {
+    float: right;
+    list-style: none;
+    padding-right: 10rem;
+
+    li {
+        display: inline-block;
+        margin-left: 4rem; 
+
+        a:link,
+        a:visited {
+            padding: .8rem 0;
+            color: $color-white;
+            text-decoration: none;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            font-size: 1.4rem;
+            border-bottom: .4rem solid transparent;
+            -webkit-transition: border-bottom 0.2s;
+            transition: border-bottom 0.2s;
+        }
+
+        a:hover,
+        a:active {
+            color: $color-orange;
+            border-bottom: .2rem solid #e67e22;
+            // border-bottom: darken($color-orange, 15%)
+        }
+    }
+}
+
+/* --------------------------------------------- */
+/* SIDEBAR */
+/* --------------------------------------------- */
+
+.sidebar {
+    padding: 1rem 0 0 10rem;
+
+    h1{
+        margin-bottom: 4.5rem;
+        font-size: 2.8rem;
+        font-variant: normal;
+        font-weight: 500;
+        line-height: 5.25rem;
+        color: $color-white;
+    }
+}
+
+.sidebar__menu a {
+    text-decoration: none;
+    color: $color-white;
+    font-weight: 500;
+    padding-left: 0;
+    
+    display: block;
+}
+
+.sidebar__droplist-btn {
+    padding: 0.6rem 0.6rem 0.6rem 0;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 500;
+    color: $color-white;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.sidebar__droplist {
+    display: none;
+    background-color: none;
+    list-style-type: none;
+    padding-left: 3rem;
+    line-height: 18pt;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+
+    a {
+        font-size: 1.6rem;
+        font-weight: normal;
+        color: $color-white;
+        text-decoration: none;
+        -webkit-transition: 0.5s;
+        transition: 0.5s;
+    }
+}
+
+.sidebar__menu a:hover, .sidebar__droplist-btn:hover {
+    color: #ccc;
+}
+
+.fa-caret-down {
+    float: right;
+    padding-right: 1.6rem;
+} 
+
+/* --------------------------------------------- */
+/* SIDEBAR MOBILE*/
+/* --------------------------------------------- */
+
+.sidebar--mobile {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    padding-top: 12rem;
+}
+  
+.sidebar--mobile-btn {
+    position: fixed;
+    top: 18rem;
+    right: 0;
+    z-index: 99;
+    display: none;
+    cursor: pointer;
+    background-color: #111;
+    padding: 2rem 3rem;
+    border: none;
+    border-radius: 2rem;
+
+    ion-icon {
+        font-size: 4rem;
+        color: $color-white;
+    }
+}
+
+/* --------------------------------------------- */
+/* RANDOMIZE */
+/* --------------------------------------------- */
+
+.random-btn {
+    border: none;
+    outline: none;
+    background-color: $color-white;
+    color: $color-black;
+    cursor: pointer;
+    padding: 2rem;
+    border-radius: 2rem;
+    font-size: 1.8rem;
+
+    &:hover {
+        background-color: $color-orange;
+    }
+}
+
+/* --------------------------------------------- */
+/* MAIN CONTENT */
+/* --------------------------------------------- */
+
+.main-content {
+    display: block;
+    float: right;
+
+    h1 {
+        text-align: center;
+        font-weight: 400;
+        margin-top: 1.6rem;
+    }
+
+    .title {
+        margin: .8rem 0;
+    }
+}
+
+/* --------------------------------------------- */
+/* STATISTICS */
+/* --------------------------------------------- */
+
+.stats {
+    margin-top: 12rem;
+}
+
+.stats__box {
+    width: 24%;
+    height: auto;
+    display: inline-block;
+    text-align: center;
+
+    img {
+        width: 80%;
+        height: auto;
+    }
+}
+
+/* --------------------------------------------- */
+/* CAR-POST */
+/* --------------------------------------------- */
+
+.car-post {
+    margin: 0 0;
+
+    a:link,
+    a:visited {
+        color: #1abc9c;
+        text-decoration: none;
+    }
+
+    a:hover,
+    a:active {
+        color: $color-orange;
+    }
+
+    img {
+        width: 100%;
+    }
+}
+
+/* --------------------------------------------- */
+/* FOOTER */
+/* --------------------------------------------- */
+
+.footer {
+    padding: 6rem 0 4rem 0;
+
+    a:link,
+    a:visited {
+        font-size: 3rem;
+        color: #1abc9c;
+        text-decoration: none;
+    }
+    
+    a:hover,
+    a:active {
+        color: $color-orange;
+    }
+}
+
+.footer__box {
+    padding: 0 8rem 0 10rem;
+    display: inline-block;
+    vertical-align: top;
+
+    p {
+        font-size: 1rem;
+    }
+    
+    h4 {
+        text-align: left;
+    }
+}
+
+/* --------------------------------------------- */
+/* CONTACT */
+/* --------------------------------------------- */
+
+.pure-group {
+    background: none;
+    border: none;
+
+    h3 {
+        text-align: left;
+        margin-bottom: 1rem;
+    }
+}
+
+::placeholder {
+    font-size: 1.5em;
+}
+
+.pure-form { margin-left: 4rem; }
+
+textarea {
+    height: 20rem;
+}
+
+.thankyou_message {
+    padding: 6em 2em;
+    border-radius: 0.6rem;
+    color: #fff;
+    margin-bottom: 0.4rem;
+}
+
+#name, #email {
+    width: 40%;
+}
+
+#message {
+    width: 90%;
+}
+
+.sendButton {
+    float: right;
+    border: none;
+    outline: none;
+    background-color: $color-white;
+    color: $color-black;
+    cursor: pointer;
+    padding: 1.8rem;
+    margin-right: 10rem;
+    border-radius: 1.8rem;
+    font-size: 1.8rem;
+
+    &:hover {
+        background-color: $color-orange;
+    }
+}
+
+/* --------------------------------------------- */
+/* DARK MODE BUTTON */
+/* --------------------------------------------- */
+
+#darkModebtn {
+    position: fixed;
+    bottom: 4rem;
+    right: 4rem;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: $color-white;
+    color: $color-black;
+    cursor: pointer;
+    padding: 1.8rem;
+    border-radius: 1.8rem;
+    font-size: 1.8rem;
+
+    &:hover {
+        background-color: $color-orange;
+    }
+}
+  
+/* --------------------------------------------- */
+/* TOP SCROLL BUTTON */
+/* --------------------------------------------- */
+
+#topScrollbtn {
+    position: fixed;
+    bottom: 4rem;
+    right: 18rem;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: $color-white;
+    color: $color-black;
+    cursor: pointer;
+    padding: 1.7rem;
+    border-radius: 1.8rem;
+    font-size: 1.8rem;
+
+    &:hover {
+        background-color: $color-orange;
+    }
+
+    ion-icon {
+        font-size: 2rem;
+    }
+}

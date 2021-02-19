@@ -1,20 +1,30 @@
 <div class="sidebar pure-u-md-1-4">
     <h1> Cars </h1>
-    <div class="menu">
-        <button class="dropdown-btn">Acura
+    <div class="sidebar__menu">
+        <button class="sidebar__droplist-btn">Acura
             <i class="fa fa-caret-down"></i>
         </button>
-        <div class="droplist">
+        <div class="sidebar__droplist">
             <a href="/Acura">View All</a>
             <a href="/Acura#nsxna1">NSX (NA1)</a>
             <a href="/Acura#nsxnc1">NSX (NC1)</a>
             <a href="/Acura#rsx">RSX</a>
             <a href="/Acuran#rsxtypes">RSX Type-S</a>
         </div>
-        <button class="dropdown-btn">AMC
+        <button class="sidebar__droplist-btn">Alpine
             <i class="fa fa-caret-down"></i>
         </button>
-        <div class="droplist">
+        <div class="sidebar__droplist">
+            <a href="/Alpine">View All</a>
+            <a href="/Alpine#a1101300g">A110 (1961)</a>
+            <a href="/Alpine#a110">A110 (2017)</a>
+            <a href="/Alpine#a310">A310</a>
+            <a href="/Alpine#gta">GTA</a>
+        </div>
+        <button class="sidebar__droplist-btn">AMC
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="sidebar__droplist">
             <a href="/AMC">View All</a>
             <a href="/AMC#amx">AMX</a>
             <a href="/AMC#amx3">AMX/3</a>
@@ -23,10 +33,10 @@
             <a href="/AMC#javelinsst">Javelin SST</a>
             <a href="/AMC#pacer">Pacer</a>
         </div>
-        <button class="dropdown-btn">Aston Martin
+        <button class="sidebar__droplist-btn">Aston Martin
             <i class="fa fa-caret-down"></i>
         </button>
-        <div class="droplist">
+        <div class="sidebar__droplist">
             <a href="/Astonmartin">View All</a>
             <a href="/Astonmartin#cc100">CC100 Speedster</a>
             <a href="/Astonmartin#db3s">DB3S</a>
@@ -57,10 +67,10 @@
             <a href="/Astonmartin#victor">Victor</a>
             <a href="/Astonmartin#vulcan">Vulcan</a>
         </div>
-        <button class="dropdown-btn">Audi
+        <button class="sidebar__droplist-btn">Audi
             <i class="fa fa-caret-down"></i>
         </button>
-        <div class="droplist">
+        <div class="sidebar__droplist">
             <a href="/Audi">View All</a>
             <a href="/Audi#a58f">A5 (8F)</a>
             <a href="/Audi#quattro">Quattro</a>
@@ -71,43 +81,49 @@
             <a href="/Audi#tt2006">TT (2006)</a>
             <a href="/Audi#tt2014">TT (2015)</a>
         </div>
-        <button class="dropdown-btn">Autozam
+        <button class="sidebar__droplist-btn">Autozam
             <i class="fa fa-caret-down"></i>
         </button>
-        <div class="droplist">
+        <div class="sidebar__droplist">
             <a href="/Autozam#az1">AZ-1</a>
         </div>
-        <button class="dropdown-btn">Bizzarrini
+        <button class="sidebar__droplist-btn">BAC
             <i class="fa fa-caret-down"></i>
         </button>
-        <div class="droplist">
+        <div class="sidebar__droplist">
+            <a href="/BAC">Mono</a>
+        </div>
+        <button class="sidebar__droplist-btn">Bizzarrini
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="sidebar__droplist">
             <a href="/Bizzarrini#5300gtstrada">5300 GT Strada</a>
         </div>
-        <button class="dropdown-btn">BMW
+        <button class="sidebar__droplist-btn">BMW
             <i class="fa fa-caret-down"></i>
         </button>
-        <div class="droplist">
+        <div class="sidebar__droplist">
             <a href="/BMW#m1">M1</a>
         </div>
-        <button class="dropdown-btn">Bricklin
+        <button class="sidebar__droplist-btn">Bricklin
             <i class="fa fa-caret-down"></i>
         </button>
-        <div class="droplist">
+        <div class="sidebar__droplist">
             <a href="/Bricklin#sv1">SV-1</a>
         </div>
-        <button class="dropdown-btn">Buick
+        <button class="sidebar__droplist-btn">Buick
             <i class="fa fa-caret-down"></i>
         </button>
-        <div class="droplist">
+        <div class="sidebar__droplist">
             <a href="/Buick">View All</a>
             <a href="/Buick#gnx">GNX</a>
             <a href="/Buick#gsx">GSX Stage 1</a>
             <a href="/Buick#reatta">Reatta</a>
         </div>
-        <button class="dropdown-btn">Chevrolet
+        <button class="sidebar__droplist-btn">Chevrolet
             <i class="fa fa-caret-down"></i>
         </button>
-        <div class="droplist">
+        <div class="sidebar__droplist">
             <a href="/Chevrolet">View All</a>
             <a href="/Chevrolet#corvettec1">Corvette (C1)</a>
             <a href="/Chevrolet#corvettec2">Corvette (C2)</a>
@@ -118,10 +134,10 @@
             <a href="/Chevrolet#corvettec7">Corvette (C7)</a>
             <a href="/Chevrolet#corvettec8">Corvette (C8)</a>
         </div>
-        <button class="dropdown-btn">Chrysler
+        <button class="sidebar__droplist-btn">Chrysler
             <i class="fa fa-caret-down"></i>
         </button>
-        <div class="droplist">
+        <div class="sidebar__droplist">
             <a href="/Chrysler">View All</a>
             <a href="/Chrysler#300b">300B</a>
             <a href="/Chrysler#300srt82005">300C SRT8 (2005)</a>
@@ -131,25 +147,42 @@
             <a href="/Chrysler#ptcruiser">PT Cruiser</a>
             <a href="/Chrysler#ptcruiserconvertible">PT Cruiser Convertible</a>
         </div>
-        <button class="dropdown-btn">De Tomaso
+        <button class="sidebar__droplist-btn">Citroën
             <i class="fa fa-caret-down"></i>
         </button>
-        <div class="droplist">
+        <div class="sidebar__droplist">
+            <a href="/Citroen">View All</a>
+            <a href="/Citroen#2cv">2CV</a>
+            <a href="/Citroen#bx4tc">BX 4TC</a>
+            <a href="/Citroen#bxgti16v">BX GTi 16v</a>
+            <a href="/Citroen#c6">C6</a>
+            <a href="/Citroen#cx">CX</a>
+            <a href="/Citroen#ds">DS</a>
+            <a href="/Citroen#dyane">Dyane</a>
+            <a href="/Citroen#emehari">E-Méhari</a>
+            <a href="/Citroen#sm">SM</a>
+            <a href="/Citroen#xm">XM</a>
+            <a href="/Citroen#gtbycitroen">GT by Citroën</a>
+        </div>
+        <button class="sidebar__droplist-btn">De Tomaso
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="sidebar__droplist">
             <a href="/DeTomaso">View All</a>
             <a href="/DeTomaso#mangusta">Mangusta</a>
             <a href="/DeTomaso#pantera">Pantera</a>
             <a href="/DeTomaso#panteragt5s">Pantera GT5-S</a>
         </div>
-        <button class="dropdown-btn">DeLorean
+        <button class="sidebar__droplist-btn">DeLorean
             <i class="fa fa-caret-down"></i>
         </button>
-        <div class="droplist">
+        <div class="sidebar__droplist">
             <a href="/DeLorean#dmc12">DMC-12</a>
         </div>
-        <button class="dropdown-btn">Dodge
+        <button class="sidebar__droplist-btn">Dodge
             <i class="fa fa-caret-down"></i>
         </button>
-        <div class="droplist">
+        <div class="sidebar__droplist">
             <a href="/Dodge">View All</a>
             <a href="/Dodge#challengerrt">Challenger R/T</a>
             <a href="/Dodge#challengersrthellcat">Challenger SRT Hellcat</a>
@@ -160,10 +193,10 @@
             <a href="/Dodge#vipervx">Viper GTS (VX)</a>
             <a href="/Dodge#viperacrvx">Viper ACR (VX)</a>
         </div>
-        <button class="dropdown-btn">Ferrari
+        <button class="sidebar__droplist-btn">Ferrari
             <i class="fa fa-caret-down"></i>
         </button>
-        <div class="droplist">
+        <div class="sidebar__droplist">
             <a href="/Ferrari">View All</a>
             <a href="/Ferrari#250gtcalifornia">250 GT California</a>
             <a href="/Ferrari#250gto">250 GTO</a>
@@ -198,10 +231,10 @@
             <a href="/Ferrari#sf90stradale">SF90 Stradale</a>
             <a href="/Ferrari#testarossa">Testarossa</a>
         </div>
-        <button class="dropdown-btn">Ford
+        <button class="sidebar__droplist-btn">Ford
             <i class="fa fa-caret-down"></i>
         </button>
-        <div class="droplist">
+        <div class="sidebar__droplist">
             <a href="/Ford">View All</a>
             <a href="/Ford#fpvgtba">FPV GT (BA)</a>
             <a href="/Ford#fpvgtfg">FPV GT (FG)</a>
@@ -225,10 +258,10 @@
             <a href="/Ford#mustangsvtcobrar1993">Mustang SVT Cobra R (1993)</a>
             <a href="/Ford#mustangsvtcobrar2000">Mustang SVT Cobra R (2000)</a>
         </div>
-        <button class="dropdown-btn">Holden
+        <button class="sidebar__droplist-btn">Holden
             <i class="fa fa-caret-down"></i>
         </button>
-        <div class="droplist">
+        <div class="sidebar__droplist">
             <a href="/Holden">View All</a>
             <a href="/Holden#commodoressvy">Commodore SS (VY)</a>
             <a href="/Holden#commodoreutessvz">Commodore Ute SS (VZ)</a>
@@ -243,18 +276,18 @@
             <a href="/Holden#monarogtshq">Monaro GTS (HQ)</a>
             <a href="/Holden#toranaa9xlx">Torana A9X (LX)</a>
         </div>
-        <button class="dropdown-btn">Hyundai
+        <button class="sidebar__droplist-btn">Hyundai
             <i class="fa fa-caret-down"></i>
         </button>
-        <div class="droplist">
+        <div class="sidebar__droplist">
             <a href="/Hyundai">View All</a>
             <a href="/Hyundai#genesiscoupe">Genesis Coupe</a>
             <a href="/Hyundai#velostern">Veloster N</a>
         </div>
-        <button class="dropdown-btn">Jaguar
+        <button class="sidebar__droplist-btn">Jaguar
             <i class="fa fa-caret-down"></i>
         </button>
-        <div class="droplist">
+        <div class="sidebar__droplist">
             <a href="Jaguar">View All</a>
             <a href="/Jaguar#ctype">C-Type</a>
             <a href="/Jaguar#cx75">C-X75</a>
@@ -270,36 +303,36 @@
             <a href="/Jaguar#xkrx100">XKR (X100)</a>
             <a href="/Jaguar#xkrsx150">XKR (X150)</a>
         </div>
-        <button class="dropdown-btn">Jensen
+        <button class="sidebar__droplist-btn">Jensen
             <i class="fa fa-caret-down"></i>
         </button>
-        <div class="droplist">
+        <div class="sidebar__droplist">
             <a href="/Jensen">View All</a>
             <a href="/Jensen#cv8">C-V8</a>
             <a href="/Jensen#interceptor">Interceptor</a>
         </div>
-        <button class="dropdown-btn">KTM
+        <button class="sidebar__droplist-btn">KTM
             <i class="fa fa-caret-down"></i>
         </button>
-        <div class="droplist">
+        <div class="sidebar__droplist">
             <a href="/KTM#xbowrr">X-Bow RR</a>
         </div>
-        <button class="dropdown-btn">Kia
+        <button class="sidebar__droplist-btn">Kia
             <i class="fa fa-caret-down"></i>
         </button>
-        <div class="droplist">
+        <div class="sidebar__droplist">
             <a href="/Kia#stingergt">Stinger GT</a>
         </div>
-        <button class="dropdown-btn">Lada
+        <button class="sidebar__droplist-btn">Lada
             <i class="fa fa-caret-down"></i>
         </button>
-        <div class="droplist">
+        <div class="sidebar__droplist">
             <a href="/Lada#niva">Niva</a>
         </div>
-        <button class="dropdown-btn">Lamborghini
+        <button class="sidebar__droplist-btn">Lamborghini
             <i class="fa fa-caret-down"></i>
         </button>
-        <div class="droplist">
+        <div class="sidebar__droplist">
             <a href="/Lamborghini">View All</a>
             <a href="/Lamborghini#350gt">350 GT</a>
             <a href="/Lamborghini#aventadorlp7004">Aventador LP 700-4</a>
@@ -324,10 +357,10 @@
             <a href="/Lamborghini#urraco">Urraco</a>
             <a href="/Lamborghini#urus">Urus</a>
         </div>
-        <button class="dropdown-btn">Lancia
+        <button class="sidebar__droplist-btn">Lancia
             <i class="fa fa-caret-down"></i>
         </button>
-        <div class="droplist">
+        <div class="sidebar__droplist">
             <a href="/Lancia">View All</a>
             <a href="/Lancia#037stradale">037 Stradale</a>
             <a href="/Lancia#deltahfintegraleevoluzione">Delta HF Integrale Evoluzione</a>
@@ -338,18 +371,37 @@
             <a href="/Lancia#stratoshfstradale">Stratos HF Stradale</a>
             <a href="/Lancia#thema832">Thema 8.32</a>
         </div>
-        <button class="dropdown-btn">Lexus
+        <button class="sidebar__droplist-btn">Lexus
             <i class="fa fa-caret-down"></i>
         </button>
-        <div class="droplist">
+        <div class="sidebar__droplist">
             <a href="/Lexus">View All</a>
             <a href="/Lexus#lc500">LC 500</a>
             <a href="/Lexus#rcf">RC F</a>
         </div>
-        <button class="dropdown-btn">McLaren
+        <button class="sidebar__droplist-btn">Mazda
             <i class="fa fa-caret-down"></i>
         </button>
-        <div class="droplist">
+        <div class="sidebar__droplist">
+            <a href="/Mazda">View All</a>
+            <a href="/Mazda#cosmol10b">Cosmo (L10B)</a>
+            <a href="/Mazda#eunoscosmo">Eunos Cosmo</a>
+            <a href="/Mazda#luce">Luce Rotary Coupe</a>
+            <a href="/Mazda#mx5miatana">MX-5 Miata (NA)</a>
+            <a href="/Mazda#mx5miatanb">MX-5 Miata (NB)</a>
+            <a href="/Mazda#mx5miatanc">MX-5 Miata (NC)</a>
+            <a href="/Mazda#mx5miatand">MX-5 Miata (ND)</a>
+            <a href="/Mazda#mx5miatarfnd">MX-5 Miata RF (ND)</a>
+            <a href="/Mazda#r360">R360</a>
+            <a href="/Mazda#rx7sa">RX-7 (SA)</a>
+            <a href="/Mazda#rx7fc">RX-7 (FC)</a>
+            <a href="/Mazda#rx7fd">RX-7 (FD)</a>
+            <a href="/Mazda#rx8">RX-8</a>
+        </div>
+        <button class="sidebar__droplist-btn">McLaren
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="sidebar__droplist">
             <a href="/McLaren">View All</a>
             <a href="/McLaren#570s">570S</a>
             <a href="/McLaren#720s">720S</a>
@@ -361,20 +413,28 @@
             <a href="/McLaren#senna">Senna</a>
             <a href="/McLaren#speedtail">Speedtail</a>
         </div>
-        <button class="dropdown-btn">Mercedes-Benz
+        <button class="sidebar__droplist-btn">Mercedes-Benz
             <i class="fa fa-caret-down"></i>
         </button>
-        <div class="droplist">
+        <div class="sidebar__droplist">
             <a href="/Mercedes-Benz">View All</a>
             <a href="/Mercedes-Benz#gtblack">GT Black Series</a>
             <a href="/Mercedes-Benz#sl65black">SL 65 AMG Black Series</a>
             <a href="/Mercedes-Benz#slk55black">SLK 55 AMG Black Series</a>
             <a href="/Mercedes-Benz#slsblack">SLS AMG Black Series</a>
         </div>
-        <button class="dropdown-btn">Nissan
+        <button class="sidebar__droplist-btn">Monteverdi
             <i class="fa fa-caret-down"></i>
         </button>
-        <div class="droplist">
+        <div class="sidebar__droplist">
+            <a href="/Monteverdi">View All</a>
+            <a href="/Monteverdi#hai450ss">Hai 450 SS</a>
+            <a href="/Monteverdi#highspeed375l">High Speed 375 L</a>
+        </div>
+        <button class="sidebar__droplist-btn">Nissan
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="sidebar__droplist">
             <a href="/Nissan">View All</a>
             <a href="/Nissan#240z">240Z</a>
             <a href="/Nissan#300zxz31">300ZX (Z31)</a>
@@ -387,24 +447,24 @@
             <a href="/Nissan#skylinegtrr32">Skyline GT-R (R32)</a>
             <a href="/Nissan#zproto">Z Proto</a>
         </div>
-        <button class="dropdown-btn">Oldsmobile
+        <button class="sidebar__droplist-btn">Oldsmobile
             <i class="fa fa-caret-down"></i>
         </button>
-        <div class="droplist">
+        <div class="sidebar__droplist">
             <a href="/Oldsmobile">View All</a>
             <a href="/Oldsmobile#442w30">442 W-30</a>
             <a href="/Oldsmobile#toronado">Toronado</a>
         </div>
-        <button class="dropdown-btn">Pininfarina
+        <button class="sidebar__droplist-btn">Pininfarina
             <i class="fa fa-caret-down"></i>
         </button>
-        <div class="droplist">
+        <div class="sidebar__droplist">
             <a href="/Pininfarina#battista">Battista</a>
         </div>
-        <button class="dropdown-btn">Plymouth
+        <button class="sidebar__droplist-btn">Plymouth
             <i class="fa fa-caret-down"></i>
         </button>
-        <div class="droplist">
+        <div class="sidebar__droplist">
             <a href="/Plymouth">View All</a>
             <a href="/Plymouth#barracudaformulas">Barracuda Formula-S</a>
             <a href="/Plymouth#furysportcoupe">Fury Sport Coupe</a>
@@ -413,10 +473,10 @@
             <a href="/Plymouth#roadrunner1970">Road Runner</a>
             <a href="/Plymouth#superbird">Superbird</a>
         </div>
-        <button class="dropdown-btn">Pontiac
+        <button class="sidebar__droplist-btn">Pontiac
             <i class="fa fa-caret-down"></i>
         </button>
-        <div class="droplist">
+        <div class="sidebar__droplist">
             <a href="/Pontiac">View All</a>
             <a href="/Pontiac#aztek">Aztek</a>
             <a href="/Pontiac#fiero">Fiero</a>
@@ -433,10 +493,10 @@
             <a href="/Pontiac#solsticegxpcoupe">Solstice GXP Coupe</a>
             <a href="/Pontiac#vibegt">Vibe GT</a>
         </div>
-        <button class="dropdown-btn">Porsche
+        <button class="sidebar__droplist-btn">Porsche
             <i class="fa fa-caret-down"></i>
         </button>
-        <div class="droplist">
+        <div class="sidebar__droplist">
             <a href="/Porsche">View All</a>
             <a href="/Porsche#904carreragts">904 Carrera GTS</a>
             <a href="/Porsche#91120coupe">911 2.0 Coupe (911)</a>
@@ -444,44 +504,44 @@
             <a href="/Porsche#911carreraspeedster">911 Carrera Speedster (911)</a>
             <a href="/Porsche#911turboflachbau">911 Carrera Turbo (930)</a>
         </div>
-        <button class="dropdown-btn">Saab
+        <button class="sidebar__droplist-btn">Saab
             <i class="fa fa-caret-down"></i>
         </button>
-        <div class="droplist">
+        <div class="sidebar__droplist">
             <a href="/Saab">View All</a>
             <a href="/Saab#93aero">9-3 Aero</a>
             <a href="/Saab#93turbox">9-3 Turbo X</a>
             <a href="/Saab#93viggen">9-3 Viggen</a>
             <a href="/Saab#900turbo">900 Turbo</a>
         </div>
-        <button class="dropdown-btn">Saleen
+        <button class="sidebar__droplist-btn">Saleen
             <i class="fa fa-caret-down"></i>
         </button>
-        <div class="droplist">
+        <div class="sidebar__droplist">
             <a href="/Saleen#s7">S7</a>
         </div>
-        <button class="dropdown-btn">Saturn
+        <button class="sidebar__droplist-btn">Saturn
             <i class="fa fa-caret-down"></i>
         </button>
-        <div class="droplist">
+        <div class="sidebar__droplist">
             <a href="/Saturn">View All</a>
             <a href="/Saturn#ionredline">Ion Redline</a>
             <a href="/Saturn#sc2">SC2</a>
             <a href="/Saturn#sky">Sky</a>
         </div>
-        <button class="dropdown-btn">smart
+        <button class="sidebar__droplist-btn">smart
             <i class="fa fa-caret-down"></i>
         </button>
-        <div class="droplist">
+        <div class="sidebar__droplist">
             <a href="/smart">View All</a>
             <a href="/smart#fortwoc453">fortwo (C453)</a>
             <a href="/smart#fortwow450">fortwo (W450)</a>
             <a href="/smart#roadster">Roadster</a>
         </div>
-        <button class="dropdown-btn">Subaru
+        <button class="sidebar__droplist-btn">Subaru
             <i class="fa fa-caret-down"></i>
         </button>
-        <div class="droplist">
+        <div class="sidebar__droplist">
             <a href="/Subaru">View All</a>
             <a href="/Subaru#alcyonesvx">Alcyone SVX</a>
             <a href="/Subaru#brz">BRZ</a>
@@ -492,18 +552,18 @@
             <a href="/Subaru#wrxstiva">WRX STI (VA)</a>
             <a href="/Subaru#xt">XT</a>
         </div>
-        <button class="dropdown-btn">Tesla
+        <button class="sidebar__droplist-btn">Tesla
             <i class="fa fa-caret-down"></i>
         </button>
-        <div class="droplist">
+        <div class="sidebar__droplist">
             <a href="/Tesla">View All</a>
             <a href="/Tesla#cybertruck">Cybertruck</a>
             <a href="/Tesla#model3">Model 3</a>
         </div>
-        <button class="dropdown-btn">Toyota
+        <button class="sidebar__droplist-btn">Toyota
             <i class="fa fa-caret-down"></i>
         </button>
-        <div class="droplist">
+        <div class="sidebar__droplist">
             <a href="/Toyota">View All</a>
             <a href="/Toyota#mr2w10">MR2 (W10)</a>
             <a href="/Toyota#mr2w20">MR2 (W20)</a>
@@ -514,10 +574,10 @@
             <a href="/Toyota#supraa80">Supra (A80)</a>
             <a href="/Toyota#supraa90">Supra (A90)</a>
         </div>
-        <button class="dropdown-btn">Trabant
+        <button class="sidebar__droplist-btn">Trabant
             <i class="fa fa-caret-down"></i>
         </button>
-        <div class="droplist">
+        <div class="sidebar__droplist">
             <a href="/Trabant#601">601</a>
         </div>
     </div>
