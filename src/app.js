@@ -64,6 +64,12 @@ app.get('/acura', (req, res) => {
     })
 })
 
+app.get('/alfaromeo', (req, res) => {
+    res.render('alfaromeo', {
+        title: 'Alfa Romeo'
+    })
+})
+
 app.get('/alpine', (req, res) => {
     res.render('alpine', {
         title: 'Alpine'
@@ -100,6 +106,12 @@ app.get('/bac', (req, res) => {
     })
 })
 
+app.get('/bentley', (req, res) => {
+    res.render('bentley', {
+        title: 'Bentley'
+    })
+})
+
 app.get('/bizzarrini', (req, res) => {
     res.render('bizzarrini', {
         title: 'Bizzarrini'
@@ -115,6 +127,12 @@ app.get('/bmw', (req, res) => {
 app.get('/bricklin', (req, res) => {
     res.render('bricklin', {
         title: 'Bricklin'
+    })
+})
+
+app.get('/bugatti', (req, res) => {
+    res.render('bugatti', {
+        title: 'Bugatti'
     })
 })
 
@@ -232,6 +250,12 @@ app.get('/lexus', (req, res) => {
     })
 })
 
+app.get('/maserati', (req, res) => {
+    res.render('maserati', {
+        title: 'Maserati'
+    })
+})
+
 app.get('/mazda', (req, res) => {
     res.render('mazda', {
         title: 'Mazda'
@@ -247,6 +271,12 @@ app.get('/mclaren', (req, res) => {
 app.get('/mercedes-benz', (req, res) => {
     res.render('mercedesbenz', {
         title: 'Mercedes-Benz'
+    })
+})
+
+app.get('/mercury', (req, res) => {
+    res.render('mercury', {
+        title: 'Mercury'
     })
 })
 
@@ -337,6 +367,24 @@ app.get('/toyota', (req, res) => {
 app.get('/trabant', (req, res) => {
     res.render('trabant', {
         title: 'Trabant'
+    })
+})
+
+app.get('/tvr', (req, res) => {
+    res.render('tvr', {
+        title: 'TVR'
+    })
+})
+
+app.get('/vector', (req, res) => {
+    res.render('vector', {
+        title: 'Vector'
+    })
+})
+
+app.get('/wiesmann', (req, res) => {
+    res.render('wiesmann', {
+        title: 'Wiesmann'
     })
 })
 
