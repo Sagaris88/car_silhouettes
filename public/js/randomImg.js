@@ -185,7 +185,7 @@ var images = [
       url: "https://storage.googleapis.com/car-silhouette-1/Aston%20Martin/Aston%20Martin%20DB3S-11.png",
       name: "Aston Martin DB3S",
       year: "1953-1956",
-      link: "https://www.redbubble.com/people/in-transit/works/67381808-aston-martin-db3s-silhouette?asc=u" 
+      link: "https://www.redbubble.com/people/in-transit/works/75422061-aston-martin-db3s-silhouette?asc=u" 
     },
     {
       url: "https://storage.googleapis.com/car-silhouette-1/Aston%20Martin/Aston%20Martin%20DB5-01.png",
@@ -269,7 +269,7 @@ var images = [
       url: "https://storage.googleapis.com/car-silhouette-1/Aston%20Martin/Aston%20Martin%20V8%20Vantage%20V550-08.png",
       name: "Aston Martin V8 Vantage V550 (Virage)",
       year: "1993-2000",
-      link: "https://www.redbubble.com/people/in-transit/works/67283632-aston-martin-v8-vantage-v550-1993-silhouette?asc=u" 
+      link: "https://www.redbubble.com/people/in-transit/works/75423758-aston-martin-v8-vantage-v550-1993-silhouette?asc=u" 
     },
     {
       url: "https://storage.googleapis.com/car-silhouette-1/Aston%20Martin/Aston%20Martin%20V8%20Vantage%202005-06.png",
@@ -767,7 +767,7 @@ var images = [
       url: "https://storage.googleapis.com/car-silhouette-1/Ferrari/Ferrari%20250%20GTO-12-min.png",
       name: "250 GTO",
       year: "1962-1964",
-      link: "https://www.redbubble.com/people/in-transit/works/57930764-ferrari-250-gto-silhouette?asc=u" 
+      link: "https://www.redbubble.com/people/in-transit/works/75420692-ferrari-250-gtosilhouette?asc=u" 
     },
     {
       url: "https://storage.googleapis.com/car-silhouette-1/Ferrari/Ferrari%20288%20GTO-01-min.png",
@@ -973,24 +973,24 @@ var images = [
       year: "2008-2014",
       link: "https://www.redbubble.com/people/in-transit/works/60963686-fpv-super-pursuit-fg-silhouette?asc=u" 
     },
-    {
-      url: "https://storage.googleapis.com/car-silhouette-1/Ford/Ford%20GT40-03.png",
-      name: "Ford GT40",
-      year: "1964-1969",
-      link: "https://www.redbubble.com/people/in-transit/works/61436000-ford-gt40-silhouette?asc=u" 
-    },
+    // {
+    //   url: "https://storage.googleapis.com/car-silhouette-1/Ford/Ford%20GT40-03.png",
+    //   name: "Ford GT40",
+    //   year: "1964-1969",
+    //   link: "https://www.redbubble.com/people/in-transit/works/75424377-ford-gt40-silhouette?asc=u" 
+    // },
     {
       url: "https://storage.googleapis.com/car-silhouette-1/Ford/Ford%20GT%202005-02.png",
       name: "Ford GT",
       year: "2004-2006",
       link: "https://www.redbubble.com/people/in-transit/works/61432759-ford-gt-2005-silhouette?asc=u" 
     },
-    {
-      url: "https://storage.googleapis.com/car-silhouette-1/Ford/Ford%20GT%202017-01.png",
-      name: "Ford GT",
-      year: "2017-present",
-      link: "https://www.redbubble.com/people/in-transit/works/61385661-ford-gt-2017-silhouette?asc=u" 
-    },
+    // {
+    //   url: "https://storage.googleapis.com/car-silhouette-1/Ford/Ford%20GT%202017-01.png",
+    //   name: "Ford GT",
+    //   year: "2017-present",
+    //   link: "https://www.redbubble.com/people/in-transit/works/75424153-ford-gt-2017-silhouette?asc=u" 
+    // },
     {
       url: "https://storage.googleapis.com/car-silhouette-1/Ford/Ford%20Mustang%201964-14.png",
       name: "Ford Mustang Convertible",
@@ -1481,7 +1481,7 @@ var images = [
       url: "https://storage.googleapis.com/car-silhouette-1/Maserati/Maserati%203500%20GTi%20Sebring-16.png",
       name: "Maserati 3500 GTi Sebring",
       year: "1962-1969",
-      link: "https://www.redbubble.com/people/in-transit/works/74682839-maserati-3500-gti-sebring-silhouette?asc=u" 
+      link: "https://www.teepublic.com/t-shirt/20886787-maserati-3500-gti-sebring-silhouette" 
     },
     {
       url: "https://storage.googleapis.com/car-silhouette-1/Maserati/Maserati%205000%20GT%20Scia%20di%20Persia-03.png",
@@ -1975,18 +1975,18 @@ var images = [
       year: "2007-2009",
       link: "https://www.redbubble.com/people/in-transit/works/69879890-pontiac-g8-silhouette?asc=u" 
     },
-    // {
-    //   url: "https://storage.googleapis.com/car-silhouette-1/Pontiac/Pontiac%20GTO%201967-10.png",
-    //   name: "Pontiac GTO",
-    //   year: "1965-1967",
-    //   link: "https://www.redbubble.com/people/in-transit/works/70155827-pontiac-gto-1967-silhouette?asc=u" 
-    // },
-    // {
-    //   url: "https://storage.googleapis.com/car-silhouette-1/Pontiac/Pontiac%20GTO%20The%20Judge%201969-11.png",
-    //   name: "Pontiac GTO \"The Judge\"",
-    //   year: "1969",
-    //   link: "https://www.redbubble.com/people/in-transit/works/70155915-pontiac-gto-the-judge-1969-silhouette?asc=u" 
-    // },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Pontiac/Pontiac%20GTO%201967-10.png",
+      name: "Pontiac GTO",
+      year: "1965-1967",
+      link: "https://www.redbubble.com/people/in-transit/works/75421083-pontiac-gto-1967-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Pontiac/Pontiac%20GTO%20The%20Judge%201969-11.png",
+      name: "Pontiac GTO \"The Judge\"",
+      year: "1969",
+      link: "https://www.redbubble.com/people/in-transit/works/75421686-pontiac-gto-the-judge-1969-silhouette?asc=u" 
+    },
     {
       url: "https://storage.googleapis.com/car-silhouette-1/Pontiac/Pontiac%20Solstice-13.png",
       name: "Pontiac Solstice",
