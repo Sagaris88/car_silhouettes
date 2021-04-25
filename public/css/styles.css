@@ -18,7 +18,8 @@ html {
   width: 100%;
   height: 100%;
   overflow-x: hidden;
-  scroll-behavior: smooth; }
+  scroll-behavior: smooth;
+  transition: color 1s, background-color 1s, filter 1s; }
 
 /* --------------------------------------------- */
 /* REUSABLE COMPONENTS */
@@ -275,14 +276,19 @@ h4 {
     font-size: 3rem;
     color: #1abc9c;
     text-decoration: none; }
-  .footer a:hover,
-  .footer a:active {
-    color: #F6A623; }
+  .footer a.fa-instagram:hover, .footer a.fa-instagram:active {
+    color: #c32aa3; }
+  .footer a.fa-pinterest:hover, .footer a.fa-pinterest:active {
+    color: #bd081c; }
+  .footer a.fa-twitter:hover, .footer a.fa-twitter:active {
+    color: #1da1f2; }
 
 .footer__box {
   padding: 0 8rem 0 10rem;
   display: inline-block;
   vertical-align: top; }
+  .footer__box a {
+    padding-right: 1rem; }
   .footer__box p {
     font-size: 1rem; }
   .footer__box h4 {

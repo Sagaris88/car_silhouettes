@@ -196,6 +196,12 @@ app.get('/holden', (req, res) => {
     })
 })
 
+app.get('/honda', (req, res) => {
+    res.render('honda', {
+        title: 'Honda'
+    })
+})
+
 app.get('/hyundai', (req, res) => {
     res.render('hyundai', {
         title: 'Hyundai'
@@ -250,6 +256,12 @@ app.get('/lexus', (req, res) => {
     })
 })
 
+app.get('/ligier', (req, res) => {
+    res.render('ligier', {
+        title: 'Ligier'
+    })
+})
+
 app.get('/maserati', (req, res) => {
     res.render('maserati', {
         title: 'Maserati'
@@ -265,6 +277,12 @@ app.get('/mazda', (req, res) => {
 app.get('/mclaren', (req, res) => {
     res.render('mclaren', {
         title: 'McLaren'
+    })
+})
+
+app.get('/melkus', (req, res) => {
+    res.render('melkus', {
+        title: 'Melkus'
     })
 })
 
@@ -343,6 +361,12 @@ app.get('/saturn', (req, res) => {
 app.get('/smart', (req, res) => {
     res.render('smart', {
         title: 'smart'
+    })
+})
+
+app.get('/spyker', (req, res) => {
+    res.render('Spyker', {
+        title: 'Spyker'
     })
 })
 

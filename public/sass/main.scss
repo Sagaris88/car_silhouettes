@@ -24,7 +24,8 @@ html {
     width: 100%;
     height: 100%;
     overflow-x: hidden;
-    scroll-behavior: smooth
+    scroll-behavior: smooth;
+    transition: color 1s, background-color 1s, filter 1s;
 }
 
 
@@ -350,10 +351,16 @@ h4 {
         color: #1abc9c;
         text-decoration: none;
     }
-    
-    a:hover,
-    a:active {
-        color: $color-orange;
+
+    a {
+        &.fa-instagram:hover,
+        &.fa-instagram:active { color: #c32aa3; }
+
+        &.fa-pinterest:hover,
+        &.fa-pinterest:active { color: #bd081c; }
+
+        &.fa-twitter:hover,
+        &.fa-twitter:active { color: #1da1f2; }
     }
 }
 
@@ -361,6 +368,10 @@ h4 {
     padding: 0 8rem 0 10rem;
     display: inline-block;
     vertical-align: top;
+
+    a {
+        padding-right: 1rem;
+    }
 
     p {
         font-size: 1rem;
