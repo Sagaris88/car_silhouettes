@@ -178,6 +178,12 @@ app.get('/dodge', (req, res) => {
     })
 })
 
+app.get('/facel', (req, res) => {
+    res.render('facel', {
+        title: 'Facel'
+    })
+})
+
 app.get('/ferrari', (req, res) => {
     res.render('ferrari', {
         title: 'Ferrari'
@@ -316,6 +322,30 @@ app.get('/oldsmobile', (req, res) => {
     })
 })
 
+app.get('/opel', (req, res) => {
+    res.render('opel', {
+        title: 'Opel'
+    })
+})
+
+app.get('/pagani', (req, res) => {
+    res.render('pagani', {
+        title: 'Pagani'
+    })
+})
+
+app.get('/panhard', (req, res) => {
+    res.render('panhard', {
+        title: 'Panhard'
+    })
+})
+
+app.get('/peugeot', (req, res) => {
+    res.render('peugeot', {
+        title: 'Peugeot'
+    })
+})
+
 app.get('/pininfarina', (req, res) => {
     res.render('pininfarina', {
         title: 'Pininfarina'
@@ -337,6 +367,12 @@ app.get('/pontiac', (req, res) => {
 app.get('/porsche', (req, res) => {
     res.render('porsche', {
         title: 'Porsche'
+    })
+})
+
+app.get('/renault', (req, res) => {
+    res.render('renault', {
+        title: 'Renault'
     })
 })
 
@@ -403,6 +439,12 @@ app.get('/tvr', (req, res) => {
 app.get('/vector', (req, res) => {
     res.render('vector', {
         title: 'Vector'
+    })
+})
+
+app.get('/volvo', (req, res) => {
+    res.render('volvo', {
+        title: 'Volvo'
     })
 })
 
