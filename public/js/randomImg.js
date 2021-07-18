@@ -2,10 +2,22 @@
 
 var images = [
     {
+      url: "https://storage.googleapis.com/car-silhouette-1/Acura/Acura%20Legend%20Coupe%201990-05.png",
+      name: "Acura Legend Coupe (KA7)",
+      year: "1990-1995",
+      link: "https://www.redbubble.com/people/in-transit/works/79370123-acura-legend-coupe-1990-silhouette?asc=u" 
+    },
+    {
       url: "https://storage.googleapis.com/car-silhouette-1/Acura/Acura%20NSX%20NA1-03.png",
       name: "Acura NSX (NA1)",
-      year: "1990-2005",
+      year: "1990-2000",
       link: "https://www.redbubble.com/people/in-transit/works/61350067-acura-nsx-na1-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Acura/Acura%20NSX-T%20NA1-06.png",
+      name: "Acura NSX-T (NA1)",
+      year: "2001-2005",
+      link: "https://www.redbubble.com/people/in-transit/works/79462113-acura-nsx-t-na1-silhouette?asc=u" 
     },
     {
       url: "https://storage.googleapis.com/car-silhouette-1/Acura/Acura%20NSX%20NC1-04.png",
@@ -24,6 +36,54 @@ var images = [
       name: "Acura RSX Type-S A-Spec",
       year: "2005-2006",
       link: "https://www.redbubble.com/people/in-transit/works/61346926-acura-rsx-type-s-a-spec-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Acura/Acura%20TL%20A-Spec%20UA6-07.png",
+      name: "Acura TL A-Spec (UA6)",
+      year: "2003-2006",
+      link: "https://www.redbubble.com/people/in-transit/works/79639470-acura-tl-a-spec-ua6-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Alfa%20Romeo/Alfa%20Romeo%2033%201.7%20Quadrifoglio%20Verde-16.png",
+      name: "Alfa Romeo 33 1.7 Turbo Quadrifoglio Verde",
+      year: "1986-1988",
+      link: "https://www.redbubble.com/people/in-transit/works/79701810-alfa-romeo-33-1-7-quadrifoglio-verde-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Alfa%20Romeo/Alfa%20Romeo%2075%201.8%20Turbo%20Evoluzione-01.png",
+      name: "Alfa Romeo 75 1.8 Turbo Evoluzione",
+      year: "1987",
+      link: "https://www.redbubble.com/people/in-transit/works/79836528-alfa-romeo-75-1-8-turbo-evoluzione-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Alfa%20Romeo/Alfa%20Romeo%20145-02.png",
+      name: "Alfa Romeo 145",
+      year: "1994-2000",
+      link: "https://www.redbubble.com/people/in-transit/works/79905041-alfa-romeo-145-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Alfa%20Romeo/Alfa%20Romeo%20147-03.png",
+      name: "Alfa Romeo 147",
+      year: "2000-2010",
+      link: "https://www.redbubble.com/people/in-transit/works/80115791-alfa-romeo-147-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Alfa%20Romeo/Alfa%20Romeo%20155%20Q4-04.png",
+      name: "Alfa Romeo 155 Q4",
+      year: "1992-1995",
+      link: "https://www.redbubble.com/people/in-transit/works/80174668-alfa-romeo-155-q4-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Alfa%20Romeo/Alfa%20Romeo%20156%20GTA-05.png",
+      name: "Alfa Romeo 156 GTA",
+      year: "2002-2005",
+      link: "https://www.redbubble.com/people/in-transit/works/80264863-alfa-romeo-156-gta-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Alfa%20Romeo/Alfa%20Romeo%20159%20Q4-06.png",
+      name: "Alfa Romeo 159 Q4",
+      year: "2005-2008",
+      link: "https://www.redbubble.com/people/in-transit/works/80296024-alfa-romeo-159-q4-silhouette?asc=u" 
     },
     {
       url: "https://storage.googleapis.com/car-silhouette-1/Alfa%20Romeo/Alfa%20Romeo%204C-01.png",
@@ -830,10 +890,16 @@ var images = [
       link: "https://www.redbubble.com/people/in-transit/works/58814979-dodge-challenger-r-t-silhouette?asc=u" 
     },
     {
-      url: "https://storage.googleapis.com/car-silhouette-1/Dodge/Dodge%20Challenger%20SRT%20Hellcat-01-min.png",
-      name: "Dodge Challenger SRT Hellcat",
+      url: "https://storage.googleapis.com/car-silhouette-1/Dodge/Dodge%20Challenger%20392%20HEMI%20Scat%20Pack%20Shaker-15.png",
+      name: "Dodge Challenger 392 HEMI Scat Pack Shaker",
       year: "2015-present",
-      link: "https://www.redbubble.com/people/in-transit/works/58813761-dodge-challenger-srt-hellcat-silhouette?asc=u" 
+      link: "https://www.redbubble.com/people/in-transit/works/79215555-dodge-challenger-392-hemi-scat-pack-shaker-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Dodge/Dodge%20Challenger%20SRT%20Demon-16.png",
+      name: "Dodge Challenger SRT Demon",
+      year: "2018",
+      link: "https://www.redbubble.com/people/in-transit/works/79215685-dodge-challenger-srt-demon-silhouette?asc=u" 
     },
     {
       url: "https://storage.googleapis.com/car-silhouette-1/Dodge/Dodge%20Charger%20RT-04-min.png",
@@ -842,10 +908,10 @@ var images = [
       link: "https://www.redbubble.com/people/in-transit/works/58877067-dodge-charger-r-t-silhouette?asc=u" 
     },
     {
-      url: "https://storage.googleapis.com/car-silhouette-1/Dodge/Dodge%20Charger%20SRT%20Hellcat%20Widebody-03-min.png",
-      name: "Dodge Charger SRT Hellcat Widebody",
+      url: "https://storage.googleapis.com/car-silhouette-1/Dodge/Dodge%20Charger%20SRT%20Hellcat%20Redeye-01.png",
+      name: "Dodge Charger SRT Hellcat Redeye",
       year: "2020-present",
-      link: "https://www.redbubble.com/people/in-transit/works/58874413-dodge-charger-srt-hellcat-widebody-silhouette?asc=u" 
+      link: "https://www.redbubble.com/people/in-transit/works/79226212-dodge-charger-srt-hellcat-redeye-silhouette?asc=u" 
     },
     {
       url: "https://storage.googleapis.com/car-silhouette-1/Dodge/Dodge%20Charger%20SRT8-13.png",
@@ -1175,7 +1241,7 @@ var images = [
       url: "https://storage.googleapis.com/car-silhouette-1/Ford/Ford%20GT40-03.png",
       name: "Ford GT40",
       year: "1964-1969",
-      link: "https://www.teepublic.com/t-shirt/20910963-ford-gt40?store_id=691587" 
+      link: "https://www.redbubble.com/people/in-transit/works/81042503-ford-gt40-silhouette?asc=u" 
     },
     {
       url: "https://storage.googleapis.com/car-silhouette-1/Ford/Ford%20GT%202005-02.png",
@@ -1187,7 +1253,7 @@ var images = [
       url: "https://storage.googleapis.com/car-silhouette-1/Ford/Ford%20GT%202017-01.png",
       name: "Ford GT",
       year: "2017-present",
-      link: "https://www.teepublic.com/t-shirt/20910930-ford-gt-2017-silhouette?store_id=691587" 
+      link: "https://www.redbubble.com/people/in-transit/works/81042347-ford-gt-2017-silhouette?asc=u" 
     },
     {
       url: "https://storage.googleapis.com/car-silhouette-1/Ford/Ford%20Mustang%201964-14.png",
@@ -1937,49 +2003,49 @@ var images = [
       url: "https://storage.googleapis.com/car-silhouette-1/McLaren/McLaren%20720S-05.png",
       name: "McLaren 720S",
       year: "2017-present",
-      link: "https://www.teepublic.com/t-shirt/20921647-mclaren-720s?store_id=691587" 
+      link: "https://www.redbubble.com/people/in-transit/works/63128626-mclaren-720s-silhouette?asc=u" 
     },
     {
       url: "https://storage.googleapis.com/car-silhouette-1/McLaren/McLaren%20Elva-09.png",
       name: "McLaren Elva",
       year: "2020-present",
-      link: "https://www.teepublic.com/t-shirt/20921714-mclaren-elva?store_id=691587" 
+      link: "https://www.redbubble.com/people/in-transit/works/63395499-mclaren-elva-silhouette?asc=u" 
     },
     {
       url: "https://storage.googleapis.com/car-silhouette-1/McLaren/McLaren%20F1-01.png",
       name: "McLaren F1",
       year: "1992-1998",
-      link: "https://www.teepublic.com/t-shirt/20921727-mclaren-f1?store_id=691587" 
+      link: "https://www.redbubble.com/people/in-transit/works/62991142-mclaren-f1-silhouette?asc=u" 
     },
     {
       url: "https://storage.googleapis.com/car-silhouette-1/McLaren/McLaren%20GT-08.png",
       name: "McLaren GT",
       year: "2019-present",
-      link: "https://www.teepublic.com/t-shirt/20921734-mclaren-gt?store_id=691587" 
+      link: "https://www.redbubble.com/people/in-transit/works/63174783-mclaren-gt-silhouette?asc=u" 
     },
     {
       url: "https://storage.googleapis.com/car-silhouette-1/McLaren/McLaren%20MP4-12C-02.png",
       name: "McLaren MP4-12C",
       year: "2011-2014",
-      link: "https://www.teepublic.com/t-shirt/20921746-mclaren-mp4-12c?store_id=691587" 
+      link: "https://www.redbubble.com/people/in-transit/works/63040827-mclaren-mp4-12c-silhouette?asc=u" 
     },
     {
       url: "https://storage.googleapis.com/car-silhouette-1/McLaren/McLaren%20P1-03.png",
       name: "McLaren P1",
       year: "2013-2015",
-      link: "https://www.teepublic.com/t-shirt/20921759-mclaren-p1?store_id=691587" 
+      link: "https://www.redbubble.com/people/in-transit/works/63074929-mclaren-p1-silhouette?asc=u" 
     },
     {
       url: "https://storage.googleapis.com/car-silhouette-1/McLaren/McLaren%20Senna-06.png",
       name: "McLaren Senna",
       year: "2018-present",
-      link: "https://www.teepublic.com/t-shirt/20921784-mclaren-senna?store_id=691587" 
+      link: "https://www.redbubble.com/people/in-transit/works/63143092-mclaren-senna-silhouette?asc=u" 
     },
     {
       url: "https://storage.googleapis.com/car-silhouette-1/McLaren/McLaren%20Speedtail-07.png",
       name: "McLaren Speedtail",
       year: "2020-present",
-      link: "https://www.teepublic.com/t-shirt/20921806-mclaren-speedtail?store_id=691587" 
+      link: "https://www.redbubble.com/people/in-transit/works/63162418-mclaren-speedtail-silhouette?asc=u" 
     },
     {
       url: "https://storage.googleapis.com/car-silhouette-1/Melkus/Melkus%20RS%201000-01.png",
@@ -2525,19 +2591,19 @@ var images = [
       url: "https://storage.googleapis.com/car-silhouette-1/Porsche/Porsche%20914-06.png",
       name: "Porsche 914",
       year: "1969-1976",
-      link: "https://www.teepublic.com/t-shirt/20922167-porsche-914" 
+      link: "https://www.redbubble.com/people/in-transit/works/70222272-porsche-914-silhouette?asc=u" 
     },
     {
       url: "https://storage.googleapis.com/car-silhouette-1/Porsche/Porsche%20924%20Carrera%20GTS-07.png",
       name: "Porsche 924 Carrera GTS",
       year: "1981",
-      link: "https://www.teepublic.com/t-shirt/20922298-porsche-924-carrera-gts-silhouette" 
+      link: "https://www.redbubble.com/people/in-transit/works/70231034-porsche-924-carrera-gts-silhouette?asc=u" 
     },
     {
       url: "https://storage.googleapis.com/car-silhouette-1/Porsche/Porsche%20944%20Turbo-08.png",
       name: "Porsche 944 Turbo",
       year: "1982-1991",
-      link: "https://www.teepublic.com/t-shirt/20922323-porsche-944-turbo-silhouette" 
+      link: "https://www.redbubble.com/people/in-transit/works/70232438-porsche-944-turbo-silhouette?asc=u" 
     },
     {
       url: "https://storage.googleapis.com/car-silhouette-1/Renault/Renault%205%20Alpine%20Turbo-01.png",
