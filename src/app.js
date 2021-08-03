@@ -160,6 +160,12 @@ app.get('/citroen', (req, res) => {
     })
 })
 
+app.get('/cizeta', (req, res) => {
+    res.render('cizeta', {
+        title: 'Cizeta'
+    })
+})
+
 app.get('/detomaso', (req, res) => {
     res.render('detomaso', {
         title: 'De Tomaso'
@@ -304,6 +310,12 @@ app.get('/mercury', (req, res) => {
     })
 })
 
+app.get('/mitsubishi', (req, res) => {
+    res.render('mitsubishi', {
+        title: 'Mitsubishi'
+    })
+})
+
 app.get('/monteverdi', (req, res) => {
     res.render('monteverdi', {
         title: 'Monteverdi'
@@ -401,7 +413,7 @@ app.get('/smart', (req, res) => {
 })
 
 app.get('/spyker', (req, res) => {
-    res.render('Spyker', {
+    res.render('spyker', {
         title: 'Spyker'
     })
 })
