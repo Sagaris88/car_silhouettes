@@ -268,6 +268,12 @@ app.get('/lexus', (req, res) => {
     })
 })
 
+app.get('/lincoln', (req, res) => {
+    res.render('lincoln', {
+        title: 'Lincoln'
+    })
+})
+
 app.get('/ligier', (req, res) => {
     res.render('ligier', {
         title: 'Ligier'
