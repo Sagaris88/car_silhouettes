@@ -2042,6 +2042,84 @@ var images = [
       link: "https://www.redbubble.com/people/in-transit/works/74680153-maserati-mistral-silhouette?asc=u" 
     },
     {
+      url: "https://storage.googleapis.com/car-silhouette-1/Mazda/Mazda2%20(DY)-05.png",
+      name: "Mazda2 (DY)",
+      year: "2003-2007",
+      link: "https://www.redbubble.com/people/in-transit/works/86347553-mazda2-dy-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Mazda/Mazda2%202007-01.png",
+      name: "Mazda2 (DE)",
+      year: "2007-2015",
+      link: "https://www.redbubble.com/people/in-transit/works/85985313-mazda2-de-dh-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Mazda/Mazda2%202014-02.png",
+      name: "Mazda2 (DJ)",
+      year: "2014-present",
+      link: "https://www.redbubble.com/people/in-transit/works/85986391-mazda2-dj-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Mazda/Mazdaspeed3%20(BK)-03.png",
+      name: "Mazdaspeed 3 (BK)",
+      year: "2007-2009",
+      link: "https://www.redbubble.com/people/in-transit/works/85987794-mazdaspeed3-bk-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Mazda/Mazdaspeed3%20(BL)-04.png",
+      name: "Mazdaspeed 3 (BL)",
+      year: "2009-2013",
+      link: "https://www.redbubble.com/people/in-transit/works/85988195-mazdaspeed3-bl-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Mazda/Mazda3%20BM-05.png",
+      name: "Mazda 3 (BM)",
+      year: "2013-2019",
+      link: "https://www.redbubble.com/people/in-transit/works/86008737-mazda3-bm-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Mazda/Mazda3%20BP-06.png",
+      name: "Mazda 3 (BP)",
+      year: "2019-present",
+      link: "https://www.redbubble.com/people/in-transit/works/86011393-mazda3-bp-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Mazda/Mazdaspeed6%20(GG1)-07.png",
+      name: "Mazdaspeed 6 (GG)",
+      year: "2005-2007",
+      link: "https://www.redbubble.com/people/in-transit/works/86026088-mazdaspeed6-gg-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Mazda/Mazda6%20GH-08.png",
+      name: "Mazda6 (GH)",
+      year: "2007-2012",
+      link: "https://www.redbubble.com/people/in-transit/works/86048135-mazda6-gh-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Mazda/Mazda6%20GJ-09.png",
+      name: "Mazda6 (GJ)",
+      year: "2012-present",
+      link: "https://www.redbubble.com/people/in-transit/works/86051704-mazda6-gj-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Mazda/Mazda%20323%20Astina%20(BG)-11.png",
+      name: "Mazda 323 Astina (BG)",
+      year: "1989-1994",
+      link: "https://www.redbubble.com/people/in-transit/works/86134004-mazda-323-astina-bg-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Mazda/Mazda%20323%20GT-R%20(BG)-10.png",
+      name: "Mazda 323 GT-R (BG)",
+      year: "1993-1994",
+      link: "https://www.redbubble.com/people/in-transit/works/86105392-mazda-323-gt-r-bg-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Mazda/Mazda%20626%20Coupe%20(CB)-12.png",
+      name: "Mazda 626 Coupe (CB)",
+      year: "1993-1994",
+      link: "https://www.redbubble.com/people/in-transit/works/86138379-mazda-626-coupe-cb-silhouette?asc=u" 
+    },
+    {
       url: "https://storage.googleapis.com/car-silhouette-1/Mazda/Mazda%20Cosmo%20L10B-11.png",
       name: "Mazda Cosmo (L10B)",
       year: "1967-1972",
@@ -2054,22 +2132,34 @@ var images = [
       link: "https://www.redbubble.com/people/in-transit/works/71098422-eunos-cosmo-silhouette?asc=u" 
     },
     {
+      url: "https://storage.googleapis.com/car-silhouette-1/Mazda/Mazda%20K360-15.png",
+      name: "Mazda K360",
+      year: "1959-1971",
+      link: "https://www.redbubble.com/people/in-transit/works/86159218-mazda-k360-silhouette?asc=u" 
+    },
+    {
       url: "https://storage.googleapis.com/car-silhouette-1/Mazda/Mazda%20Luce%20Rotary%20Coupe-10.png",
       name: "Mazda Luce Rotary Coupe",
       year: "1969-1972",
       link: "https://www.redbubble.com/people/in-transit/works/71042150-mazda-luce-rotary-coupe-r130-silhouette?asc=u" 
     },
     {
-      url: "https://storage.googleapis.com/car-silhouette-1/Mazda/Mazda%20MX-5%20Miata%20NA-05.png",
-      name: "Mazda MX-5 Miata (NA)",
-      year: "1989-1997",
-      link: "https://www.redbubble.com/people/in-transit/works/70997222-mazda-mx-5-miata-na-silhouette?asc=u" 
+      url: "https://storage.googleapis.com/car-silhouette-1/Mazda/Mazda%20MX-3-01.png",
+      name: "Mazda MX-3",
+      year: "1991-1998",
+      link: "https://www.redbubble.com/people/in-transit/works/86160891-mazda-mx-3-silhouette?asc=u" 
     },
     {
-      url: "https://storage.googleapis.com/car-silhouette-1/Mazda/Mazda%20MX-5%20Miata%20NB-06.png",
+      url: "https://storage.googleapis.com/car-silhouette-1/Mazda/Mazda%20MX-5%20Miata%20NA-02.png",
+      name: "Mazda MX-5 Miata (NA)",
+      year: "1989-1997",
+      link: "https://www.redbubble.com/people/in-transit/works/86230976-mazda-mx-5-miata-na-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Mazda/Mazda%20MX-5%20Miata%20NB-03.png",
       name: "Mazda MX-5 Miata (NB)",
       year: "1998-2005",
-      link: "https://www.redbubble.com/people/in-transit/works/70998566-mazda-mx-5-miata-nb-silhouette?asc=u" 
+      link: "https://www.redbubble.com/people/in-transit/works/86233046-mazda-mx-5-miata-nb-silhouette?asc=u" 
     },
     {
       url: "https://storage.googleapis.com/car-silhouette-1/Mazda/Mazda%20MX-5%20Miata%20NC-07.png",
@@ -2090,10 +2180,58 @@ var images = [
       link: "https://www.redbubble.com/people/in-transit/works/71034294-mazda-mx-5-miata-rf-nd-silhouette?asc=u" 
     },
     {
+      url: "https://storage.googleapis.com/car-silhouette-1/Mazda/Mazda%20MX-6%20(GD)-07.png",
+      name: "Mazda MX-6 (GD)",
+      year: "1988-1992",
+      link: "https://www.redbubble.com/people/in-transit/works/86224309-mazda-mx-6-gd-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Mazda/Mazda%20MX-6%20(GE)-08.png",
+      name: "Mazda MX-6 (GE)",
+      year: "1992-1998",
+      link: "https://www.redbubble.com/people/in-transit/works/86227059-mazda-mx-6-ge-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Mazda/Mazda%20Millenia-02.png",
+      name: "Mazda Millenia",
+      year: "2000-2002",
+      link: "https://www.redbubble.com/people/in-transit/works/86327556-mazda-millenia-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Mazda/Mazda%20Persona-01.png",
+      name: "Mazda Persona",
+      year: "1988-1991",
+      link: "https://www.redbubble.com/people/in-transit/works/86243833-mazda-persona-silhouette?asc=u" 
+    },
+    {
       url: "https://storage.googleapis.com/car-silhouette-1/Mazda/Mazda%20R360%20Coupe-04.png",
       name: "Mazda R360",
       year: "1960-1966",
       link: "https://www.redbubble.com/people/in-transit/works/70956348-mazda-r360-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Mazda/Mazda%20RX-2-09.png",
+      name: "Mazda RX-2",
+      year: "1971-1977",
+      link: "https://www.redbubble.com/people/in-transit/works/86245515-mazda-rx-2-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Mazda/Mazda%20RX-3-10.png",
+      name: "Mazda RX-3",
+      year: "1971-1978",
+      link: "https://www.redbubble.com/people/in-transit/works/86262679-mazda-rx-3-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Mazda/Mazda%20RX-4-11.png",
+      name: "Mazda RX-4",
+      year: "1972-1979",
+      link: "https://www.redbubble.com/people/in-transit/works/86273641-mazda-rx-4-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Mazda/Mazda%20RX-5-12.png",
+      name: "Mazda RX-5",
+      year: "1976-1980",
+      link: "https://www.redbubble.com/people/in-transit/works/86324311-mazda-rx-5-silhouette?asc=u" 
     },
     {
       url: "https://storage.googleapis.com/car-silhouette-1/Mazda/Mazda%20RX-7%20SA-01.png",
@@ -2114,10 +2252,22 @@ var images = [
       link: "https://www.redbubble.com/people/in-transit/works/70952605-mazda-rx-7-fd-silhouette?asc=u" 
     },
     {
-      url: "https://storage.googleapis.com/car-silhouette-1/Mazda/Mazda%20RX-8-13.png",
+      url: "https://storage.googleapis.com/car-silhouette-1/Mazda/Mazda%20RX-8-16.png",
       name: "Mazda RX-8",
       year: "2003-2012",
-      link: "https://www.redbubble.com/people/in-transit/works/71108476-mazda-rx-8-silhouette?asc=u" 
+      link: "https://www.redbubble.com/people/in-transit/works/86350267-mazda-rx-8-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Mazda/Mazda%20RX-8%20Type%20RS-06.png",
+      name: "Mazda RX-8 Type RS",
+      year: "2008-2011",
+      link: "https://www.redbubble.com/people/in-transit/works/86350468-mazda-rx-8-type-rs-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Mazda/Mazda%20Sentia-03.png",
+      name: "Mazda Sentia",
+      year: "1991-1995",
+      link: "https://www.redbubble.com/people/in-transit/works/86330468-mazda-sentia-silhouette?asc=u" 
     },
     {
       url: "https://storage.googleapis.com/car-silhouette-1/McLaren/McLaren%20570S-04.png",
