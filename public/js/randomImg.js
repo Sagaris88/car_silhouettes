@@ -620,52 +620,124 @@ var images = [
       link: "https://www.redbubble.com/people/in-transit/works/78039770-chevrolet-cobalt-ss-silhouette?asc=u" 
     },
     {
-      url: "https://storage.googleapis.com/car-silhouette-1/Chevrolet/Chevrolet%20Corvette%20C1-01.png",
+      url: "https://storage.googleapis.com/car-silhouette-1/Chevrolet/Chevrolet%20Corvette%20C1%201953-01.png",
       name: "Chevrolet Corvette (C1)",
-      year: "1953-62",
-      link: "https://www.redbubble.com/people/in-transit/works/58076663-chevrolet-corvette-c1-silhouette?asc=u" 
+      year: "1953-1955",
+      link: "https://www.redbubble.com/people/in-transit/works/86677002-chevrolet-corvette-c1-1953-silhouette?asc=u" 
     },
     {
-      url: "https://storage.googleapis.com/car-silhouette-1/Chevrolet/Chevrolet%20Corvette%20C2-02.png",
-      name: "Chevrolet Corvette (C2)",
-      year: "1963-67",
-      link: "https://www.redbubble.com/people/in-transit/works/58078598-chevrolet-corvette-c2-silhouette?asc=u" 
+      url: "https://storage.googleapis.com/car-silhouette-1/Chevrolet/Chevrolet%20Corvette%20C1%201958-02.png",
+      name: "Chevrolet Corvette (C1)",
+      year: "1956-1960",
+      link: "https://www.redbubble.com/people/in-transit/works/86677181-chevrolet-corvette-c1-1958-silhouette?asc=u" 
     },
     {
-      url: "https://storage.googleapis.com/car-silhouette-1/Chevrolet/Chevrolet%20Corvette%20C3-03.png",
+      url: "https://storage.googleapis.com/car-silhouette-1/Chevrolet/Chevrolet%20Corvette%20C1%201961-03.png",
+      name: "Chevrolet Corvette (C1)",
+      year: "1961-1962",
+      link: "https://www.redbubble.com/people/in-transit/works/86677402-chevrolet-corvette-c1-1961-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Chevrolet/Chevrolet%20Corvette%20C1%201961%20Hardtop-04.png",
+      name: "Chevrolet Corvette Hardtop (C1)",
+      year: "1961-1962",
+      link: "https://www.redbubble.com/people/in-transit/works/86677631-chevrolet-corvette-hardtop-c1-1961-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Chevrolet/Chevrolet%20Corvette%20C2-05.png",
+      name: "Chevrolet Corvette Sting Ray (C2)",
+      year: "1963-1964",
+      link: "https://www.redbubble.com/people/in-transit/works/86677908-chevrolet-corvette-sting-ray-c2-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Chevrolet/Chevrolet%20Corvette%20C2%20Convertible-06.png",
+      name: "Chevrolet Corvette Sting Ray Convertible (C2)",
+      year: "1963-1964",
+      link: "https://www.redbubble.com/people/in-transit/works/86678160-chevrolet-corvette-sting-ray-convertible-c2-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Chevrolet/Chevrolet%20Corvette%20C3-08.png",
       name: "Chevrolet Corvette (C3)",
-      year: "1968-1982",
-      link: "https://www.redbubble.com/people/in-transit/works/58127682-chevrolet-corvette-c3-silhouette?asc=u" 
+      year: "1968-1972",
+      link: "https://www.redbubble.com/people/in-transit/works/86678421-chevrolet-corvette-c3-silhouette?asc=u" 
     },
     {
-      url: "https://storage.googleapis.com/car-silhouette-1/Chevrolet/Chevrolet%20Corvette%20C4-04.png",
+      url: "https://storage.googleapis.com/car-silhouette-1/Chevrolet/Chevrolet%20Corvette%20C3%20Convertible-07.png",
+      name: "Chevrolet Corvette Convertible (C3)",
+      year: "1968-1972",
+      link: "https://www.redbubble.com/people/in-transit/works/86678730-chevrolet-corvette-convertible-c3-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Chevrolet/Chevrolet%20Corvette%20C3%20Collector%20Edition-09.png",
+      name: "Chevrolet Corvette Collector Edition (C3)",
+      year: "1982",
+      link: "https://www.redbubble.com/people/in-transit/works/86679031-chevrolet-corvette-collector-edition-c3-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Chevrolet/Chevrolet%20Corvette%20C4-10.png",
       name: "Chevrolet Corvette (C4)",
-      year: "1984-1996",
-      link: "https://www.redbubble.com/people/in-transit/works/58127935-chevrolet-corvette-c4-silhouette?asc=u" 
+      year: "1984-1990",
+      link: "https://www.redbubble.com/people/in-transit/works/86679210-chevrolet-corvette-c4-1984-silhouette?asc=u" 
     },
     {
-      url: "https://storage.googleapis.com/car-silhouette-1/Chevrolet/Chevrolet%20Corvette%20C5-05.png",
+      url: "https://storage.googleapis.com/car-silhouette-1/Chevrolet/Chevrolet%20Corvette%20C4%201991-11.png",
+      name: "Chevrolet Corvette (C4)",
+      year: "1991-1996",
+      link: "https://www.redbubble.com/people/in-transit/works/86679443-chevrolet-corvette-c4-1991-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Chevrolet/Chevrolet%20Corvette%20C4%201991%20Convertible-12.png",
+      name: "Chevrolet Corvette Convertible (C4)",
+      year: "1991-1996",
+      link: "https://www.redbubble.com/people/in-transit/works/86679639-chevrolet-corvette-convertible-c4-1991-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Chevrolet/Chevrolet%20Corvette%20C5-13.png",
       name: "Chevrolet Corvette (C5)",
       year: "1997-2004",
-      link: "https://www.redbubble.com/people/in-transit/works/58132943-chevrolet-corvette-c5-silhouette?asc=u" 
+      link: "https://www.redbubble.com/people/in-transit/works/86679861-chevrolet-corvette-c5-silhouette?asc=u" 
     },
     {
-      url: "https://storage.googleapis.com/car-silhouette-1/Chevrolet/Chevrolet%20Corvette%20C6-06.png",
-      name: "Chevrolet Corvette (C6)",
-      year: "2005-2013",
-      link: "https://www.redbubble.com/people/in-transit/works/58135415-chevrolet-corvette-c6-silhouette?asc=u" 
+      url: "https://storage.googleapis.com/car-silhouette-1/Chevrolet/Chevrolet%20Corvette%20C5%20Convertible-14.png",
+      name: "Chevrolet Corvette Convertible (C5)",
+      year: "1997-2004",
+      link: "https://www.redbubble.com/people/in-transit/works/86680065-chevrolet-corvette-convertible-c5-silhouette?asc=u" 
     },
     {
-      url: "https://storage.googleapis.com/car-silhouette-1/Chevrolet/Chevrolet%20Corvette%20C7-07.png",
-      name: "Chevrolet Corvette (C7)",
+      url: "https://storage.googleapis.com/car-silhouette-1/Chevrolet/Chevrolet%20Corvette%20C6%20Convertible-16.png",
+      name: "Chevrolet Corvette Convertible (C6)",
+      year: "2004-2013",
+      link: "https://www.redbubble.com/people/in-transit/works/86680540-chevrolet-corvette-convertible-c6-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Chevrolet/Chevrolet%20Corvette%20C6%20Z06-15.png",
+      name: "Chevrolet Corvette Z06 (C6)",
+      year: "2006-2013",
+      link: "https://www.redbubble.com/people/in-transit/works/86680353-chevrolet-corvette-z06-c6-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Chevrolet/Chevrolet%20Corvette%20C7%20Stingray-01.png",
+      name: "Chevrolet Corvette Stingray (C7)",
+      year: "2013-2019",
+      link: "https://www.redbubble.com/people/in-transit/works/86680773-chevrolet-corvette-stingray-c7-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Chevrolet/Chevrolet%20Corvette%20C7%20Z06%20Convertible-02.png",
+      name: "Chevrolet Corvette Z06 Convertible (C7)",
       year: "2014-2019",
-      link: "https://www.redbubble.com/people/in-transit/works/58140807-chevrolet-corvette-c7-silhouette?asc=u" 
+      link: "https://www.redbubble.com/people/in-transit/works/86680922-chevrolet-corvette-z06-convertible-c7-silhouette?asc=u" 
     },
     {
-      url: "https://storage.googleapis.com/car-silhouette-1/Chevrolet/Chevrolet%20Corvette%20C8-08.png",
-      name: "Chevrolet Corvette (C8)",
-      year: "2020-present",
-      link: "https://www.redbubble.com/people/in-transit/works/58160879-chevrolet-corvette-c8-silhouette?asc=u" 
+      url: "https://storage.googleapis.com/car-silhouette-1/Chevrolet/Chevrolet%20Corvette%20C7%20ZR1-03.png",
+      name: "Chevrolet Corvette ZR1 (C7)",
+      year: "2018-2019",
+      link: "https://www.redbubble.com/people/in-transit/works/86681138-chevrolet-corvette-zr1-c7-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Chevrolet/Chevrolet%20Corvette%20C8%20Stingray%20Z51-04.png",
+      name: "Chevrolet Corvette Stingray Z51 (C8)",
+      year: "2019-present",
+      link: "https://www.redbubble.com/people/in-transit/works/86681410-chevrolet-corvette-stingray-z51-c8-silhouette?asc=u" 
     },
     {
       url: "https://storage.googleapis.com/car-silhouette-1/Chevrolet/Chevrolet%20El%20Camino%20SS-13.png",
