@@ -166,15 +166,21 @@ app.get('/cizeta', (req, res) => {
     })
 })
 
-app.get('/detomaso', (req, res) => {
-    res.render('detomaso', {
-        title: 'De Tomaso'
+app.get('/cunningham', (req, res) => {
+    res.render('cunningham', {
+        title: 'Cunningham'
     })
 })
 
 app.get('/delorean', (req, res) => {
     res.render('delorean', {
         title: 'DeLorean'
+    })
+})
+
+app.get('/detomaso', (req, res) => {
+    res.render('detomaso', {
+        title: 'De Tomaso'
     })
 })
 
@@ -250,6 +256,12 @@ app.get('/lada', (req, res) => {
     })
 })
 
+app.get('/lagonda', (req, res) => {
+    res.render('lagonda', {
+        title: 'Lagonda'
+    })
+})
+
 app.get('/lamborghini', (req, res) => {
     res.render('lamborghini', {
         title: 'Lamborghini'
@@ -283,6 +295,12 @@ app.get('/ligier', (req, res) => {
 app.get('/maserati', (req, res) => {
     res.render('maserati', {
         title: 'Maserati'
+    })
+})
+
+app.get('/matra', (req, res) => {
+    res.render('matra', {
+        title: 'Matra'
     })
 })
 
@@ -328,9 +346,21 @@ app.get('/monteverdi', (req, res) => {
     })
 })
 
+app.get('/morgan', (req, res) => {
+    res.render('morgan', {
+        title: 'Morgan'
+    })
+})
+
 app.get('/nissan', (req, res) => {
     res.render('nissan', {
         title: 'Nissan'
+    })
+})
+
+app.get('/noble', (req, res) => {
+    res.render('noble', {
+        title: 'Noble'
     })
 })
 
@@ -430,6 +460,12 @@ app.get('/subaru', (req, res) => {
     })
 })
 
+app.get('/tatra', (req, res) => {
+    res.render('tatra', {
+        title: 'Tatra'
+    })
+})
+
 app.get('/tesla', (req, res) => {
     res.render('tesla', {
         title: 'Tesla'
@@ -448,6 +484,12 @@ app.get('/trabant', (req, res) => {
     })
 })
 
+app.get('/triumph', (req, res) => {
+    res.render('triumph', {
+        title: 'Triumph'
+    })
+})
+
 app.get('/tvr', (req, res) => {
     res.render('tvr', {
         title: 'TVR'
@@ -457,6 +499,12 @@ app.get('/tvr', (req, res) => {
 app.get('/vector', (req, res) => {
     res.render('vector', {
         title: 'Vector'
+    })
+})
+
+app.get('/venturi', (req, res) => {
+    res.render('venturi', {
+        title: 'Venturi'
     })
 })
 
