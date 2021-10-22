@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+
+<head>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-3MB70VT6KY"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-3MB70VT6KY');
+    </script>
+
+    <title> Panoz </title>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Car Silhouettes showcases striking and detailed designs of your favourite cars that can be bought on many high-quality products.">
+
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css" integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/grids-responsive-min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/queries.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/favicon/site.webmanifest">
+    <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#111111">
+
+</head>
+
+<body>
+
+    {{>header}}
+    {{>sidebar}}
+    {{>sidebarMobile}}
+
+    <div class="main-content pure-u-1 pure-u-md-3-4">
+        <a href="#" class="sidebar--mobile-btn mobile-nav-icon js--nav-icon" onclick="openNav()"><ion-icon name="menu-outline"></ion-icon></a>
+        <div class="title">
+            <h1> Panoz </h1>
+        </div>
+        <div class="car-post">
+            <img id="avezzano" class="fullimage" src="https://storage.googleapis.com/car-silhouette-1/Panoz/Panoz%20Avezzano-01.png" alt="Panoz Avezzano">
+            <h2>Avezzano</h2>
+            <h4>2017-present</h4>
+            <h3>Buy here: <a href="https://www.redbubble.com/people/in-transit/works/89681360-panoz-avezzano-silhouette?asc=u">Shop</a></h3>
+        </div>
+        <div class="car-post">
+            <img id="esperante" class="fullimage" src="https://storage.googleapis.com/car-silhouette-1/Panoz/Panoz%20Esperante-02.png" alt="Panoz Esperante">
+            <h2>Esperante</h2>
+            <h4>2000-present</h4>
+            <h3>Buy here: <a href="https://www.redbubble.com/people/in-transit/works/89688230-panoz-esperante-silhouette?asc=u">Shop</a></h3>
+        </div>
+    </div>
+
+    {{>footer}}
+
+    {{>script}}
+
+</body>
+
+</html>

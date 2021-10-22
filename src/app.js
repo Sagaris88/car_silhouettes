@@ -124,6 +124,12 @@ app.get('/bmw', (req, res) => {
     })
 })
 
+app.get('/bond', (req, res) => {
+    res.render('bond', {
+        title: 'Bond'
+    })
+})
+
 app.get('/bricklin', (req, res) => {
     res.render('bricklin', {
         title: 'Bricklin'
@@ -139,6 +145,12 @@ app.get('/bugatti', (req, res) => {
 app.get('/buick', (req, res) => {
     res.render('buick', {
         title: 'Buick'
+    })
+})
+
+app.get('/cadillac', (req, res) => {
+    res.render('cadillac', {
+        title: 'Cadillac'
     })
 })
 
@@ -388,6 +400,12 @@ app.get('/panhard', (req, res) => {
     })
 })
 
+app.get('/panoz', (req, res) => {
+    res.render('panoz', {
+        title: 'Panoz'
+    })
+})
+
 app.get('/peugeot', (req, res) => {
     res.render('peugeot', {
         title: 'Peugeot'
@@ -418,6 +436,12 @@ app.get('/porsche', (req, res) => {
     })
 })
 
+app.get('/reliant', (req, res) => {
+    res.render('reliant', {
+        title: 'Reliant'
+    })
+})
+
 app.get('/renault', (req, res) => {
     res.render('renault', {
         title: 'Renault'
@@ -439,6 +463,12 @@ app.get('/saleen', (req, res) => {
 app.get('/saturn', (req, res) => {
     res.render('saturn', {
         title: 'Saturn'
+    })
+})
+
+app.get('/simca', (req, res) => {
+    res.render('simca', {
+        title: 'Simca'
     })
 })
 
