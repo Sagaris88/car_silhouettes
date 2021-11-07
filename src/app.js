@@ -232,6 +232,12 @@ app.get('/honda', (req, res) => {
     })
 })
 
+app.get('/hummer', (req, res) => {
+    res.render('hummer', {
+        title: 'Hummer'
+    })
+})
+
 app.get('/hyundai', (req, res) => {
     res.render('hyundai', {
         title: 'Hyundai'
@@ -343,6 +349,12 @@ app.get('/mercedes-benz', (req, res) => {
 app.get('/mercury', (req, res) => {
     res.render('mercury', {
         title: 'Mercury'
+    })
+})
+
+app.get('/mg', (req, res) => {
+    res.render('mg', {
+        title: 'MG'
     })
 })
 
@@ -490,6 +502,12 @@ app.get('/subaru', (req, res) => {
     })
 })
 
+app.get('/suzuki', (req, res) => {
+    res.render('suzuki', {
+        title: 'Suzuki'
+    })
+})
+
 app.get('/tatra', (req, res) => {
     res.render('tatra', {
         title: 'Tatra'
@@ -535,6 +553,12 @@ app.get('/vector', (req, res) => {
 app.get('/venturi', (req, res) => {
     res.render('venturi', {
         title: 'Venturi'
+    })
+})
+
+app.get('/volkswagen', (req, res) => {
+    res.render('volkswagen', {
+        title: 'Volkswagen'
     })
 })
 

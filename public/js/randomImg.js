@@ -587,25 +587,49 @@ var images = [
       url: "https://storage.googleapis.com/car-silhouette-1/Bugatti/Bugatti%20Centodieci-01.png",
       name: "Bugatti Centodieci",
       year: "2020-present",
-      link: "https://www.redbubble.com/people/in-transit/works/73282477-bugatti-centodieci-silhouette?asc=u" 
+      link: "https://www.redbubble.com/people/in-transit/works/93395949-bugatti-centodieci-silhouette?asc=u" 
     },
     {
       url: "https://storage.googleapis.com/car-silhouette-1/Bugatti/Bugatti%20Chiron-02.png",
       name: "Bugatti Chiron",
       year: "2016-present",
-      link: "https://www.redbubble.com/people/in-transit/works/73294812-bugatti-chiron-silhouette?asc=u" 
+      link: "https://www.redbubble.com/people/in-transit/works/93397454-bugatti-chiron-silhouette?asc=u" 
     },
     {
-      url: "https://storage.googleapis.com/car-silhouette-1/Bugatti/Bugatti%20EB110-03.png",
-      name: "Bugatti EB 110",
-      year: "1991-1995",
-      link: "https://www.redbubble.com/people/in-transit/works/73299149-bugatti-eb110-silhouette?asc=u" 
+      url: "https://storage.googleapis.com/car-silhouette-1/Bugatti/Bugatti%20Chiron%20Super%20Sport-03.png",
+      name: "Bugatti Chiron Super Sport",
+      year: "2018-present",
+      link: "https://www.redbubble.com/people/in-transit/works/93399855-bugatti-chiron-super-sport-silhouette?asc=u" 
     },
     {
-      url: "https://storage.googleapis.com/car-silhouette-1/Bugatti/Bugatti%20Veyron-04.png",
+      url: "https://storage.googleapis.com/car-silhouette-1/Bugatti/Bugatti%20Divo-04.png",
+      name: "Bugatti Divo",
+      year: "2018-2021",
+      link: "https://www.redbubble.com/people/in-transit/works/93403704-bugatti-divo-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Bugatti/Bugatti%20EB110%20GT-05.png",
+      name: "Bugatti EB 110 GT",
+      year: "1992-1995",
+      link: "https://www.redbubble.com/people/in-transit/works/93404513-bugatti-eb110-gt-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Bugatti/Bugatti%20EB110%20SS-06.png",
+      name: "Bugatti EB 110 SS",
+      year: "1993-1995",
+      link: "https://www.redbubble.com/people/in-transit/works/93406071-bugatti-eb110-ss-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Bugatti/Bugatti%20Veyron-07.png",
       name: "Bugatti Veyron",
-      year: "2005-2015",
-      link: "https://www.redbubble.com/people/in-transit/works/73350741-bugatti-veyron-silhouette?asc=u" 
+      year: "2005-2011",
+      link: "https://www.redbubble.com/people/in-transit/works/93411465-bugatti-veyron-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Bugatti/Bugatti%20Veyron%20Grand%20Sport-08.png",
+      name: "Bugatti Veyron Grand Sport",
+      year: "2008-2012",
+      link: "https://www.redbubble.com/people/in-transit/works/93411641-bugatti-veyron-grand-sport-silhouette?asc=u" 
     },
     {
       url: "https://storage.googleapis.com/car-silhouette-1/Buick/Buick%20GNX-02.png",
@@ -1994,6 +2018,18 @@ var images = [
       link: "https://www.redbubble.com/people/in-transit/works/76035150-honda-s660-silhouette?asc=u" 
     },
     {
+      url: "https://storage.googleapis.com/car-silhouette-1/Hummer/GMC%20Hummer%20EV%20SUT-01.png",
+      name: "GMC Hummer EV SUT",
+      year: "2022-present",
+      link: "https://www.redbubble.com/people/in-transit/works/92913633-gmc-hummer-ev-sut-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Hummer/GMC%20Hummer%20EV%20SUV-02.png",
+      name: "GMC Hummer EV SUV",
+      year: "2022-present",
+      link: "https://www.redbubble.com/people/in-transit/works/92913831-gmc-hummer-ev-suv-silhouette?asc=u" 
+    },
+    {
       url: "https://storage.googleapis.com/car-silhouette-1/Hyundai/Hyundai%20Genesis%20Coupe-01.png",
       name: "Hyundai Genesis Coupe",
       year: "2008-2016",
@@ -3344,6 +3380,150 @@ var images = [
       link: "https://www.redbubble.com/people/in-transit/works/84743188-mercury-marauder-2003-silhouette?asc=u" 
     },
     {
+      url: "https://storage.googleapis.com/car-silhouette-1/MG/MG%203%20(2018)-01.png",
+      name: "MG 3",
+      year: "2011-present",
+      link: "https://www.redbubble.com/people/in-transit/works/93182500-mg-3-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/MG/MG%205%20EV%20(2021)-02.png",
+      name: "MG 5 EV",
+      year: "2021-present",
+      link: "https://www.redbubble.com/people/in-transit/works/93183022-mg-5-ev-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/MG/MG%206-03.png",
+      name: "MG 6",
+      year: "2009-2017",
+      link: "https://www.redbubble.com/people/in-transit/works/93188571-mg-6-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/MG/MGA%201500-04.png",
+      name: "MGA 1500",
+      year: "1955-1959",
+      link: "https://www.redbubble.com/people/in-transit/works/93192949-mga-1500-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/MG/MGA%201500%20Coupe-05.png",
+      name: "MGA 1500 Coupe",
+      year: "1955-1959",
+      link: "https://www.redbubble.com/people/in-transit/works/93203131-mga-1500-coupe-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/MG/MGB%20GT-07.png",
+      name: "MGB GT",
+      year: "1965-1980",
+      link: "https://www.redbubble.com/people/in-transit/works/93214835-mgb-gt-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/MG/MGB%20Roadster-06.png",
+      name: "MGB Roadster",
+      year: "1962-1980",
+      link: "https://www.redbubble.com/people/in-transit/works/93213514-mgb-roadster-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/MG/MG%20F-08.png",
+      name: "MG F",
+      year: "1995-2002",
+      link: "https://www.redbubble.com/people/in-transit/works/93217822-mg-f-roadster-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/MG/MG%20GS-09.png",
+      name: "MG GS",
+      year: "2015-2019",
+      link: "https://www.redbubble.com/people/in-transit/works/93230946-mg-gs-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/MG/MG%20HS-10.png",
+      name: "MG HS",
+      year: "2018-present",
+      link: "https://www.redbubble.com/people/in-transit/works/93262744-mg-hs-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/MG/MG%20Maestro%20Turbo-11.png",
+      name: "MG Maestro Turbo",
+      year: "1989-1991",
+      link: "https://www.redbubble.com/people/in-transit/works/93266545-mg-maestro-turbo-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/MG/MG%20Marvel%20R-12.png",
+      name: "MG Marvel R",
+      year: "2021-present",
+      link: "https://www.redbubble.com/people/in-transit/works/93266077-mg-marvel-r-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/MG/MG%20Metro%20Turbo-13.png",
+      name: "MG Metro Turbo",
+      year: "1982-1989",
+      link: "https://www.redbubble.com/people/in-transit/works/93267882-mg-metro-turbo-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/MG/MG%20Metro%206R4-14.png",
+      name: "MG Metro 6R4",
+      year: "1985-1986",
+      link: "https://www.redbubble.com/people/in-transit/works/93276087-mg-metro-6r4-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/MG/MG%20Midget%20Mk%20III-15.png",
+      name: "MG Midget Mk III",
+      year: "1966-1974",
+      link: "https://www.redbubble.com/people/in-transit/works/93283426-mg-midget-mk-iii-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/MG/MG%20Midget%201500-16.png",
+      name: "MG Midget 1500",
+      year: "1974-1980",
+      link: "https://www.redbubble.com/people/in-transit/works/93288214-mg-midget-1500-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/MG/MG%20Montego%20Turbo-01.png",
+      name: "MG Montego Turbo",
+      year: "1985-1988",
+      link: "https://www.redbubble.com/people/in-transit/works/93298252-mg-montego-turbo-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/MG/MG%20RV8-02.png",
+      name: "MG RV8",
+      year: "1992-1995",
+      link: "https://www.redbubble.com/people/in-transit/works/93332374-mg-rv8-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/MG/MG%20TF-03.png",
+      name: "MG TF",
+      year: "2002-2011",
+      link: "https://www.redbubble.com/people/in-transit/works/93332842-mg-tf-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/MG/MG%20XPower%20SV-R-04.png",
+      name: "MG XPower SV-R",
+      year: "2004-2005",
+      link: "https://www.redbubble.com/people/in-transit/works/93335656-mg-xpower-sv-r-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/MG/MG%20ZR-05.png",
+      name: "MG ZR",
+      year: "2001-2005",
+      link: "https://www.redbubble.com/people/in-transit/works/93350179-mg-zr-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/MG/MG%20ZS-06.png",
+      name: "MG ZS",
+      year: "2001-2005",
+      link: "https://www.redbubble.com/people/in-transit/works/93350369-mg-zs-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/MG/MG%20ZS%20(2017)-07.png",
+      name: "MG ZS",
+      year: "2017-present",
+      link: "https://www.redbubble.com/people/in-transit/works/93352523-mg-zs-2017-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/MG/MG%20ZT-08.png",
+      name: "MG ZT",
+      year: "2001-2005",
+      link: "https://www.redbubble.com/people/in-transit/works/93354516-mg-zt-silhouette?asc=u" 
+    },
+    {
       url: "https://storage.googleapis.com/car-silhouette-1/Mitsubishi/Mitsubishi%20Colt%20Z30-01.png",
       name: "Mitsubishi Colt (Z30)",
       year: "2008-2012",
@@ -4538,22 +4718,45 @@ var images = [
       link: "https://www.redbubble.com/people/in-transit/works/90273076-simca-coup-1000-silhouette?asc=u" 
     },
     {
-      url: "https://storage.googleapis.com/car-silhouette-1/smart/smart%20Fortwo%20C453-02.png",
-      name: "smart fortwo (C453)",
+      url: "https://storage.googleapis.com/car-silhouette-1/smart/smart%20forfour%20(W454)-05.png",
+      name: "smart forfour",
+      year: "2004-2006",
+      link: "https://www.redbubble.com/people/in-transit/works/93112965-smart-forfour-w454-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/smart/smart%20forfour%20(W453)-06.png",
+      name: "smart forfour",
       year: "2014-present",
-      link: "https://www.redbubble.com/people/in-transit/works/65358633-smart-fortwo-c453-silhouette?asc=u" 
+      link: "https://www.redbubble.com/people/in-transit/works/93113416-smart-forfour-w453-silhouette?asc=u" 
     },
     {
-      url: "https://storage.googleapis.com/car-silhouette-1/smart/smart%20Fortwo%20W450-01.png",
-      name: "smart fortwo (W450)",
+      url: "https://storage.googleapis.com/car-silhouette-1/smart/smart%20fortwo%20(W450)-01.png",
+      name: "smart fortwo",
       year: "1998-2007",
-      link: "https://www.redbubble.com/people/in-transit/works/65349690-smart-fortwo-w450-silhouette?asc=u" 
+      link: "https://www.redbubble.com/people/in-transit/works/93109225-smart-fortwo-w450-silhouette?asc=u" 
     },
     {
-      url: "https://storage.googleapis.com/car-silhouette-1/smart/smart%20Roadster-09.png",
+      url: "https://storage.googleapis.com/car-silhouette-1/smart/smart%20fortwo%20(W451)-02.png",
+      name: "smart fortwo",
+      year: "2007-2017",
+      link: "https://www.redbubble.com/people/in-transit/works/93110204-smart-fortwo-w451-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/smart/smart%20fortwo%20(C453)-03.png",
+      name: "smart fortwo",
+      year: "2014-present",
+      link: "https://www.redbubble.com/people/in-transit/works/93111967-smart-fortwo-c453-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/smart/smart%20roadster-09.png",
       name: "smart roadster",
       year: "2003-2005",
-      link: "https://www.redbubble.com/people/in-transit/works/65376472-smart-roadster-silhouette?asc=u" 
+      link: "https://www.redbubble.com/people/in-transit/works/93114007-smart-roadster-silhouette?asc=u" 
+    },{
+      url: "https://storage.googleapis.com/car-silhouette-1/smart/smart%20roadster%20coupe-10.png",
+      name: "smart roadster",
+      year: "2003-2005",
+      link: "https://www.redbubble.com/people/in-transit/works/93114325-smart-roadster-coupe-silhouette?asc=u" 
     },
     {
       url: "https://storage.googleapis.com/car-silhouette-1/Spyker/Spyker%20C8%20Aileron-02.png",
@@ -4614,6 +4817,228 @@ var images = [
       name: "Subaru XT",
       year: "1985-1991",
       link: "https://www.redbubble.com/people/in-transit/works/60803491-subaru-xt-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Suzuki/Suzuki%20Aerio-01.png",
+      name: "Suzuki Aerio",
+      year: "2001-2007",
+      link: "https://www.redbubble.com/people/in-transit/works/92137532-suzuki-aerio-silhouette?asc=u" 
+    },
+    {
+      url: "ttps://storage.googleapis.com/car-silhouette-1/Suzuki/Suzuki%20Alto%20Works%20RS%20R-02.png",
+      name: "Suzuki Alto Works RS/R",
+      year: "1991-1994",
+      link: "https://www.redbubble.com/people/in-transit/works/92140619-suzuki-alto-works-rs-r-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Suzuki/Suzuki%20Alto%20Lapin-04.png",
+      name: "Suzuki Alto Lapin",
+      year: "2015-present",
+      link: "https://www.redbubble.com/people/in-transit/works/92242882-suzuki-alto-lapin-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Suzuki/Suzuki%20Alto%20Turbo%20RS-03.png",
+      name: "Suzuki Alto Turbo RS",
+      year: "2015-present",
+      link: "https://www.redbubble.com/people/in-transit/works/92222117-suzuki-alto-turbo-rs-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Suzuki/Suzuki%20Alto%20Works%20RS%20R-02.png",
+      name: "Suzuki Baleno",
+      year: "2015-present",
+      link: "https://www.redbubble.com/people/in-transit/works/92252653-suzuki-baleno-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Suzuki/Suzuki%20Cappuccino-06.png",
+      name: "Suzuki Cappuccino",
+      year: "1991-1996",
+      link: "https://www.redbubble.com/people/in-transit/works/92259297-suzuki-cappuccino-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Suzuki/Suzuki%20Grand%20Vitara%20(1998)-07.png",
+      name: "Suzuki Grand Vitara (1998)",
+      year: "1998-2006",
+      link: "https://www.redbubble.com/people/in-transit/works/92322336-suzuki-grand-vitara-1998-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Suzuki/Suzuki%20Grand%20Vitara%20(2008)-08.png",
+      name: "Suzuki Grand Vitara (2008)",
+      year: "2008-2017",
+      link: "https://www.redbubble.com/people/in-transit/works/92328895-suzuki-grand-vitara-2008-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Suzuki/Suzuki%20Hustler%20Hybrid%20X-09.png",
+      name: "Suzuki Hustler Hybrid X",
+      year: "2020-present",
+      link: "https://www.redbubble.com/people/in-transit/works/92342855-suzuki-hustler-hybrid-x-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Suzuki/Suzuki%20Ignis%20Sport-10.png",
+      name: "Suzuki Ignis Sport",
+      year: "2003-2005",
+      link: "https://www.redbubble.com/people/in-transit/works/92357438-suzuki-ignis-sport-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Suzuki/Suzuki%20Ignis-11.png",
+      name: "Suzuki Ignis",
+      year: "2015-present",
+      link: "https://www.redbubble.com/people/in-transit/works/92361173-suzuki-ignis-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Suzuki/Suzuki%20Jimny%20(1990)-12.png",
+      name: "Suzuki Jimny",
+      year: "1981-1998",
+      link: "https://www.redbubble.com/people/in-transit/works/92374103-suzuki-jimny-1990-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Suzuki/Suzuki%20Jimny%20(2012)-13.png",
+      name: "Suzuki Jimny",
+      year: "1998-present",
+      link: "https://www.redbubble.com/people/in-transit/works/92446785-suzuki-jimny-2012-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Suzuki/Suzuki%20Jimny%20(2018)-14.png",
+      name: "Suzuki Jimny",
+      year: "2018-present",
+      link: "https://www.redbubble.com/people/in-transit/works/92450758-suzuki-jimny-2018-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Suzuki/Suzuki%20Kizashi-15.png",
+      name: "Suzuki Kizashi",
+      year: "2009-2014",
+      link: "https://www.redbubble.com/people/in-transit/works/92455433-suzuki-kizashi-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Suzuki/Suzuki%20Mighty%20Boy-16.png",
+      name: "Suzuki Mighty Boy",
+      year: "1983-1988",
+      link: "https://www.redbubble.com/people/in-transit/works/92475223-suzuki-mighty-boy-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Suzuki/Suzuki%20Samurai-01.png",
+      name: "Suzuki Samurai",
+      year: "1990-1998",
+      link: "https://www.redbubble.com/people/in-transit/works/92477735-suzuki-samurai-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Suzuki/Suzuki%20SC100-02.png",
+      name: "Suzuki SC100",
+      year: "1978-1982",
+      link: "https://www.redbubble.com/people/in-transit/works/92480246-suzuki-sc100-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Suzuki/Suzuki%20Solio%20Bandit%20Hybrid-03.png",
+      name: "Suzuki Solio Bandit Hybrid",
+      year: "2015-present",
+      link: "https://www.redbubble.com/people/in-transit/works/92499001-suzuki-solio-bandit-hybrid-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Suzuki/Suzuki%20Spacia%20GEAR%20XZ%20Turbo-04.png",
+      name: "Suzuki Spacia GEAR XZ Turbo",
+      year: "2018-present",
+      link: "https://www.redbubble.com/people/in-transit/works/92787935-suzuki-spacia-gear-xz-turbo-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Suzuki/Suzuki%20Splash-05.png",
+      name: "Suzuki Splash",
+      year: "2012-2017",
+      link: "https://www.redbubble.com/people/in-transit/works/92788282-suzuki-splash-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Suzuki/Suzuki%20Swift%20GTi-06.png",
+      name: "Suzuki Swift GTi",
+      year: "1986-1988",
+      link: "https://www.redbubble.com/people/in-transit/works/93423360-suzuki-swift-1986-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Suzuki/Suzuki%20Swift%20Sport%20(2005)-07.png",
+      name: "Suzuki Swift Sport",
+      year: "2005-2011",
+      link: "https://www.redbubble.com/people/in-transit/works/92792394-suzuki-swift-sport-2005-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Suzuki/Suzuki%20Swift%20Sport%20(2011)-08.png",
+      name: "Suzuki Swift Sport",
+      year: "2011-2017",
+      link: "https://www.redbubble.com/people/in-transit/works/92792546-suzuki-swift-sport-2011-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Suzuki/Suzuki%20Swift%20Sport%20(2018)-09.png",
+      name: "Suzuki Swift Sport",
+      year: "2018-present",
+      link: "https://www.redbubble.com/people/in-transit/works/92792777-suzuki-swift-sport-2018-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Suzuki/Suzuki%20SX4-10.png",
+      name: "Suzuki SX4",
+      year: "2006-2018",
+      link: "https://www.redbubble.com/people/in-transit/works/92801556-suzuki-sx4-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Suzuki/Suzuki%20SX4%20Sedan-11.png",
+      name: "Suzuki SX4 Sedan",
+      year: "2007-2014",
+      link: "https://www.redbubble.com/people/in-transit/works/92801674-suzuki-sx4-sedan-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Suzuki/Suzuki%20SX4-10.png",
+      name: "Suzuki SX4 S-Cross",
+      year: "2013-present",
+      link: "https://www.redbubble.com/people/in-transit/works/92803586-suzuki-sx4-s-cross-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Suzuki/Suzuki%20Twin-13.png",
+      name: "Suzuki Twin",
+      year: "2003-2005",
+      link: "https://www.redbubble.com/people/in-transit/works/92810695-suzuki-twin-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Suzuki/Suzuki%20Vitara%20(1988)-14.png",
+      name: "Suzuki Vitara",
+      year: "1989-1998",
+      link: "https://www.redbubble.com/people/in-transit/works/92875230-suzuki-vitara-1989-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Suzuki/Suzuki%20Vitara%20(2015)-15.png",
+      name: "Suzuki Vitara",
+      year: "2015-present",
+      link: "https://www.redbubble.com/people/in-transit/works/92879814-suzuki-vitara-2015-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Suzuki/Suzuki%20Wagon%20R%2B%20(1997)-16.png",
+      name: "Suzuki Wagon R+",
+      year: "1997-2000",
+      link: "https://www.redbubble.com/people/in-transit/works/92888984-suzuki-wagon-r-1997-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Suzuki/Suzuki%20Wagon%20R%2B%20(2000)-01.png",
+      name: "Suzuki Wagon R+",
+      year: "2000-2006",
+      link: "https://www.redbubble.com/people/in-transit/works/92887677-suzuki-wagon-r-2000-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Suzuki/Suzuki%20Wagon%20R%20(2017)-02.png",
+      name: "Suzuki Wagon R",
+      year: "2017-present",
+      link: "https://www.redbubble.com/people/in-transit/works/92890946-suzuki-wagon-r-2017-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Suzuki/Suzuki%20X-90-03.png",
+      name: "Suzuki X-90",
+      year: "1995-1998",
+      link: "https://www.redbubble.com/people/in-transit/works/92892732-suzuki-x-90-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Suzuki/Suzuki%20XL-7%20(1998)-04.png",
+      name: "Suzuki XL-7",
+      year: "2001-2006",
+      link: "https://www.redbubble.com/people/in-transit/works/92898576-suzuki-xl-7-1998-silhouette?asc=u" 
+    },
+    {
+      url: "https://storage.googleapis.com/car-silhouette-1/Suzuki/Suzuki%20XL-7%20(2006)-05.png",
+      name: "Suzuki XL-7",
+      year: "2006-2009",
+      link: "https://www.redbubble.com/people/in-transit/works/92900141-suzuki-xl-7-2006-silhouette?asc=u" 
     },
     {
       url: "https://storage.googleapis.com/car-silhouette-1/Tatra/Tatra%2087-03.png",
