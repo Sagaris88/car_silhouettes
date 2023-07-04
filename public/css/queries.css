@@ -1,0 +1,83 @@
+/* Big tablets to 1280px (width smaller than the 1280px row) */
+@media only screen and (max-width: 1280px) {
+
+}
+
+@media only screen and (max-width: 1140px) {
+    html { font-size: 62.5%; }
+    .header__title { padding: 0 4rem; }
+    .header__nav { padding-right: 4rem; }
+    .sidebar { padding-left: 4rem }
+    .footer__box { padding: 0 4rem; }
+}
+
+
+/* Small tablets to big tablets from 769 to 1024px */
+@media only screen and (max-width: 1024px) {
+    html { font-size: 56.25%; }
+    .header__title { padding: 0 3rem; }
+    .header__nav { padding-right: 3rem; }
+    .sidebar { padding-left: 3rem }
+    .footer__box { padding: 0 3rem; }
+}
+
+
+/* Small phones to small tablets from 569 to 768px */
+@media only screen and (max-width: 768px) {
+    html { font-size: 50%; }
+    .header__title {
+        width: 100%;
+        text-align: center;
+    }
+    .header__title a:link,
+    .header__title a:visited {
+        font-size: 4rem;
+        font-weight: 500;
+    }
+    .header__nav { display: none; }
+    .sidebar { display: none }
+    .sidebar--mobile { padding-top: 3rem; }
+    .sidebar__menu { padding-left: 2rem; }
+    .sidebar__menu a, .sidebar__droplist-btn { 
+        font-size: 3rem;
+        padding: 1rem 0;
+    }
+    .sidebar__droplist a { 
+        font-size: 2rem;
+        padding: 0.4rem 0;
+    }
+    .sidebar--mobile-btn { display: block; }
+    .footer__box { padding: 0 6rem; }
+    #topScrollbtn { right: 20rem; }
+}
+
+
+/* Small phones from 0 to 568px */
+@media only screen and (max-width: 568px) {
+    html { font-size: 37.5%; }
+    .header__title {
+        width: 100%;
+        text-align: center;
+    }
+    .header__title a:link,
+    .header__title a:visited {
+        font-size: 4rem;
+        font-weight: 500;
+    }
+    .header { margin-top: 2rem; }
+    .header__nav { display: none; }
+    .sidebar { display: none }
+    .sidebar__menu { padding-left: 12px; }
+    .sidebar__menu a, .sidebar__droplist-btn { 
+        font-size: 3.6rem;
+        padding: 1rem 0;
+    }
+    .sidebar__droplist a { 
+        font-size: 2.4rem;
+        padding: 0.4rem 0;
+    }
+    .sidebar--mobile-btn { display: block; }
+    .footer { margin-bottom: 3rem; }
+    .footer__box { padding: 0 0 0 6rem; }
+    #topScrollbtn { right: 20rem; }
+}

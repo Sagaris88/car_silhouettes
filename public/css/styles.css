@@ -1,0 +1,401 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600&display=swap");
+/* --------------------------------------------- */
+/* BASIC SETUP */
+/* --------------------------------------------- */
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+html {
+  background-color: #000000;
+  color: #ffffff;
+  font-family: 'Raleway', 'Arial', sans-serif;
+  font-weight: 300;
+  font-size: 62.5%;
+  text-rendering: optimizeLegibility;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  transition: color 1s, background-color 1s, filter 1s; }
+
+/* --------------------------------------------- */
+/* REUSABLE COMPONENTS */
+/* --------------------------------------------- */
+.row {
+  max-width: 228rem;
+  margin: 0 auto; }
+
+.container {
+  height: 4rem;
+  position: relative; }
+
+.center {
+  margin: 0;
+  position: absolute;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); }
+
+/* --------------------------------------------- */
+/* HEADINGS */
+/* --------------------------------------------- */
+h1 {
+  margin-top: 0;
+  margin-bottom: 2rem;
+  font-size: 4rem;
+  word-spacing: .8rem;
+  letter-spacing: .2rem;
+  font-weight: 600;
+  text-align: center; }
+
+h2 {
+  font-size: 3.2rem;
+  word-spacing: .4rem;
+  margin-bottom: 2rem;
+  letter-spacing: .2rem;
+  font-weight: 500;
+  text-align: center; }
+
+h3 {
+  font-size: 2.2rem;
+  margin-bottom: 3rem;
+  font-weight: 400;
+  text-align: center; }
+
+h4 {
+  font-size: 1.8rem;
+  margin-bottom: 3rem;
+  font-weight: 300;
+  text-align: center; }
+
+/* --------------------------------------------- */
+/* HEADER */
+/* --------------------------------------------- */
+.header {
+  padding: 4rem 0 6rem 0; }
+
+.header__title {
+  padding-left: 10rem;
+  float: left; }
+  .header__title a:link,
+  .header__title a:visited {
+    font-size: 2.8rem;
+    font-weight: 600;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    display: block;
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s; }
+  .header__title a:hover,
+  .header__title a:active {
+    color: #F6A623; }
+
+.header__nav {
+  float: right;
+  list-style: none;
+  padding-right: 10rem; }
+  .header__nav li {
+    display: inline-block;
+    margin-left: 4rem; }
+    .header__nav li a:link,
+    .header__nav li a:visited {
+      padding: .8rem 0;
+      color: #ffffff;
+      text-decoration: none;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      font-size: 1.4rem;
+      border-bottom: .4rem solid transparent;
+      -webkit-transition: border-bottom 0.2s;
+      transition: border-bottom 0.2s; }
+    .header__nav li a:hover,
+    .header__nav li a:active {
+      color: #F6A623;
+      border-bottom: .2rem solid #e67e22; }
+
+/* --------------------------------------------- */
+/* SIDEBAR */
+/* --------------------------------------------- */
+.sidebar {
+  padding: 1rem 0 0 10rem; }
+  .sidebar h1 {
+    margin-bottom: 4.5rem;
+    font-size: 2.8rem;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 5.25rem;
+    color: #ffffff; }
+
+.sidebar__menu a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 500;
+  padding-left: 0;
+  display: block; }
+
+.sidebar__droplist-btn {
+  padding: 0.6rem 0.6rem 0.6rem 0;
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 500;
+  color: #ffffff;
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+  -webkit-transition: 0.5s;
+  transition: 0.5s; }
+
+.sidebar__droplist {
+  display: none;
+  background-color: none;
+  list-style-type: none;
+  padding-left: 3rem;
+  line-height: 18pt;
+  -webkit-transition: 0.5s;
+  transition: 0.5s; }
+  .sidebar__droplist a {
+    font-size: 1.6rem;
+    font-weight: normal;
+    color: #ffffff;
+    text-decoration: none;
+    -webkit-transition: 0.5s;
+    transition: 0.5s; }
+
+.sidebar__menu a:hover, .sidebar__droplist-btn:hover {
+  color: #ccc; }
+
+.fa-caret-down {
+  float: right;
+  padding-right: 1.6rem; }
+
+/* --------------------------------------------- */
+/* SIDEBAR MOBILE*/
+/* --------------------------------------------- */
+.sidebar--mobile {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  padding-top: 12rem; }
+
+.sidebar--mobile-btn {
+  position: fixed;
+  top: 18rem;
+  right: 0;
+  z-index: 99;
+  display: none;
+  cursor: pointer;
+  background-color: #111;
+  padding: 2rem 3rem;
+  border: none;
+  border-radius: 2rem; }
+  .sidebar--mobile-btn ion-icon {
+    font-size: 4rem;
+    color: #ffffff; }
+
+/* --------------------------------------------- */
+/* RANDOMIZE */
+/* --------------------------------------------- */
+.random-btn {
+  border: none;
+  outline: none;
+  background-color: #ffffff;
+  color: #000000;
+  cursor: pointer;
+  padding: 2rem;
+  border-radius: 2rem;
+  font-size: 1.8rem; }
+  .random-btn:hover {
+    background-color: #F6A623; }
+
+/* --------------------------------------------- */
+/* MAIN CONTENT */
+/* --------------------------------------------- */
+.main-content {
+  display: block;
+  float: right; }
+  .main-content h1 {
+    text-align: center;
+    font-weight: 400;
+    margin-top: 1.6rem; }
+  .main-content .title {
+    margin: .8rem 0; }
+
+/* --------------------------------------------- */
+/* STATISTICS */
+/* --------------------------------------------- */
+.stats {
+  margin-top: 12rem; }
+
+.stats__box {
+  width: 24%;
+  height: auto;
+  display: inline-block;
+  text-align: center; }
+  .stats__box img {
+    width: 80%;
+    height: auto; }
+
+/* --------------------------------------------- */
+/* CAR-POST */
+/* --------------------------------------------- */
+.car-post {
+  margin: 0 0; }
+  /* .car-post a:link,
+  .car-post a:visited {
+    color: #1abc9c;
+    text-decoration: none; }
+  .car-post a:hover,
+  .car-post a:active {
+    color: #F6A623; } */
+  .car-post .fcc {
+    background-color: white;
+    color: black;
+    padding: 1rem 1.6rem;
+    text-decoration: none;
+    border-radius: 1rem;
+    margin-left: 2rem;
+  }
+
+  .car-post .redb:hover {
+    background-color: #bd081c;
+  }
+  
+  .car-post .teep:hover {
+    background-color: #1da1f2;
+  }
+  
+  .car-post .etsy:hover {
+    background-color: #F6A623;
+  }
+
+  .car-post img {
+    width: 100%; }
+
+/* --------------------------------------------- */
+/* FOOTER */
+/* --------------------------------------------- */
+.footer {
+  padding: 6rem 0 4rem 0; }
+  .footer a:link,
+  .footer a:visited {
+    font-size: 3rem;
+    color: #1abc9c;
+    text-decoration: none; }
+  .footer a.fa-instagram:hover, .footer a.fa-instagram:active {
+    color: #c32aa3; }
+  .footer a.fa-pinterest:hover, .footer a.fa-pinterest:active {
+    color: #bd081c; }
+  .footer a.fa-twitter:hover, .footer a.fa-twitter:active {
+    color: #1da1f2; }
+
+.footer__box {
+  padding: 0 8rem 0 10rem;
+  display: inline-block;
+  vertical-align: top; }
+  .footer__box a {
+    padding-right: 1rem; }
+  .footer__box p {
+    font-size: 1rem; }
+  .footer__box h4 {
+    text-align: left; }
+
+/* --------------------------------------------- */
+/* CONTACT */
+/* --------------------------------------------- */
+.pure-group {
+  background: none;
+  border: none; }
+  .pure-group h3 {
+    text-align: left;
+    margin-bottom: 1rem; }
+
+::placeholder {
+  font-size: 1.5em; }
+
+.pure-form {
+  margin-left: 4rem; }
+
+textarea {
+  height: 20rem; }
+
+.thankyou_message {
+  padding: 6em 2em;
+  border-radius: 0.6rem;
+  color: #fff;
+  margin-bottom: 0.4rem; }
+
+#name, #email {
+  width: 40%; }
+
+#message {
+  width: 90%; }
+
+.sendButton {
+  float: right;
+  border: none;
+  outline: none;
+  background-color: #ffffff;
+  color: #000000;
+  cursor: pointer;
+  padding: 1.8rem;
+  margin-right: 10rem;
+  border-radius: 1.8rem;
+  font-size: 1.8rem; }
+  .sendButton:hover {
+    background-color: #F6A623; }
+
+/* --------------------------------------------- */
+/* DARK MODE BUTTON */
+/* --------------------------------------------- */
+#darkModebtn {
+  position: fixed;
+  bottom: 4rem;
+  right: 4rem;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: #ffffff;
+  color: #000000;
+  cursor: pointer;
+  padding: 1.8rem;
+  border-radius: 1.8rem;
+  font-size: 1.8rem; }
+  #darkModebtn:hover {
+    background-color: #F6A623; }
+
+/* --------------------------------------------- */
+/* TOP SCROLL BUTTON */
+/* --------------------------------------------- */
+#topScrollbtn {
+  position: fixed;
+  bottom: 4rem;
+  right: 18rem;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: #ffffff;
+  color: #000000;
+  cursor: pointer;
+  padding: 1.7rem;
+  border-radius: 1.8rem;
+  font-size: 1.8rem; }
+  #topScrollbtn:hover {
+    background-color: #F6A623; }
+  #topScrollbtn ion-icon {
+    font-size: 2rem; }

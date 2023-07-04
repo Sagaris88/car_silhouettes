@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+
+<head>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-3MB70VT6KY"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-3MB70VT6KY');
+    </script>
+
+    <title> Contact Us! </title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Contact Car Silhouettes to inquire about our striking and detailed designs of your favourite cars that can be bought on many high-quality products.">
+
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css" integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/grids-responsive-min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/queries.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/favicon/site.webmanifest">
+    <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#111111">
+</head>
+<body>
+
+    {{>header}}
+    {{>sidebar}}
+    {{>sidebarMobile}}
+
+      <div class="main-content pure-u-1 pure-u-md-3-4">
+        <a href="#" class="sidebar--mobile-btn mobile-nav-icon js--nav-icon" onclick="openNav()"><ion-icon name="menu-outline"></ion-icon></a>
+        <h1 id="mainTitle">Contact Us!</h1>
+        <br>
+        <h3>
+            We would <em>love</em> to hear from you! 
+        </h3>
+        <h3>
+            Please use the <b><em>Contact Form</em></b>
+            to send us a message.
+        </h3>
+        <br>
+
+        <form class="gform pure-form pure-form-stacked" method="POST" data-email="example@email.net"
+        action="https://script.google.com/macros/s/AKfycbxF9xv331aWUASCvRXRcfgDPjCSxUZEP4uZo0J5mhBJunX8sw4/exec">
+
+          <div class="form-elements">
+            <fieldset class="pure-group">
+              <h3 for="name">Name: </h3>
+              <input id="name" name="name" placeholder="Name" />
+            </fieldset>
+
+            <fieldset class="pure-group">
+              <h3 for="message">Message: </h3>
+              <textarea id="message" name="message" rows="10"
+              placeholder="Tell us what's on your mind..."></textarea>
+            </fieldset>
+
+            <fieldset class="pure-group">
+              <h3 for="email">Email Address:</h3>
+              <input id="email" name="email" type="email" value=""
+              required placeholder="Email"/>
+            </fieldset>
+
+            <button class="sendButton">
+              Send Message</button>
+          </div>
+
+          <!-- Customise the Thank You Message people see when they submit the form: -->
+          <div class="thankyou_message" style="display:none;">
+            <h2><em>Thanks</em> for contacting us!
+              We will get back to you soon!</h2>
+          </div>
+
+        </form>
+
+      </div>
+
+      {{>footer}}
+      {{>script}}
+
+    </div>
+
+  <!-- Submit the Form to Google Using "AJAX" -->
+  <script data-cfasync="false" src="js/form-submission-handler.js"></script>
+<!-- END -->
+
+
+</body>
+</html>
