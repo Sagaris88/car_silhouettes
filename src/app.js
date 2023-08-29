@@ -64,6 +64,12 @@ app.get('/acura', (req, res) => {
     })
 })
 
+app.get('/airbus', (req, res) => {
+    res.render('airbus', {
+        title: 'Airbus'
+    })
+})
+
 app.get('/alfaromeo', (req, res) => {
     res.render('alfaromeo', {
         title: 'Alfa Romeo'
@@ -133,6 +139,12 @@ app.get('/bizzarrini', (req, res) => {
 app.get('/bmw', (req, res) => {
     res.render('bmw', {
         title: 'bmw'
+    })
+})
+
+app.get('/boeing', (req, res) => {
+    res.render('boeing', {
+        title: 'Boeing'
     })
 })
 

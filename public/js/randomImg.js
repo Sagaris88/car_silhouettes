@@ -3662,31 +3662,31 @@ var images = [
       link: "https://www.redbubble.com/people/in-transit/works/87964011-morgan-plus-six-silhouette?asc=u" 
     },
     {
-      url: "https://storage.googleapis.com/car-silhouette-1/Nissan/Nissan%20300ZX%20Z31-09.png",
+      url: "https://storage.googleapis.com/car-silhouette-1/Nissan/Nissan%20300ZX%20(Z31)-03.png",
       name: "Nissan 300ZX (Z31)",
       year: "1983-1989",
       link: "https://www.redbubble.com/people/in-transit/works/59303786-nissan-300zx-z31-silhouette?asc=u" 
     },
     {
-      url: "https://storage.googleapis.com/car-silhouette-1/Nissan/Nissan%20300ZX%20Z32-08.png",
+      url: "https://storage.googleapis.com/car-silhouette-1/Nissan/Nissan%20300ZX%20(Z32)-04.png",
       name: "Nissan 300ZX (Z32)",
       year: "1989-2000",
       link: "https://www.redbubble.com/people/in-transit/works/59303649-nissan-300zx-z32-silhouette?asc=u" 
     },
     {
-      url: "https://storage.googleapis.com/car-silhouette-1/Nissan/Nissan%20350Z-07.png",
+      url: "https://storage.googleapis.com/car-silhouette-1/Nissan/Nissan%20350Z-05.png",
       name: "Nissan 350Z",
       year: "2002-2008",
       link: "https://www.redbubble.com/people/in-transit/works/59303365-nissan-350z-silhouette?asc=u" 
     },
     {
-      url: "https://storage.googleapis.com/car-silhouette-1/Nissan/Nissan%20370Z-06.png",
-      name: "Nissan 370Z",
+      url: "https://storage.googleapis.com/car-silhouette-1/Nissan/Nissan%20370Z%20Nismo-07.png",
+      name: "Nissan 370Z Nismo",
       year: "2008-present",
       link: "https://www.redbubble.com/people/in-transit/works/59303248-nissan-370z-nismo-silhouette?asc=u" 
     },
     {
-      url: "https://storage.googleapis.com/car-silhouette-1/Nissan/Nissan%20Autech%20Zagato%20Stelvio%20AZ1-16.png",
+      url: "https://storage.googleapis.com/car-silhouette-1/Nissan/Nissan%20Zagato%20Autech%20Stelvio-14.png",
       name: "Nissan Autech Zagato Stelvio AZ1",
       year: "1989-1991",
       link: "https://www.redbubble.com/people/in-transit/works/72203287-nissan-autech-zagato-stelvio-az1-silhouette?asc=u" 
@@ -3698,7 +3698,7 @@ var images = [
       link: "https://www.redbubble.com/people/in-transit/works/72038685-nissan-be-1-silhouette?asc=u" 
     },
     {
-      url: "https://storage.googleapis.com/car-silhouette-1/Nissan/Nissan%20EXA%20N13-13.png",
+      url: "https://storage.googleapis.com/car-silhouette-1/Nissan/Nissan%20EXA%20Coupe%20(N13)-09.png",
       name: "Nissan EXA (N13)",
       year: "1986-1990",
       link: "https://www.redbubble.com/people/in-transit/works/72127085-nissan-exa-n13-silhouette?asc=u" 
@@ -3710,7 +3710,7 @@ var images = [
       link: "https://www.redbubble.com/people/in-transit/works/72050728-nissan-figaro-silhouette?asc=u" 
     },
     {
-      url: "https://storage.googleapis.com/car-silhouette-1/Nissan/Nissan%20GT-R-01.png",
+      url: "https://storage.googleapis.com/car-silhouette-1/Nissan/Nissan%20GT-R-10.png",
       name: "Nissan GT-R",
       year: "2007-present",
       link: "https://www.redbubble.com/people/in-transit/works/59256654-nissan-gt-r-silhouette?asc=u" 
@@ -3722,33 +3722,33 @@ var images = [
       link: "https://www.redbubble.com/people/in-transit/works/72143039-nissan-leopard-f31-silhouette?asc=u" 
     },
     {
-      url: "https://storage.googleapis.com/car-silhouette-1/Nissan/Nissan%20R390%20GT1-15.png",
+      url: "https://storage.googleapis.com/car-silhouette-1/Nissan/Nissan%20R390%20GT1-12.png",
       name: "Nissan R390 GT1",
       year: "1998",
       link: "https://www.redbubble.com/people/in-transit/works/72200650-nissan-r390-gt1-silhouette?asc=u" 
     },
     {
-      url: "https://storage.googleapis.com/car-silhouette-1/Nissan/Nissan%20Skyline%20GT-R%20C10-04.png",
+      url: "https://storage.googleapis.com/car-silhouette-1/Nissan/Nissan%20Skyline%202000GT-R%20(C10)-05.png",
       name: "Nissan Skyline GT-R (C10)",
       year: "1969-1972",
       link: "https://www.redbubble.com/people/in-transit/works/59257458-nissan-skyline-gt-r-c10-silhouette?asc=u" 
     },
     {
-      url: "https://storage.googleapis.com/car-silhouette-1/Nissan/Nissan%20Skyline%20GT-R%20C110-03.png",
+      url: "https://storage.googleapis.com/car-silhouette-1/Nissan/Nissan%20Skyline%202000GT-R%20(C110)-06.png",
       name: "Nissan Skyline GT-R (C110)",
       year: "1973",
       link: "https://www.redbubble.com/people/in-transit/works/59257139-nissan-skyline-gt-r-c110-silhouette?asc=u" 
     },
     {
-      url: "https://storage.googleapis.com/car-silhouette-1/Nissan/Nissan%20Skyline%20GT-R%20R32-02.png",
+      url: "https://storage.googleapis.com/car-silhouette-1/Nissan/Nissan%20Skyline%20GT-R%20(R32)-10.png",
       name: "Nissan Skyline GT-R (R32)",
       year: "1989-1994",
       link: "https://www.redbubble.com/people/in-transit/works/59256910-nissan-skyline-gt-r-r32-silhouette?asc=u" 
     },
     {
-      url: "https://storage.googleapis.com/car-silhouette-1/Nissan/Nissan%20Z%20Proto-05.png",
-      name: "Nissan Z Proto",
-      year: "2020",
+      url: "https://storage.googleapis.com/car-silhouette-1/Nissan/Nissan%20Z%20(Z34)-13.png",
+      name: "Nissan Z",
+      year: "2024",
       link: "https://www.redbubble.com/people/in-transit/works/59267388-nissan-z-proto-silhouette?asc=u" 
     },
     {
